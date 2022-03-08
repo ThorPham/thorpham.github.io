@@ -11,8 +11,10 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.svg",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "thorpham",
+  "projectName": "thorpham.github.io",
+  "trailingSlash": false,
+  "deploymentBranch": "master",
   "presets": [
     [
       "classic",

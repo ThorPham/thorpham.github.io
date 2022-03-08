@@ -14,7 +14,9 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
   organizationName: 'thorpham', // Usually your GitHub org/user name.
-  projectName: 'thorham.github.io', // Usually your repo name.
+  projectName: 'thorpham.github.io', // Usually your repo name.
+  trailingSlash: false,
+  deploymentBranch : "master",
 
   presets: [
     [
