@@ -1,0 +1,53 @@
+{
+  "permalink": "/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+  "editUrl": "https://github.com/ThorPham/blog/2021-08-30-Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin/index.mdx",
+  "source": "@site/blog/2021-08-30-Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin/index.mdx",
+  "title": "Hướng tiếp cận Graph convolution network cho bài toán rút trích thông tin từ hóa đơn",
+  "description": "The Mobile capture receipts Optical Character Recognition (MC-OCR) là cuộc thi về ảnh receipt (hóa đơn) có 2 task và team mình đã tham gia task thứ 2 là trích xuất các thông tin cơ bản bao gồm SELLER, SELLER_ADDRESS, TIMESTAMP, TOTAL_COST (bên bán, địa điểm, thời gian và tổng thanh toán) từ ánh các hóa đơn đã được thu thập từ trước bằng điện thoại.",
+  "date": "2021-08-30T00:00:00.000Z",
+  "formattedDate": "August 30, 2021",
+  "tags": [
+    {
+      "label": "NLP",
+      "permalink": "/blog/tags/nlp"
+    },
+    {
+      "label": "CNN",
+      "permalink": "/blog/tags/cnn"
+    },
+    {
+      "label": "Computer vision",
+      "permalink": "/blog/tags/computer-vision"
+    },
+    {
+      "label": "graph",
+      "permalink": "/blog/tags/graph"
+    }
+  ],
+  "readingTime": 9.01,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Thorpham",
+      "title": "Deep learning enthusiast",
+      "url": "https://github.com/ThorPham",
+      "imageURL": "https://github.com/ThorPham.png",
+      "key": "thorpham"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+    "title": "Hướng tiếp cận Graph convolution network cho bài toán rút trích thông tin từ hóa đơn",
+    "authors": "thorpham",
+    "tags": [
+      "NLP",
+      "CNN",
+      "Computer vision",
+      "graph"
+    ]
+  },
+  "nextItem": {
+    "title": "Quá trình phát triển của CNN từ LeNet đến DenseNet.",
+    "permalink": "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "permalink": "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2018-7-5-Sentiment-Analysis-sử-dụng-Tf-Idf  copy/index.mdx",
+  "source": "@site/blog/2018-7-5-Sentiment-Analysis-sử-dụng-Tf-Idf  copy/index.mdx",
+  "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+  "description": "Text mining ( lấy thông tin từ text) là một lĩnh vựng rộng và áp dụng trong nhiều lĩnh vực khác nhau. Một số ứng dụng có thể kể đến là : sentiment analysis, document classification, topic classification, text summarization, machine translation. Trong bài hôm nay ta sẽ tìm hiểu về sentiment analysis.Phân tích cảm xúc(sentiment analysis) được hiểu đơn giản là đánh giá 1 câu nói, tweet là tích cực (pos) hay tiêu cưc(neg). Chẳng hạn lấy một ví dụ, bạn mở một cửa hàng bán đồ ăn mà muốn biết trên mạng xã hội người ta nói gì về quán ăn của bạn. Bạn bắt đầu vào face, instagram hay tweeter để thu thập các commnent liên quan đến quán ăn của bạn. Bạn bắt đầu đoc thì có người khen người chê, vấn đề xảy ra là bây giờ số comment nó tăng lên 1000 hay 10000 bạn có đủ sức đọc các comment đó hay không.Bạn bắt đầu nghĩ ra sẽ build một model làm việc đó cho bạn. Ta bắt tay vào công việc.",
+  "date": "2018-07-05T00:00:00.000Z",
+  "formattedDate": "July 5, 2018",
+  "tags": [
+    {
+      "label": "NLP",
+      "permalink": "/blog/tags/nlp"
+    },
+    {
+      "label": "python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "sklearn",
+      "permalink": "/blog/tags/sklearn"
+    }
+  ],
+  "readingTime": 8.215,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Thorpham",
+      "title": "Deep learning",
+      "url": "https://github.com/ThorPham",
+      "imageURL": "https://github.com/ThorPham.png",
+      "key": "thorpham"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Sentiment-Analysis-sử-dụng-Tf-Idf",
+    "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+    "authors": "thorpham",
+    "tags": [
+      "NLP",
+      "python",
+      "sklearn"
+    ]
+  },
+  "prevItem": {
+    "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+    "permalink": "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf"
+  },
+  "nextItem": {
+    "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
+    "permalink": "/blog/Nhận-dạng-chữ-số-viết-tay"
+  }
+}

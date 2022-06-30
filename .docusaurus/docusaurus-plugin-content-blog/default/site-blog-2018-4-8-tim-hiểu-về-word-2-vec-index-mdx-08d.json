@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/Tìm-hiểu-về-Word2Vec",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2018-4-8-Tìm-hiểu-về-Word2Vec/index.mdx",
+  "source": "@site/blog/2018-4-8-Tìm-hiểu-về-Word2Vec/index.mdx",
+  "title": "Tìm hiểu về Word2Ve",
+  "description": "*Như chúng ta đã biết máy tính được cấu tạo từ những con số, do đó nó chỉ có thể đọc được dữ liệu số mà thôi. Trong natural language processing",
+  "date": "2018-04-08T00:00:00.000Z",
+  "formattedDate": "April 8, 2018",
+  "tags": [
+    {
+      "label": "NLP",
+      "permalink": "/blog/tags/nlp"
+    },
+    {
+      "label": "python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "Word2Vec",
+      "permalink": "/blog/tags/word-2-vec"
+    }
+  ],
+  "readingTime": 2.73,
+  "truncated": false,
+  "authors": [
+    {
+      "name": "Thorpham",
+      "title": "Deep learning enthusiast",
+      "url": "https://github.com/ThorPham",
+      "imageURL": "https://github.com/ThorPham.png",
+      "key": "thorpham"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Tìm-hiểu-về-Word2Vec",
+    "title": "Tìm hiểu về Word2Ve",
+    "authors": "thorpham",
+    "tags": [
+      "NLP",
+      "python",
+      "Word2Vec"
+    ]
+  },
+  "prevItem": {
+    "title": "Nhận diện pedestrian với window search",
+    "permalink": "/blog/Nhận-diện-pedestrian-với-window-search"
+  }
+}

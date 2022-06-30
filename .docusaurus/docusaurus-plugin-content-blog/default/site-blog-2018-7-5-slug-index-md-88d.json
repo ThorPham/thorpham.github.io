@@ -1,0 +1,22 @@
+{
+  "permalink": "/blog/2018/7/5/slug",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2018-7-5-slug/index.md",
+  "source": "@site/blog/2018-7-5-slug/index.md",
+  "title": "slug",
+  "description": "",
+  "date": "2018-07-05T00:00:00.000Z",
+  "formattedDate": "July 5, 2018",
+  "tags": [],
+  "readingTime": 0,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {},
+  "prevItem": {
+    "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+    "permalink": "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf"
+  },
+  "nextItem": {
+    "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
+    "permalink": "/blog/Nhận-dạng-chữ-số-viết-tay"
+  }
+}

@@ -1,0 +1,213 @@
+--- 
+slug : Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin
+title : Hướng tiếp cận Graph convolution network cho bài toán rút trích thông tin từ hóa đơn
+authors : thorpham
+tags : [NLP, CNN,Computer vision,graph]
+---
+*[The Mobile capture receipts Optical Character Recognition (MC-OCR)](https://rivf2021-mc-ocr.vietnlp.com/) là cuộc thi về ảnh receipt (hóa đơn) có 2 task và team mình đã tham gia task thứ 2 là trích xuất các thông tin cơ bản bao gồm **SELLER, SELLER_ADDRESS, TIMESTAMP, TOTAL_COST** (bên bán, địa điểm, thời gian và tổng thanh toán) từ ánh các hóa đơn đã được thu thập từ trước bằng điện thoại. *
+<!--truncate-->
+## Tiền xử lý (preprocessing)
+Các ảnh hóa đơn do BTC cung cấp có phần background (ngoại cảnh) không nhỏ (thậm chí hơn 50%), bị nghiêng và bị quay theo rất nhiều hướng khác nhau. Do đó để bước nhận dạng text chính xác nhất cần loại bỏ ngoại cảnh và xoay phần ảnh hóa đơn còn lại về đúng hướng của nó.
+
+###  Segmentation và rotation
+Để segment reciept ra khỏi background bọn mình xài 1 mạng có tên là **Basnet**  ( Boundary-aware  salient  object  detection) . Đây là một mạng  *salient  object  detection* - hiểu đơn giản nó chỉ quan tâm  foreground/object và background mà không cần biết là object đó thuộc class nào ( phiên bản nâng cấp hơn **Basnet** của cùng tác giả là $\mathbf{U}^2$). Mình sử dụng luôn pretrained model của tác giả xài luôn và không tiến hành bước fine-tune nào.
+
+
+
+<div align="center">
+
+![](https://images.viblo.asia/6a7f6ac0-9f2f-4091-a488-9bf266fa5869.jpg)
+
+</div>
+
+<div align="center">
+
+Hình 1 : Kết quả từ model segmentation
+
+</div>
+
+Sau khi segment bọn mình tính góc nghiêng  giữa trục trên-dưới cúa receipt và trục đứng của ảnh sau đó xoay phần receipt theo đúng hướng của nó.
+### Image orientation ( xác định hướng của receipt)
+Bọn mình xài một mạng self-supervised để xác định hướng của receipt với ý tưởng như trong paper *[Unsupervised Representation Learning by Predicting Image Rotations](https://arxiv.org/abs/1803.07728)*  của tác giả **Spyros Gidaris** . Mỗi receipt có thể ở 1 trong 4 hướng bị xoay khác nhau là 0, 90, 180, 270 độ như hình minh họa ở dưới.
+
+![center](https://images.viblo.asia/3ef39706-a78b-4217-b8f4-5c34a54fe721.png)
+
+<div align="center">
+
+Hình 2 : Self-supervised cho bài toán rotation image
+
+</div>
+Bọn mình sử dụng back-bone là ResNet với kết quả trên tập test là gần 96%.
+(Cái này làm sau cuộc thi để tăng time inference, còn trong cuộc thi bọn mình sử dụng OCR cho tất cả các hướng và tính số từ nhiều nhất để xác định hướng)
+
+### Text detection và recognition
+Cũng giống như các team khác team mình xài CRAFT cho text detection và VietOCR cho text recognition. Đã có rất nhiều bài viết về cái này mình sẽ không đi sâu vào nó nữa
+
+## Graph convolution network
+Để giải quyết bài toán key information extraction (trích xuất thông tin cơ bản) có rất nhiều hướng tiếp cận như text classification hay template matching nhưng mình thấy hướng tiếp cận Graph là hay nhất. Mỗi receipt được mô hình hóa dưới dạng graph $G(V, E)$ trong đó $V$ (vertices/nodes) là tập các đỉnh tương ứng với bounding box mỗi vùng có text (textbox/text bounding box) và $E$ là tập các cạnh biểu diễn cho mối quan hệ giữa các đỉnh. Bài toán này thuộc lớp Node classification có rất nhiều ý tưởng được đề xuất ra như PICK (processing  keyinformation extraction from documents using improved graph learning-convolutional networks ) kết hợp giữa vision feature và text feature , điểm mình không thích ở bài này là sự kết hợp quá cứng nhắc của 2 feature này. Team mình thích các tiếp cận dựa trên text feature và vị trí box hơn nên sử dụng paper  *[Residual Gated Graph Convnets](https://arxiv.org/abs/1711.07553)* của tác giả *Xavier Bresson*, một nhân vật rất nổi tiếng với nhiều paper về graph. *Xavier Bresson* cũng tạo ra một Benchmarking Graph Neural Networks với rất nhiều model được viết trên thư viện DGL .
+
+![center](https://images.viblo.asia/ae0f1811-0cdf-428c-bbed-8edc1468c455.png)
+
+<div align="center">
+
+Hình 3 : Graph  architecture cho bài toán node classification
+
+</div>
+
+### Định nghĩa về node feature và edge feature.
+**1.  Node features**
+
+Node featue được tổng hợp từ tọa độ textbox và text do model của OCR nhận diện ra. Mỗi textbox là một vector $L=(x_i,~y_i|~i \in [1,4])$ trong đó ($x_i,~y_i$ tọa độ góc của textbox). Text từ OCR sẽ được embedding và vào đưa vào một mạng LSTM. Sau đó thông tin về tọa độ textbox và text được kết hợp bằng cách cộng theo từng phần tử (element-wise) với nhau tạo thành *node feature*. Mình sử dụng embedding theo character mà không dùng những pretrained model như *word2vec* hay *bert* vì các lí do sau: a) hóa đơn có cả tiếng Việt lẫn tiếng Anh lẫn số, b) nhiều từ tiếng Việt bị nhận diện sai dấu/thanh và cuối cùng  là c) không có nhiều thông tin về ngữ cảnh.
+
+**2.  Edge  features**
+
+Edge (cạnh) biểu diễn sự liên kết giữa mỗi cặp node trong graph. Trước tiên chúng ta định nghĩa liên kết giữa hai nodes bất kì. Giả định rằng text trong reciept được sắp xếp theo thứ tự trái-phải trên-dưới, hai nodes được gọi là có liên kết nếu:
+$$
+d(v,~v_j) = abs(v_y - v_{j, y})  < 3\times h_v
+$$
+trong đó $h$ là chiều cao của node hiện tại. Nói một cách đơn giản, hai node được coi là có liên kết với nhau khi khoảng cách theo trục $y$ giữa chúng không vượt quá 3 lần chiều cao của node hiện tại.
+Ta định nghĩa *edge feature* của 2 node có liên kết là một vector khoảng cách theo trục $x$  và $y$ cho bởi công thức :
+$$
+ distance(v_i,~v_j) = (abs(v_{i, x} - v_{j, x}), abs(v_{i, y} - v_{j, y}))
+ $$
+
+**3.  Network architecture (Kiến trúc Graph model)**
+Mình sử dụng graph model có tên là *[Residual Gated Graph Convnets](https://arxiv.org/abs/1711.07553)* . Edge và node features theo các định nghĩa ở trên được đưa qua layer *RG-GCN*  (Residual Gated Graph Convnets).
+
+$$
+\mathbf{h}=\mathbf{x}+\left(\mathbf{Ax}+\sum_{v_j\to v} \eta(e_j) \odot \mathbf{Bx}_j \right)^+,
+$$
+
+trong đó $\mathbf{x}$ là Residual (hay skip connection như trong Resnet), $\mathbf{Ax}$ là  tác động của node hiện tại $\sum ...$ là tác động của các node lân cận, $^+$ là hàm ReLu). $\eta$ là tỉ trọng của mỗi node lân cận tác động đến node hiện tại và được tính theo công thức:
+
+$$
+	\eta(e_j) = \sigma(e_j) \left(\sum_{v_k\to v}\sigma(e_k)\right)^{-1},
+$$
+
+$\sigma$ là hàm sigmod, $e_j$ và $e_k$  là features của các edges liên kết với node hiện tại $v$ từ các nodes lân cận $v_j$ và $v_k$. $e_j$ theo thứ tự được tính từ các công thức sau:
+
+$$
+e_j = \mathbf{C}e_j^{x} +\mathbf{Dx}_j + \mathbf{Ex}, 
+$$
+$$
+e_j^h = e_j^x + (e_j)^+,
+$$
+
+với $e_j^x$ và $e_j^h$ là input và outout của hidden layer từ feature vector của cạnh $e_j$ nối đỉnh hiện tại $v$ với đỉnh $v_j$. $\mathbf{A,B,C,D,E}$ là các ma trận của các phép quay được học từ quá trình huấn luyện mạng.
+
+Model graph có thể được định nghĩa theo class như sau
+
+```python
+class GatedGCN_layer(nn.Module):
+
+    def __init__(self, input_dim, output_dim):
+        super().__init__()
+        self.A = nn.Linear(input_dim, output_dim)
+        self.B = nn.Linear(input_dim, output_dim)
+        self.C = nn.Linear(input_dim, output_dim)
+        self.D = nn.Linear(input_dim, output_dim)
+        self.E = nn.Linear(input_dim, output_dim)
+        self.bn_node_h = nn.BatchNorm1d(output_dim)
+        self.bn_node_e = nn.BatchNorm1d(output_dim)
+
+    def message_func(self, edges):
+        Bh_j = edges.src['Bh']
+        # e_ij = Ce_ij + Dhi + Ehj
+        e_ij = edges.data['Ce'] + edges.src['Dh'] + edges.dst['Eh']
+        edges.data['e'] = e_ij
+        return {'Bh_j' : Bh_j, 'e_ij' : e_ij}
+
+     def reduce_func(self, nodes):
+        Ah_i = nodes.data['Ah']
+        Bh_j = nodes.mailbox['Bh_j']
+        e = nodes.mailbox['e_ij']
+        # sigma_ij = sigmoid(e_ij)
+        sigma_ij = torch.sigmoid(e)
+        # hi = Ahi + sum_j eta_ij * Bhj
+        h = Ah_i + torch.sum(sigma_ij * Bh_j, dim=1) / torch.sum(sigma_ij, dim=1)
+        return {'h' : h}
+
+     def forward(self, g, h, e, snorm_n, snorm_e):
+
+        h_in = h # residual connection
+        e_in = e # residual connection
+
+        g.ndata['h']  = h
+        g.ndata['Ah'] = self.A(h)
+        g.ndata['Bh'] = self.B(h)
+        g.ndata['Dh'] = self.D(h)
+        g.ndata['Eh'] = self.E(h)
+        g.edata['e']  = e
+        g.edata['Ce'] = self.C(e)
+
+        g.update_all(self.message_func, self.reduce_func)
+
+        h = g.ndata['h'] # result of graph convolution
+        e = g.edata['e'] # result of graph convolution
+
+        h = h * snorm_n # normalize activation w.r.t. graph node size
+        e = e * snorm_e # normalize activation w.r.t. graph edge size
+
+        h = self.bn_node_h(h) # batch normalization
+        e = self.bn_node_e(e) # batch normalization
+
+        h = torch.relu(h) # non-linear activation
+        e = torch.relu(e) # non-linear activation
+
+        h = h_in + h # residual connection
+        e = e_in + e # residual connection
+
+        return h, e
+```
+
+Sau khi stack (L=8) layers của RG-GCN các node-feature được đưa vào một layer dense và dùng chung weight cho tất cả các node và layể cuối cùng sử dụng hàm lỗi dạng cross entropy để  phân loại node.
+
+## Chuẩn bị dataset và training
+### Pseudo label - thêm nhãn giả
+Để tạo data training cho graph model, mình thêm ground truth (gồm 4 đỉnh polygon của text, text và class label) vào dataset đã tạo ở bước trước đó (Text detection) và loại bỏ những textbox của nếu nó trùng lặp với textbox của BTC bởi IoU > 0.2. Những box còn lại sẽ được gán nhãn là Other.
+
+### Data Augmentation
+Để tăng độ đa dạng cho dataset mình làm giàu thêm bằng cách thay thế các field SELLER và ADDRESS dựa trên bộ từ điển được tạo ra từ ground truth của BTC và lấy nghẫu nhiên cho TIMESTAMP và TOTAL. Cả hai text detector là CTPN và CRAFT cũng được sử dụng để làm giàu dữ liệu.
+
+###  Training và accuracy
+Dataset sau khi làm giàu đến khoảng 10k mẫu và được chia theo tỉ lệ 80:20 cho train và test. Quá trình trên *GTX 1080TI* với 10 epochs cho đồ thị như sau:
+<div align="center">
+
+![](https://images.viblo.asia/2e190f53-08ba-4fa0-8e68-a8c20706628e.png)
+
+</div>
+
+Kết quả accuracy trên từng field như sau :
+<div align="center">
+
+![](https://images.viblo.asia/71f6eabb-4b39-459f-b664-298c4e9a69aa.png)
+
+</div>
+
+## Post processing
+**1. Spelling correction**
+
+Mình sử dụng grounth truth để sửa lại text trong trường hợp bị nhận diện sai. Ví dụ với địa chỉ và tên công ty, shop, market thường là tên riêng nên mình tạo một dictionary theo cặp với key là giá trị text nhận diện được và value là ground truth của BTC. Khi inference nếu company/address trùng với key trong dictionary thì companty/address đó được thay thế bằng value trong dictionary.
+
+**2. Regular expression**
+
+Một số trường hợp ngày tháng/timestamp bị sai do lúc làm pseudo label thì giá trị giữa grouth truth và OCR không khớp nhau. Trong trường hợp này khi inference một số trường hợp về date bị bỏ sót, regular expression được dùng trong trường hợp này để trích xuất đúng phần datetime/timestamp bổ trợ cho model graph.
+
+### Kết quả
+<div align="center">
+
+![](https://images.viblo.asia/143aab75-eea8-477b-8c66-4e1aab0bdf8a.png)
+
+</div>
+
+
+References :
+* An invoice reading system using agraph convolutional network
+* Information extractionfrom  text  intensive  and  visually  rich  banking  documents
+* Learning graph nor-malization for graph neural networks
+* Unsupervised Representation Learning by Predicting Image Rotations
+* Residual Gated Graph ConvNets
+* https://atcold.github.io/pytorch-Deep-Learning/
+* https://github.com/graphdeeplearning/benchmarking-gnns
+* https://github.com/pbcquoc/vietocr
+* https://github.com/clovaai/CRAFT-pytorch

@@ -1,30 +1,100 @@
 {
-  "facebook": {
+  "NLP": {
     "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/facebook",
-    "name": "facebook",
-    "count": 1,
-    "permalink": "/blog/tags/facebook"
+    "slug": "/blog/tags/nlp",
+    "name": "NLP",
+    "count": 3,
+    "permalink": "/blog/tags/nlp"
   },
-  "hello": {
+  "CNN": {
     "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/hello",
-    "name": "hello",
+    "slug": "/blog/tags/cnn",
+    "name": "CNN",
+    "count": 3,
+    "permalink": "/blog/tags/cnn"
+  },
+  "Computer vision": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/computer-vision",
+    "name": "Computer vision",
+    "count": 3,
+    "permalink": "/blog/tags/computer-vision"
+  },
+  "graph": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/graph",
+    "name": "graph",
+    "count": 1,
+    "permalink": "/blog/tags/graph"
+  },
+  "Deep learning": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/deep-learning",
+    "name": "Deep learning",
+    "count": 1,
+    "permalink": "/blog/tags/deep-learning"
+  },
+  "Object detection": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/object-detection",
+    "name": "Object detection",
     "count": 2,
-    "permalink": "/blog/tags/hello"
+    "permalink": "/blog/tags/object-detection"
   },
-  "docusaurus": {
+  "python": {
     "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/docusaurus",
-    "name": "docusaurus",
-    "count": 4,
-    "permalink": "/blog/tags/docusaurus"
+    "slug": "/blog/tags/python",
+    "name": "python",
+    "count": 7,
+    "permalink": "/blog/tags/python"
   },
-  "hola": {
+  "sklearn": {
     "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/hola",
-    "name": "hola",
+    "slug": "/blog/tags/sklearn",
+    "name": "sklearn",
+    "count": 2,
+    "permalink": "/blog/tags/sklearn"
+  },
+  "opencv": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/opencv",
+    "name": "opencv",
+    "count": 3,
+    "permalink": "/blog/tags/opencv"
+  },
+  "Keras": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/keras",
+    "name": "Keras",
     "count": 1,
-    "permalink": "/blog/tags/hola"
+    "permalink": "/blog/tags/keras"
+  },
+  "Feature extraction": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/feature-extraction",
+    "name": "Feature extraction",
+    "count": 1,
+    "permalink": "/blog/tags/feature-extraction"
+  },
+  "Dlib": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/dlib",
+    "name": "Dlib",
+    "count": 1,
+    "permalink": "/blog/tags/dlib"
+  },
+  "Face recognition": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/face-recognition",
+    "name": "Face recognition",
+    "count": 1,
+    "permalink": "/blog/tags/face-recognition"
+  },
+  "Word2Vec": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/word-2-vec",
+    "name": "Word2Vec",
+    "count": 1,
+    "permalink": "/blog/tags/word-2-vec"
   }
 }

@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN",
+  "editUrl": "https://github.com/ThorPham/blog/2018-8-8-Object-detection-từ-R-CNN-đến-Faster-R-CNN/index.md",
+  "source": "@site/blog/2018-8-8-Object-detection-từ-R-CNN-đến-Faster-R-CNN/index.md",
+  "title": "Object detection từ R-CNN đến Faster R-CNN",
+  "description": "Như chúng ta đã biết object detection bao gồm 2 nhiệm vụ chính là Classifier và Localization. Trong đó nhiệm vụ có vẻ khó khăn hơn là Localization. Trước khi deep learning phát triển như hiện nay, trong computer vision người ta detection object qua 2 giai đoạn. Đầu tiên là trích xuất feature từ hog,lbp,sift sau đó dùng các thuật toán trong machine learning như SVM để classifier. Bước tiếp theo là detection object trên ảnh lớn thì người ta sẽ dùng 1 window search trên toàn bộ bức ảnh sau đó dùng model đã classifier để phân lớp object. Các model này có ưu điểm là thời gian build model tương đối nhanh, cần ít dữ liệu . Nhược điểm là độ chính xác không cao và thời gian predict rất lâu nên khó có thể dùng trong real time.",
+  "date": "2018-08-08T00:00:00.000Z",
+  "formattedDate": "August 8, 2018",
+  "tags": [
+    {
+      "label": "Object detection",
+      "permalink": "/blog/tags/object-detection"
+    },
+    {
+      "label": "CNN",
+      "permalink": "/blog/tags/cnn"
+    }
+  ],
+  "readingTime": 6.795,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Thorpham",
+      "title": "Deep learning enthusiast",
+      "url": "https://github.com/ThorPham",
+      "imageURL": "https://github.com/ThorPham.png",
+      "key": "thorpham"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Object-detection-từ-R-CNN-đến-Faster-R-CNN",
+    "title": "Object detection từ R-CNN đến Faster R-CNN",
+    "authors": "thorpham",
+    "tags": [
+      "Object detection",
+      "CNN"
+    ]
+  },
+  "prevItem": {
+    "title": "Quá trình phát triển của CNN từ LeNet đến DenseNet.",
+    "permalink": "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet"
+  },
+  "nextItem": {
+    "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+    "permalink": "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf"
+  }
+}

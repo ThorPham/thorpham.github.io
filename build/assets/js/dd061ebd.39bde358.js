@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4459],{613:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/computer-vision","name":"Computer vision","count":3,"permalink":"/blog/tags/computer-vision"}')}}]);

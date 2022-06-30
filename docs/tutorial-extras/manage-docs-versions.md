@@ -21,6 +21,14 @@ Your docs now have 2 versions:
 - `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
 - `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
 
+$$
+EAR =  \frac{||p_{2} - p_{6}|| + ||p_{3} - p_{5}||}{||p_{1} - p_{4}||}
+$$
+
+$$
+I = \int_0^{2\pi} \sin(x)\,dx
+$$
+
 ## Add a Version Dropdown
 
 To navigate seamlessly across versions, add a version dropdown.

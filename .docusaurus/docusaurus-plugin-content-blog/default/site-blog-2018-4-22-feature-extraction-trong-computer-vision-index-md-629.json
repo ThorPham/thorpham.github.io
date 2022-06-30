@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/Feature-extraction-trong-computer-vision",
+  "editUrl": "https://github.com/ThorPham/blog/2018-4-22-Feature-extraction-trong-computer-vision/index.md",
+  "source": "@site/blog/2018-4-22-Feature-extraction-trong-computer-vision/index.md",
+  "title": "Feature extraction trong computer vision",
+  "description": "Như chúng ta đã biết Feature engineering là quá trình chúng ta thực hiện trích xuất và trích chọn các đặc trưng(thuộc tính) quan trọng từ dữ liệu thô để sử dụng làm đại diện cho các mẫu dữ liệu huấn luyện.Vì vậy trong một tập dataset không phải dữ liệu nào cũng quan trọng, không phải đặc trưng nào cũng dễ nhận biết. Chính vì thế đối với mỗi loại dữ liệu sẽ có những đặc trưng riêng , trong bài viết này ta cùng tìm hiểu 2 đặc trưng quan trọng trong CV truyền thống",
+  "date": "2018-04-22T00:00:00.000Z",
+  "formattedDate": "April 22, 2018",
+  "tags": [
+    {
+      "label": "Feature extraction",
+      "permalink": "/blog/tags/feature-extraction"
+    },
+    {
+      "label": "computer vision",
+      "permalink": "/blog/tags/computer-vision"
+    }
+  ],
+  "readingTime": 3.705,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Thorpham",
+      "title": "Deep learning enthusiast",
+      "url": "https://github.com/ThorPham",
+      "imageURL": "https://github.com/ThorPham.png",
+      "key": "thorpham"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Feature-extraction-trong-computer-vision",
+    "title": "Feature extraction trong computer vision",
+    "authors": "thorpham",
+    "tags": [
+      "Feature extraction",
+      "computer vision"
+    ]
+  },
+  "prevItem": {
+    "title": "Tìm hiểu về thư viện keras trong deep learning",
+    "permalink": "/blog/Tìm-hiểu-về-thư-viện-keras-trong-deep-learning"
+  },
+  "nextItem": {
+    "title": "Drowsiness detection với Dlib và OpenCV",
+    "permalink": "/blog/Drowsiness-detection"
+  }
+}

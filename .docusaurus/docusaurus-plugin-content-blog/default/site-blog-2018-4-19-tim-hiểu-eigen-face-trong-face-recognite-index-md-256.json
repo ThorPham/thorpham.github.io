@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/Tìm-hiểu-eigenFace-trong-face-recognite",
+  "editUrl": "https://github.com/ThorPham/blog/2018-4-19-Tìm-hiểu-eigenFace-trong-face-recognite/index.md",
+  "source": "@site/blog/2018-4-19-Tìm-hiểu-eigenFace-trong-face-recognite/index.md",
+  "title": "Tìm hiểu eigenFace trong face recognite",
+  "description": "*Có bao giờ bạn vào facebook rồi một ngày nọ có một thông báo hiện lên bạn được tag trong một bước ảnh nào đó. Đã bao giờ bạn nghĩ làm sao",
+  "date": "2018-04-19T00:00:00.000Z",
+  "formattedDate": "April 19, 2018",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "Face recognition",
+      "permalink": "/blog/tags/face-recognition"
+    }
+  ],
+  "readingTime": 5.665,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Thorpham",
+      "title": "Deep learning enthusiast",
+      "url": "https://github.com/ThorPham",
+      "imageURL": "https://github.com/ThorPham.png",
+      "key": "thorpham"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Tìm-hiểu-eigenFace-trong-face-recognite",
+    "title": "Tìm hiểu eigenFace trong face recognite",
+    "authors": "thorpham",
+    "tags": [
+      "python",
+      "Face recognition"
+    ]
+  },
+  "prevItem": {
+    "title": "Drowsiness detection với Dlib và OpenCV",
+    "permalink": "/blog/Drowsiness-detection"
+  },
+  "nextItem": {
+    "title": "Tìm hiểu regression trong object detection",
+    "permalink": "/blog/Tìm-hiểu-regression-trong-object-detection"
+  }
+}

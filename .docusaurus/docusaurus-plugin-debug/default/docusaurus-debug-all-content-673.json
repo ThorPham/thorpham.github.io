@@ -7,8 +7,8 @@
           "versionLabel": "Next",
           "versionPath": "/docs",
           "tagsPath": "/docs/tags",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/ThorPham/docs",
+          "versionEditUrlLocalized": "https://github.com/ThorPham/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
           "versionBadge": false,
           "versionClassName": "docs-version-current",
@@ -27,7 +27,7 @@
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "editUrl": "https://github.com/ThorPham/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -49,7 +49,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/congratulations",
               "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
+              "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/congratulations.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -75,7 +75,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
               "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
+              "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -101,7 +101,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
               "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
+              "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/create-a-document.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -127,7 +127,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
               "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
+              "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/create-a-page.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -153,7 +153,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
               "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
+              "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -179,7 +179,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
               "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
+              "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -205,7 +205,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
               "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
+              "editUrl": "https://github.com/ThorPham/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -231,7 +231,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
               "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
+              "editUrl": "https://github.com/ThorPham/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -312,235 +312,678 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
-          "id": "welcome",
+          "id": "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
           "metadata": {
-            "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
-            "source": "@site/blog/2021-08-26-welcome/index.md",
-            "title": "Welcome",
-            "description": "Docusaurus blogging features are powered by the blog plugin.",
-            "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "August 26, 2021",
+            "permalink": "/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+            "editUrl": "https://github.com/ThorPham/blog/2021-08-30-Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin/index.mdx",
+            "source": "@site/blog/2021-08-30-Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin/index.mdx",
+            "title": "Hướng tiếp cận Graph convolution network cho bài toán rút trích thông tin từ hóa đơn",
+            "description": "The Mobile capture receipts Optical Character Recognition (MC-OCR) là cuộc thi về ảnh receipt (hóa đơn) có 2 task và team mình đã tham gia task thứ 2 là trích xuất các thông tin cơ bản bao gồm SELLER, SELLER_ADDRESS, TIMESTAMP, TOTAL_COST (bên bán, địa điểm, thời gian và tổng thanh toán) từ ánh các hóa đơn đã được thu thập từ trước bằng điện thoại.",
+            "date": "2021-08-30T00:00:00.000Z",
+            "formattedDate": "August 30, 2021",
             "tags": [
               {
-                "label": "facebook",
-                "permalink": "/blog/tags/facebook"
+                "label": "NLP",
+                "permalink": "/blog/tags/nlp"
               },
               {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "label": "CNN",
+                "permalink": "/blog/tags/cnn"
               },
               {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.405,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
+                "label": "Computer vision",
+                "permalink": "/blog/tags/computer-vision"
               },
               {
-                "name": "Yangshun Tay",
-                "title": "Front End Engineer @ Facebook",
-                "url": "https://github.com/yangshun",
-                "imageURL": "https://github.com/yangshun.png",
-                "key": "yangshun"
+                "label": "graph",
+                "permalink": "/blog/tags/graph"
               }
             ],
-            "frontMatter": {
-              "slug": "welcome",
-              "title": "Welcome",
-              "authors": [
-                "slorber",
-                "yangshun"
-              ],
-              "tags": [
-                "facebook",
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "nextItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
-            }
-          },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
-        },
-        {
-          "id": "mdx-blog-post",
-          "metadata": {
-            "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
-            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-            "title": "MDX Blog Post",
-            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-            "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "August 1, 2021",
-            "tags": [
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.175,
-            "truncated": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              }
-            ],
-            "frontMatter": {
-              "slug": "mdx-blog-post",
-              "title": "MDX Blog Post",
-              "authors": [
-                "slorber"
-              ],
-              "tags": [
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
-            },
-            "nextItem": {
-              "title": "This is the summary of a very long blog post,This is the summary of a very long blog post,",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
-        },
-        {
-          "id": "long-blog-post",
-          "metadata": {
-            "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
-            "source": "@site/blog/2019-05-29-long-blog-post.md",
-            "title": "This is the summary of a very long blog post,This is the summary of a very long blog post,",
-            "description": "This is the summary of a very long blog post,",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 2.05,
+            "readingTime": 9.01,
             "truncated": true,
             "authors": [
               {
-                "name": "Endilie Yacop Sucipto",
-                "title": "Maintainer of Docusaurus",
-                "url": "https://github.com/endiliey",
-                "imageURL": "https://github.com/endiliey.png",
-                "key": "endi"
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
               }
             ],
             "frontMatter": {
-              "slug": "long-blog-post",
-              "title": "This is the summary of a very long blog post,This is the summary of a very long blog post,",
-              "authors": "endi",
+              "slug": "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+              "title": "Hướng tiếp cận Graph convolution network cho bài toán rút trích thông tin từ hóa đơn",
+              "authors": "thorpham",
               "tags": [
-                "hello",
-                "docusaurus"
+                "NLP",
+                "CNN",
+                "Computer vision",
+                "graph"
               ]
-            },
-            "prevItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
             },
             "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
+              "title": "Quá trình phát triển của CNN từ LeNet đến DenseNet.",
+              "permalink": "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet"
             }
           },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+          "content": "*[The Mobile capture receipts Optical Character Recognition (MC-OCR)](https://rivf2021-mc-ocr.vietnlp.com/) là cuộc thi về ảnh receipt (hóa đơn) có 2 task và team mình đã tham gia task thứ 2 là trích xuất các thông tin cơ bản bao gồm **SELLER, SELLER_ADDRESS, TIMESTAMP, TOTAL_COST** (bên bán, địa điểm, thời gian và tổng thanh toán) từ ánh các hóa đơn đã được thu thập từ trước bằng điện thoại. *\n<!--truncate-->\n## Tiền xử lý (preprocessing)\nCác ảnh hóa đơn do BTC cung cấp có phần background (ngoại cảnh) không nhỏ (thậm chí hơn 50%), bị nghiêng và bị quay theo rất nhiều hướng khác nhau. Do đó để bước nhận dạng text chính xác nhất cần loại bỏ ngoại cảnh và xoay phần ảnh hóa đơn còn lại về đúng hướng của nó.\n\n###  Segmentation và rotation\nĐể segment reciept ra khỏi background bọn mình xài 1 mạng có tên là **Basnet**  ( Boundary-aware  salient  object  detection) . Đây là một mạng  *salient  object  detection* - hiểu đơn giản nó chỉ quan tâm  foreground/object và background mà không cần biết là object đó thuộc class nào ( phiên bản nâng cấp hơn **Basnet** của cùng tác giả là $\\mathbf{U}^2$). Mình sử dụng luôn pretrained model của tác giả xài luôn và không tiến hành bước fine-tune nào.\n\n\n\n<div align=\"center\">\n\n![](https://images.viblo.asia/6a7f6ac0-9f2f-4091-a488-9bf266fa5869.jpg)\n\n</div>\n\n<div align=\"center\">\n\nHình 1 : Kết quả từ model segmentation\n\n</div>\n\nSau khi segment bọn mình tính góc nghiêng  giữa trục trên-dưới cúa receipt và trục đứng của ảnh sau đó xoay phần receipt theo đúng hướng của nó.\n### Image orientation ( xác định hướng của receipt)\nBọn mình xài một mạng self-supervised để xác định hướng của receipt với ý tưởng như trong paper *[Unsupervised Representation Learning by Predicting Image Rotations](https://arxiv.org/abs/1803.07728)*  của tác giả **Spyros Gidaris** . Mỗi receipt có thể ở 1 trong 4 hướng bị xoay khác nhau là 0, 90, 180, 270 độ như hình minh họa ở dưới.\n\n![center](https://images.viblo.asia/3ef39706-a78b-4217-b8f4-5c34a54fe721.png)\n\n<div align=\"center\">\n\nHình 2 : Self-supervised cho bài toán rotation image\n\n</div>\nBọn mình sử dụng back-bone là ResNet với kết quả trên tập test là gần 96%.\n(Cái này làm sau cuộc thi để tăng time inference, còn trong cuộc thi bọn mình sử dụng OCR cho tất cả các hướng và tính số từ nhiều nhất để xác định hướng)\n\n### Text detection và recognition\nCũng giống như các team khác team mình xài CRAFT cho text detection và VietOCR cho text recognition. Đã có rất nhiều bài viết về cái này mình sẽ không đi sâu vào nó nữa\n\n## Graph convolution network\nĐể giải quyết bài toán key information extraction (trích xuất thông tin cơ bản) có rất nhiều hướng tiếp cận như text classification hay template matching nhưng mình thấy hướng tiếp cận Graph là hay nhất. Mỗi receipt được mô hình hóa dưới dạng graph $G(V, E)$ trong đó $V$ (vertices/nodes) là tập các đỉnh tương ứng với bounding box mỗi vùng có text (textbox/text bounding box) và $E$ là tập các cạnh biểu diễn cho mối quan hệ giữa các đỉnh. Bài toán này thuộc lớp Node classification có rất nhiều ý tưởng được đề xuất ra như PICK (processing  keyinformation extraction from documents using improved graph learning-convolutional networks ) kết hợp giữa vision feature và text feature , điểm mình không thích ở bài này là sự kết hợp quá cứng nhắc của 2 feature này. Team mình thích các tiếp cận dựa trên text feature và vị trí box hơn nên sử dụng paper  *[Residual Gated Graph Convnets](https://arxiv.org/abs/1711.07553)* của tác giả *Xavier Bresson*, một nhân vật rất nổi tiếng với nhiều paper về graph. *Xavier Bresson* cũng tạo ra một Benchmarking Graph Neural Networks với rất nhiều model được viết trên thư viện DGL .\n\n![center](https://images.viblo.asia/ae0f1811-0cdf-428c-bbed-8edc1468c455.png)\n\n<div align=\"center\">\n\nHình 3 : Graph  architecture cho bài toán node classification\n\n</div>\n\n### Định nghĩa về node feature và edge feature.\n**1.  Node features**\n\nNode featue được tổng hợp từ tọa độ textbox và text do model của OCR nhận diện ra. Mỗi textbox là một vector $L=(x_i,~y_i|~i \\in [1,4])$ trong đó ($x_i,~y_i$ tọa độ góc của textbox). Text từ OCR sẽ được embedding và vào đưa vào một mạng LSTM. Sau đó thông tin về tọa độ textbox và text được kết hợp bằng cách cộng theo từng phần tử (element-wise) với nhau tạo thành *node feature*. Mình sử dụng embedding theo character mà không dùng những pretrained model như *word2vec* hay *bert* vì các lí do sau: a) hóa đơn có cả tiếng Việt lẫn tiếng Anh lẫn số, b) nhiều từ tiếng Việt bị nhận diện sai dấu/thanh và cuối cùng  là c) không có nhiều thông tin về ngữ cảnh.\n\n**2.  Edge  features**\n\nEdge (cạnh) biểu diễn sự liên kết giữa mỗi cặp node trong graph. Trước tiên chúng ta định nghĩa liên kết giữa hai nodes bất kì. Giả định rằng text trong reciept được sắp xếp theo thứ tự trái-phải trên-dưới, hai nodes được gọi là có liên kết nếu:\n$$\nd(v,~v_j) = abs(v_y - v_{j, y})  < 3\\times h_v\n$$\ntrong đó $h$ là chiều cao của node hiện tại. Nói một cách đơn giản, hai node được coi là có liên kết với nhau khi khoảng cách theo trục $y$ giữa chúng không vượt quá 3 lần chiều cao của node hiện tại.\nTa định nghĩa *edge feature* của 2 node có liên kết là một vector khoảng cách theo trục $x$  và $y$ cho bởi công thức :\n$$\n distance(v_i,~v_j) = (abs(v_{i, x} - v_{j, x}), abs(v_{i, y} - v_{j, y}))\n $$\n\n**3.  Network architecture (Kiến trúc Graph model)**\nMình sử dụng graph model có tên là *[Residual Gated Graph Convnets](https://arxiv.org/abs/1711.07553)* . Edge và node features theo các định nghĩa ở trên được đưa qua layer *RG-GCN*  (Residual Gated Graph Convnets).\n\n$$\n\\mathbf{h}=\\mathbf{x}+\\left(\\mathbf{Ax}+\\sum_{v_j\\to v} \\eta(e_j) \\odot \\mathbf{Bx}_j \\right)^+,\n$$\n\ntrong đó $\\mathbf{x}$ là Residual (hay skip connection như trong Resnet), $\\mathbf{Ax}$ là  tác động của node hiện tại $\\sum ...$ là tác động của các node lân cận, $^+$ là hàm ReLu). $\\eta$ là tỉ trọng của mỗi node lân cận tác động đến node hiện tại và được tính theo công thức:\n\n$$\n\t\\eta(e_j) = \\sigma(e_j) \\left(\\sum_{v_k\\to v}\\sigma(e_k)\\right)^{-1},\n$$\n\n$\\sigma$ là hàm sigmod, $e_j$ và $e_k$  là features của các edges liên kết với node hiện tại $v$ từ các nodes lân cận $v_j$ và $v_k$. $e_j$ theo thứ tự được tính từ các công thức sau:\n\n$$\ne_j = \\mathbf{C}e_j^{x} +\\mathbf{Dx}_j + \\mathbf{Ex}, \n$$\n$$\ne_j^h = e_j^x + (e_j)^+,\n$$\n\nvới $e_j^x$ và $e_j^h$ là input và outout của hidden layer từ feature vector của cạnh $e_j$ nối đỉnh hiện tại $v$ với đỉnh $v_j$. $\\mathbf{A,B,C,D,E}$ là các ma trận của các phép quay được học từ quá trình huấn luyện mạng.\n\nModel graph có thể được định nghĩa theo class như sau\n\n```python\nclass GatedGCN_layer(nn.Module):\n\n    def __init__(self, input_dim, output_dim):\n        super().__init__()\n        self.A = nn.Linear(input_dim, output_dim)\n        self.B = nn.Linear(input_dim, output_dim)\n        self.C = nn.Linear(input_dim, output_dim)\n        self.D = nn.Linear(input_dim, output_dim)\n        self.E = nn.Linear(input_dim, output_dim)\n        self.bn_node_h = nn.BatchNorm1d(output_dim)\n        self.bn_node_e = nn.BatchNorm1d(output_dim)\n\n    def message_func(self, edges):\n        Bh_j = edges.src['Bh']\n        # e_ij = Ce_ij + Dhi + Ehj\n        e_ij = edges.data['Ce'] + edges.src['Dh'] + edges.dst['Eh']\n        edges.data['e'] = e_ij\n        return {'Bh_j' : Bh_j, 'e_ij' : e_ij}\n\n     def reduce_func(self, nodes):\n        Ah_i = nodes.data['Ah']\n        Bh_j = nodes.mailbox['Bh_j']\n        e = nodes.mailbox['e_ij']\n        # sigma_ij = sigmoid(e_ij)\n        sigma_ij = torch.sigmoid(e)\n        # hi = Ahi + sum_j eta_ij * Bhj\n        h = Ah_i + torch.sum(sigma_ij * Bh_j, dim=1) / torch.sum(sigma_ij, dim=1)\n        return {'h' : h}\n\n     def forward(self, g, h, e, snorm_n, snorm_e):\n\n        h_in = h # residual connection\n        e_in = e # residual connection\n\n        g.ndata['h']  = h\n        g.ndata['Ah'] = self.A(h)\n        g.ndata['Bh'] = self.B(h)\n        g.ndata['Dh'] = self.D(h)\n        g.ndata['Eh'] = self.E(h)\n        g.edata['e']  = e\n        g.edata['Ce'] = self.C(e)\n\n        g.update_all(self.message_func, self.reduce_func)\n\n        h = g.ndata['h'] # result of graph convolution\n        e = g.edata['e'] # result of graph convolution\n\n        h = h * snorm_n # normalize activation w.r.t. graph node size\n        e = e * snorm_e # normalize activation w.r.t. graph edge size\n\n        h = self.bn_node_h(h) # batch normalization\n        e = self.bn_node_e(e) # batch normalization\n\n        h = torch.relu(h) # non-linear activation\n        e = torch.relu(e) # non-linear activation\n\n        h = h_in + h # residual connection\n        e = e_in + e # residual connection\n\n        return h, e\n```\n\nSau khi stack (L=8) layers của RG-GCN các node-feature được đưa vào một layer dense và dùng chung weight cho tất cả các node và layể cuối cùng sử dụng hàm lỗi dạng cross entropy để  phân loại node.\n\n## Chuẩn bị dataset và training\n### Pseudo label - thêm nhãn giả\nĐể tạo data training cho graph model, mình thêm ground truth (gồm 4 đỉnh polygon của text, text và class label) vào dataset đã tạo ở bước trước đó (Text detection) và loại bỏ những textbox của nếu nó trùng lặp với textbox của BTC bởi IoU > 0.2. Những box còn lại sẽ được gán nhãn là Other.\n\n### Data Augmentation\nĐể tăng độ đa dạng cho dataset mình làm giàu thêm bằng cách thay thế các field SELLER và ADDRESS dựa trên bộ từ điển được tạo ra từ ground truth của BTC và lấy nghẫu nhiên cho TIMESTAMP và TOTAL. Cả hai text detector là CTPN và CRAFT cũng được sử dụng để làm giàu dữ liệu.\n\n###  Training và accuracy\nDataset sau khi làm giàu đến khoảng 10k mẫu và được chia theo tỉ lệ 80:20 cho train và test. Quá trình trên *GTX 1080TI* với 10 epochs cho đồ thị như sau:\n<div align=\"center\">\n\n![](https://images.viblo.asia/2e190f53-08ba-4fa0-8e68-a8c20706628e.png)\n\n</div>\n\nKết quả accuracy trên từng field như sau :\n<div align=\"center\">\n\n![](https://images.viblo.asia/71f6eabb-4b39-459f-b664-298c4e9a69aa.png)\n\n</div>\n\n## Post processing\n**1. Spelling correction**\n\nMình sử dụng grounth truth để sửa lại text trong trường hợp bị nhận diện sai. Ví dụ với địa chỉ và tên công ty, shop, market thường là tên riêng nên mình tạo một dictionary theo cặp với key là giá trị text nhận diện được và value là ground truth của BTC. Khi inference nếu company/address trùng với key trong dictionary thì companty/address đó được thay thế bằng value trong dictionary.\n\n**2. Regular expression**\n\nMột số trường hợp ngày tháng/timestamp bị sai do lúc làm pseudo label thì giá trị giữa grouth truth và OCR không khớp nhau. Trong trường hợp này khi inference một số trường hợp về date bị bỏ sót, regular expression được dùng trong trường hợp này để trích xuất đúng phần datetime/timestamp bổ trợ cho model graph.\n\n### Kết quả\n<div align=\"center\">\n\n![](https://images.viblo.asia/143aab75-eea8-477b-8c66-4e1aab0bdf8a.png)\n\n</div>\n\n\nReferences :\n* An invoice reading system using agraph convolutional network\n* Information extractionfrom  text  intensive  and  visually  rich  banking  documents\n* Learning graph nor-malization for graph neural networks\n* Unsupervised Representation Learning by Predicting Image Rotations\n* Residual Gated Graph ConvNets\n* https://atcold.github.io/pytorch-Deep-Learning/\n* https://github.com/graphdeeplearning/benchmarking-gnns\n* https://github.com/pbcquoc/vietocr\n* https://github.com/clovaai/CRAFT-pytorch"
         },
         {
-          "id": "first-blog-post",
+          "id": "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet",
           "metadata": {
-            "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
+            "permalink": "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet",
+            "editUrl": "https://github.com/ThorPham/blog/2018-10-8-Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet/index.md",
+            "source": "@site/blog/2018-10-8-Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet/index.md",
+            "title": "Quá trình phát triển của CNN từ LeNet đến DenseNet.",
+            "description": "Convolutional neural network là một mạng neural được ứng dụng rất nhiều trong deep learning trong computer vision cho classifier và localizer . Từ mạng CNN cơ bản người ta có thể tạo ra rất nhiều architect khác nhau, từ những mạng neural cơ bản 1 đến 2 layer đến 100 layer. Đã bao giờ bạn tự hỏi nên sử dụng bao nhiêu layer, nên kết hợp conv với maxpooling thế nào? conv-maxpooling hay conv-conv-maxplooling ? hay nên sử dụng kernel 3x3 hay 5x5 thậm chí 7x7 điểm khác biệt là gì ? Làm gì khi model bị vanishing/exploding gradient, hay tại sao thi thêm nhiều layer hơn thì theo lý thuyết accuarcy phải cao hơn so với shallow model, nhưng thực tế lại không phải accuarcy không tăng thậm chí là giảm đó có phải nguyên nhân do overfitting .Trong bài viết này ta sẽ tìm hiểu các architure nổi tiếng để xem cấu trúc của nó như thế nào, các ý tưởng về CNN mới nhất hiện nay  từ đó ta có thể trả lời được mấy câu hỏi trên",
+            "date": "2018-10-08T00:00:00.000Z",
+            "formattedDate": "October 8, 2018",
             "tags": [
               {
-                "label": "hola",
-                "permalink": "/blog/tags/hola"
+                "label": "Deep learning",
+                "permalink": "/blog/tags/deep-learning"
               },
               {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "label": "CNN",
+                "permalink": "/blog/tags/cnn"
               }
             ],
-            "readingTime": 0.12,
-            "truncated": false,
+            "readingTime": 15.165,
+            "truncated": true,
             "authors": [
               {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
               }
             ],
             "frontMatter": {
-              "slug": "first-blog-post",
-              "title": "First Blog Post",
-              "authors": {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              },
+              "slug": "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet",
+              "title": "Quá trình phát triển của CNN từ LeNet đến DenseNet.",
+              "authors": "thorpham",
               "tags": [
-                "hola",
-                "docusaurus"
+                "Deep learning",
+                "CNN"
               ]
             },
             "prevItem": {
-              "title": "This is the summary of a very long blog post,This is the summary of a very long blog post,",
-              "permalink": "/blog/long-blog-post"
+              "title": "Hướng tiếp cận Graph convolution network cho bài toán rút trích thông tin từ hóa đơn",
+              "permalink": "/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin"
+            },
+            "nextItem": {
+              "title": "Object detection từ R-CNN đến Faster R-CNN",
+              "permalink": "/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN"
             }
           },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+          "content": "*Convolutional neural network là một mạng neural được ứng dụng rất nhiều trong deep learning trong computer vision cho classifier và localizer . Từ mạng CNN cơ bản người ta có thể tạo ra rất nhiều architect khác nhau, từ những mạng neural cơ bản 1 đến 2 layer đến 100 layer. Đã bao giờ bạn tự hỏi nên sử dụng bao nhiêu layer, nên kết hợp conv với maxpooling thế nào? conv-maxpooling hay conv-conv-maxplooling ? hay nên sử dụng kernel 3x3 hay 5x5 thậm chí 7x7 điểm khác biệt là gì ? Làm gì khi model bị vanishing/exploding gradient, hay tại sao thi thêm nhiều layer hơn thì theo lý thuyết accuarcy phải cao hơn so với shallow model, nhưng thực tế lại không phải accuarcy không tăng thậm chí là giảm đó có phải nguyên nhân do overfitting .Trong bài viết này ta sẽ tìm hiểu các architure nổi tiếng để xem cấu trúc của nó như thế nào, các ý tưởng về CNN mới nhất hiện nay  từ đó ta có thể trả lời được mấy câu hỏi trên*\n<!--truncate-->\n<center>\n   <img width=\"600\" height=\"300\" src={require('./36774671_240413323222236_1459661677975830528_n.png').default} />\n</center>\n\n<center>\nHình 1. Quá trình phát triển của CNN\n</center>\n\n## 1. LeNet(1998)\nLeNet là một trong những mạng CNN lâu đời nổi tiếng nhất được Yann LeCUn phát triển vào những năm 1998s. Cấu trúc của LeNet gồm 2 layer (Convolution + maxpooling) và 2 layer fully  connected  layer và output là softmax layer .  \n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./36833992_240414163222152_4178930615535534080_n.png').default} />\n</center>\n\n<center>\nHình 2. LeNet (Source CNN của Andrew Ng)\n</center>\n\nChúng ta cùng tìm hiểu chi tiết architect của LeNet đối với dữ liệu mnist (accuracy lên đến 99%) :\n\n* Input shape 28x28x3\n* Layer 1 :\n  * Convolution layer 1 : Kernel 5x5x3 , stride = 1,no padding, number filter = 6 ,output = 28x28x6.\n  * Maxpooling layer : pooling size 2x2,stride = 2,padding = “same”,output = 14x14x6.\n* Layer 2 :\n  * Convolution layer 2 : kernel 5x5x6,stride = 1, no padding, number filter = 16,output = 10x10x16.\n  * Maxpooling layer : pooling size = 2x2, stride = 2, padding =”same”,output = 5x5x16.\n* Flatten output = 5x5x16 = 400\n* Fully connection 1 : output = 120\n* Fully connection 2 : output = 84\n* Softmax layer, output = 10 (10 digits).\n \nNhược điểm của LeNet là mạng còn rất đơn giản và sử dụng sigmoid (or tanh) ở mỗi convolution layer mạng tính toán rất chậm.\n\n## 2. Alexnet(2012)\nAlexNet là một mạng CNN đã dành chiến thắng trong cuộc thi ImageNet LSVRC-2012 năm 2012 với large margin (15.3% VS 26.2% error rates). AlexNet là một mạng CNN traning với một số lượng parameter rất lớn (60 million) so với LeNet. Một số đặc điểm:\n\n* Sử dụng relu thay cho sigmoid(or tanh) để xử lý với non-linearity. Tăng tốc độ tính toán lên 6 lần.\n* Sử dụng dropout như một phương pháp regularization mới cho CNN. Dropout không những giúp mô hình tránh được overfitting mà còn làm giảm thời gian huấn luyện mô hình \n* Overlap pooling để giảm size của network ( Traditionally pooling regions không overlap).\n* Sử dụng local response normalization để chuẩn hóa ở mỗi layer.\n* Sử dụng kỹ thuật data augmentation để tạo thêm data training bằng cách translations, horizontal reflections.\n* Alexnet training với 90 epochs trong 5 đến 6 ngày với 2 GTX 580 GPUs. Sử dụng SGD với learning rate 0.01, momentum 0.9 và weight decay 0.0005. \n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./36767372_240415716555330_8179137527236526080_n.png').default} />\n</center>\n\n<center>\nHình 3. AlexNet (Nguồn ImageNet Classification with Deep Convolutional Neural Networks)\n</center>\n\nArchitect của Alexnet gồm 5 convolutional layer và 3 fully  connected  layer. Activation Relu được sử dụng sau mỗi convolution và fully connection layer. Detail architecture với dataset là imagenet size là 227x227x3 với 1000 class ( khác với trong hình trên size là 224x224). \n\nDetail Architect:\n* Input shape 227x227x3.\n* Layer 1 :\n  * Conv 1 : kernel : 11x11x3,stride = 4,no padding, number = 96,activation = relu,output = 55x55x96.\n  * Maxpooling layer : pooling size = 3x3,stride = 2,padding =”same” ,output = 27x27x96.\n  * Normalize layer.\n* Layer 2 :\n  * Conv 2 : kernel :3x3x96,stride = 1, padding = “same”, number filter = 256,activation = relu,output = 27x27x256.\n  * Maxpooling layer : pooling size = 3x3,stride=2, padding =”same”,output = 13x13x256.\n  * Normalize layer.\n* Layer 3:\n  * Conv 3 : kernel :3x3x256, stride = 1,padding=”same”, number filter = 384, activation = relu, output = 13x13x384.\n* Layer 4:\n  * Conv 4 : kernel : 3x3x384 , stride = 1, padding = “same”, number filter = 384, activation= relu, output = 13x13x384\n* Layer 5 :\n  * Conv 5 : kernel 3x3x384, stride = 1, padding = “same”, number filter = 256, activation = relu, output = 13x13x256.\n  * Pooling layer : pooling size = 3x3,stride =2,padding =”same”,output = 6x6x256.\n* Flatten 256x6x6 = 9216\n* Fully connection layer 1 : activation = relu , output = 4096 + dropout(0.5).\n* Fully connection layer 2 : activation = relu , output = 4096 + dropout(0.5).\n* Fully connection layer 3 : activation = softmax , output = 1000 (number class) \n\n## 3. ZFNet(2013)\nZFNet là một mạng cnn thắng trong ILSVRC 2013 với top-5 error rate của 14.8% . ZFNet có cấu trúc rất giống với AlexNet với 5 layer convolution , 2 fully connected layer và 1 output softmax layer. Khác biệt ở chỗ kernel size ở mỗi Conv layer .Một số đặc điểm chính :\n*\tTương tự AlexNet nhưng có một số điều chỉnh nhỏ.\n*\tAlexnet training trên 15m image trong khi ZF training chỉ có 1.3m image.\n*\tSử dụng kernel 7x7 ở first layer (alexnet 11x11).Lý do là sử dụng kernel nhỏ hơn để giữ lại nhiều thông tin trên image hơn.\n*\tTăng số lượng filter nhiều hơn so với alexnet\n*\tTraining trên GTX 580 GPU trong 20 ngày\n<!-- ![cnn4](/img/20180707/cnn4.jpg)<br/>\n -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn4.jpg').default} />\n</center>\n\n<center>\n Hình 4. ZFNet(2013).\n</center>\n\n* Input shape 224x224x3 .\n* Layer 1 :\n   * Conv 1 : kernel = 7x7x3, stride = 2, no padding, number filter = 96, output = 110x110x96.\n   * Maxpooling 1 : pooling size = 3x3,stride=2, padding = “same”,output = 55x55x96\n   * Normalize layer.\n* Layer 2 :\n   * Conv 2 : kernel = 5x5x96, stride = 2, no padding, number filter = 256, output = 26x26x256.\n   * Maxpooling 2 : pooling size = 3x3, stride=2,  padding = “same”,output = 13x13x256\n   * Normalize layer.\n* Layer 3:\n   * Conv 3 : kernel = 3x3x256, stride=1, padding=”same”, number filter = 384,output = 13x13x384.\n   * Layer 4 :\n   * Conv 4 : kernel = 3x3x384, stride=1, padding=”same”, number filter = 384,output = 13x13x384.\n* Layer 5 :\n   * Conv 5 : kernel = 3x3x384, stride=1, padding=”same”, number filter = 256,output = 13x13x256.\n   * Maxpooling  : pooling size = 3x3,stride =2,padding =”same”,output = 6x6x256.\n* Flatten 6x6x256 = 9216\n* Fully connected 1 : activation = relu,output =4096\n* Fully connected 2 : activation = relu,output =4096\n* Softmax layer for classifier ouput = 1000\n\n## 4. VGGNet(2014).\n* Sau AlexNet thì VGG ra đời với một số cải thiện hơn , trước tiên là model VGG sẽ deeper hơn, tiếp theo là thay đổi trong thứ tự conv. Từ LeNet đến AlexNet đều sử dụng Conv-maxpooling còn VGG thì sử dụng 1 chuỗi Conv liên tiếp Conv-Conv-Conv ở middle và end của architect VGG. Việc này sẽ làm cho việc tính toán trở nên lâu hơn nhưng những feature sẽ vẫn được giữ lại nhiều hơn so với việc sử dụng maxpooling sau mỗi Conv. Hơn nữa hiện nay với sự ra đời của GPU giúp tốc độ tính toán trở nên nhanh hơn rất nhiều lần thì vấn đề này không còn đáng lo ngại. VGG cho small error hơn AlexNet trong ImageNet Large Scale Visual Recognition Challenge (ILSVRC) năm 2014. VGG có 2 phiên bản là VGG16 và VGG19.\n<!-- ![cnn5](/img/20180707/cnn10.jpg)<br/> -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn10.jpg').default} />\n</center>\n <center> Hình 5. VGGNet(2014).</center>\n* Architect của VGG16 bao gồm 16 layer :13 layer Conv (2 layer conv-conv,3 layer conv-conv-conv) đều có kernel 3x3, sau mỗi layer conv là maxpooling downsize xuống 0.5, và 3 layer fully connection. VGG19 tương tự như VGG16 nhưng có thêm 3 layer convolution ở 3 layer conv cuối ( thành 4 conv stack với nhau).\nDetail parameter VGG16\n<!-- ![cnn15](/img/20180707/cnn15.jpg)<br/> -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn15.jpg').default} />\n</center>\n <center> Hình 15. VGG16 </center>\n* Sử dụng kernel 3x3 thay vì 11x11 ở alexnet(7x7 ZFNet). Kết hợp 2 conv 3x3 có hiểu quả hơn 1 cov 5x5 về receptive field giúp mạng deeper hơn  lại giảm tham số tính toán cho model.\n* 3 Conv 3x3 có receptive field same 1 conv 7x7.\n* Input size giảm dần qua các conv nhưng tăng số chiều sâu.\n* Làm việc rất tốt cho task classifier và localizer ( rất hay được sử dụng trong object detection).\n* Sử dụng relu sau mỗi conv và training bằng batch gradient descent.\n* Có sử dụng data augmentation technique trong quá trình training.\n* Training với 4 Nvidia Titan Black GPUs trong 2-3 tuần.\n\n## 5. GoogleNet(2014). \n\nNăm 2014, google publish một mạng neural do nhóm research của họ phát triển có tên là googleNet. Nó performance tốt hơn VGG, googleNet 6.7% error rate trong khi VGG là 7.3%  Ý tưởng chính là họ tạo ra một module mới có tên là inception giúp mạng traning sâu và nhanh hơn, chỉ có 5m tham số so với alexnet là 60m nhanh hơn gấp 12 lần.\nInception module là một mạng CNN giúp training wider(thay vì them nhiều layer hơn vì rất dễ xảy ra overfitting + tăng parameter người ta nghĩ ra tăng deeper ở mỗi tầng layer) so với mạng CNN bình thường. Mỗi layer trong CNN truyền thống sẽ extract các thông tin khác nhau. Output của 5x5 conv kernel sẽ khác với 3x3 kernel. Vậy để lấy những thông tin cần thiết cho bài toán của chúng ta thì nên dùng kernel size như thế nào ? Tại sao chúng sử dụng tất cả ta và sau đó để model tự chọn. Đó chính là ý tưởng của Inception module, nó  tính toán các kernel size khác nhau từ một input sau đó concatenate nó lại thành output. \n<!-- ![cnn6](/img/20180707/cnn5.jpg)<br/> -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn5.jpg').default} />\n</center>\n\n <center> Hình 6. Inception. </center>\n\nTrong inception người ta dùng conv kernel 1x1 với 2 mục đích là giảm tham số tính toán và dimensionality reduction . Dimensionality reduction có thể hiểu làm giảm depth của input (vd iput 28x28x100 qua kernel 1x1 với filter = 10 sẽ giảm depth về còn 28x28x10). Giảm chi phí tính toán có thể  hiểu qua ví dụ sau :\n* Input shape 28x28x192 qua kernel 5x5 với 32 thì ouput là 28x28x32(padding same) thì  tham số tính toán là (5x5x192)*(28x28x32)=120 million\n* Input shape 28x28x192 qua kernel 1x1x192 filter = 16 , output = 28x28x16 tiếp tục với kernel 5x5x32 filter = 16 đươch output = 28x28x32. Tổng tham số tính toán : $(28x28x16)*192 + (28x28x32)*(5x5x16) = 2.4 + 10 = 12.4 million.$\nTa thấy với cùng output là 28x28x32 thì nếu dùng kernel 5x5x192 với 32 filter thì sẽ có tham số gấp 10 lần so với sử dụng kernel 1x1x192 sau đó dùng tiếp 1 kernel 5x5x16 với filter 32.\nInception hiện giờ có 4 version , ta sẽ cùng tìm hiểu sơ qua các version:\n* Inception v1 : có 2 dạng  là naïve và dimension reduction. Khác biệt chính đó là version dimension reduction nó dùng conv 1x1 ở mỗi layer để giảm depth của input giúp model có ít tham số hơn. Inception naïve có architect gồm 1x1 conv,3x3  conv, 5x5 conv và 3x3 maxpooling.\n<!-- ![cnn7](/img/20180707/cnn6.jpg)<br/> -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn6.jpg').default} />\n</center>\n\n<center> Hình 7. Inception V1.</center>\n\nInception v2 : Cải thiện version 1, thêm layer batchnormalize và giảm Internal Covariate Shift. Ouput của mỗi layer sẽ được normalize về Gaussian N(0,1). Conv 5x5 sẽ được thay thế bằng 2 conv 3x3 để giảm computation cost.\n<!-- ![cnn8](/img/20180707/cnn7.jpg)<br/> -->\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn7.jpg').default} />\n</center>\n\n<center> Hình 8. Inception V2. </center>\n\nInception v3 : Điểm đáng chú ý ở version này là Factorization. Conv 7x7 sẽ được giảm về conv 1 dimesion là (1x7),(7x1). Tương tự conv 3x3 (3x1,1x3). Tăng tốc độ tính toán. Khi tách ra 2 conv thì làm model deeper hơn.\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn8.jpg').default} />\n</center>\n\n<center> Hình 9. Inception V3. </center>\nInception v4 : là sự kết hợp inception và resnet.\nDetail googleNet architect :\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn9.jpg').default} />\n</center>\n<center> Hình 10. GoogleNet.</center>\nGoogleNet gồm 22 layer, khởi đầu vẫn là những simple convolution layer, tiếp theo là những block của inception module với maxpooling theo sau mỗi block. Một số đặc điểm chính.\n* Sử dụng 9 Inception module trên toàn bộ architect. Làm model deeper hơn rất nhiều.\n* Không sử dụng fully connection layer mà thay vào đó là average pooling từ 7x7x1024 volume thành 1x1x1024 volume giảm thiểu được rất nhiều parameter.\n* Ít hơn 12x parameter so với Alexnet.\n* Auxiliary Loss được add vào total loss(weight =0.3). Nhưng được loại bỏ khi test.\n\n## 6. ResNets(2015).\nResNet được phát triển bởi microsoft năm 2015 với paper “ Deep residual learning for image recognition”. ResNet winer ImageNet ILSVRC competition 2015 với error rate 3.57% ,ResNet có cấu trúc gần giống VGG với nhiều stack layer làm cho model deeper hơn. Không giống VGG, resNet  có depth sâu hơn như 34,55,101 và 151 . Resnet giải quyết được vấn đề của deep learning truyền thống , nó có thể dễ dàng training model với hàng trăm layer. Để hiểu ResNet chúng ta cần hiểu vấn đề khi stack nhiều layer khi training, vấn đề đầu tiên khi tăng model deeper hơn gradient sẽ bị vanishing/explodes. Vấn đề này có thể giải quyết bằng cách thêm Batch Normalization nó giúp normalize output giúp các hệ số trở nên cân bằng hơn không quá nhỏ hoặc quá lớn nên sẽ giúp model dễ hội tụ hơn. Vấn đề thứ 2 là  degradation, Khi model deeper accuracy bắt đầu bão hòa(saturated) thậm chí là giảm. Như hình vẽ bên dưới khi stack nhiều layer hơn thì training error lại cao hơn ít layer như vậy vấn đề không phải là do overfitting. Vấn đề này là do model không dễ training khó học hơn, thử tượng tượng một training một shallow model, sau đó chúng ta stack thêm nhiều layer , các layer sau khi thêm vào sẽ không học thêm được gì cả (identity mapping) nên accuracy sẽ tương tự như shallow model mà không tăng. Resnet được ra đời để giải quyết vấn đề degradation này.\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn11.jpg').default} />\n</center>\n<center> Hình 11. Compare accuracy with </center>\nResNet có architecture gồm nhiều residual block, ý tưởng chính là skip layer bằng cách add connection với layer trước. Ý tưởng của residual block là feed foword x(input) qua một số layer conv-max-conv, ta thu được F(x) sau đó add thêm x vào H(x) = F(x) + x . Model sẽ dễ học hơn khi chúng ta thêm feature từ layer trước vào.\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn12.jpg').default} />\n</center>\n<center> Hình 12. ResNets block. </center>\n* Sử dụng batch Normalization sau mỗi Conv layer.\n* Initialization Xavier/2\n* Training với SGD + momentum(0.9)\n* Learning rate 0.1, giảm 10 lần nếu error ko giảm\n* Mini batch size 256\n* Weight decay 10^-5\n* Không sử dụng dropout\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn13.jpg').default} />\n</center>\n<center> Hình 13. ResNets(2015). </center>\n\n## 7. Densenet(2016)\nDensenet(Dense connected convolutional network) là một trong những netwok mới nhất cho visual object recognition. Nó cũng gần giống Resnet nhưng có một vài điểm khác biệt. Densenet có cấu trúc gồm các dense block và các transition layers. Được stack dense block- transition layers-dense block- transition layers như hình vẽ. Với CNN truyền thống nếu chúng ta có L layer thì sẽ có L connection, còn trong densenet sẽ có L(L+1)/2 connection.\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn14.jpg').default} />\n</center>\n<center> Hình 14. Densenet(2016). </center>\nHãy tưởng tượng ban đầu ta có 1 image size (28,28,3). Đầu tiên ta khởi tạo feature layer bằng Conv tạo ra 1 layer size (28,28,24). Sau mỗi layer tiếp theo (Trong dense block ) nó sẽ tạo thêm K= 12 feature giữa nguyên width và height. Khi đó output tiếp theo sẽ là (28,28,24 +12),(28,28,24 +12+12). Ở mỗi dense block sẽ có normalization, nonlinearity và dropout. Để giảm size và depth của feature thì transition layer được đặt giữa các dense block, nó gồm Conv kernel size =1, average pooling (2x2) với stride = 2 nó sẽ giảm output thành (14,14,48)\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn16.jpg').default} />\n</center>\nDetail parameter :\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./cnn17.jpg').default} />\n</center>\nMột số ưu điểm của Densenet:\n* Accuracy : Densenet training tham số ít hơn 1 nửa so với Resnet nhưng có same accuracy so trên ImageNet classification dataset.\n* Overfitting : DenseNet resistance overfitting rất hiệu quả.\n* Giảm được vashing gradient.\n* Sử dụng lại feature hiệu quả hơn. \n  \n## Kết bài : \nTrên đây chỉ là phần tóm lược sơ qua các architect nổi tiếng của CNN. Bên trong đó còn có nhiều cấu trúc phức tạp vì thời gian cũng như kiến thức có hạn nên vẫn chưa viết sâu hết được. Bên cạnh đó còn có nhiều sai sót rất mong bạn đọc góp ý để mình có thể hoàn thiện bài viết hơn.\n\nTham khảo : \n* Deep learning course : Andrew Ng\n* An Intuitive Guide to Deep Network Architectures : Joyce Xu\n* A Simple Guide to the Versions of the Inception Network :Bharath Raj\n* CS231n: Convolutional Neural Networks for Visual Recognition\n* Paper : All paper about lenet,alexnet,vgg,googlenet,resnet,densenet\n* Notes on the Implementation of DenseNet in TensorFlow.\n* The Efficiency of Densenet"
+        },
+        {
+          "id": "Object-detection-từ-R-CNN-đến-Faster-R-CNN",
+          "metadata": {
+            "permalink": "/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN",
+            "editUrl": "https://github.com/ThorPham/blog/2018-8-8-Object-detection-từ-R-CNN-đến-Faster-R-CNN/index.md",
+            "source": "@site/blog/2018-8-8-Object-detection-từ-R-CNN-đến-Faster-R-CNN/index.md",
+            "title": "Object detection từ R-CNN đến Faster R-CNN",
+            "description": "Như chúng ta đã biết object detection bao gồm 2 nhiệm vụ chính là Classifier và Localization. Trong đó nhiệm vụ có vẻ khó khăn hơn là Localization. Trước khi deep learning phát triển như hiện nay, trong computer vision người ta detection object qua 2 giai đoạn. Đầu tiên là trích xuất feature từ hog,lbp,sift sau đó dùng các thuật toán trong machine learning như SVM để classifier. Bước tiếp theo là detection object trên ảnh lớn thì người ta sẽ dùng 1 window search trên toàn bộ bức ảnh sau đó dùng model đã classifier để phân lớp object. Các model này có ưu điểm là thời gian build model tương đối nhanh, cần ít dữ liệu . Nhược điểm là độ chính xác không cao và thời gian predict rất lâu nên khó có thể dùng trong real time.",
+            "date": "2018-08-08T00:00:00.000Z",
+            "formattedDate": "August 8, 2018",
+            "tags": [
+              {
+                "label": "Object detection",
+                "permalink": "/blog/tags/object-detection"
+              },
+              {
+                "label": "CNN",
+                "permalink": "/blog/tags/cnn"
+              }
+            ],
+            "readingTime": 6.795,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Object-detection-từ-R-CNN-đến-Faster-R-CNN",
+              "title": "Object detection từ R-CNN đến Faster R-CNN",
+              "authors": "thorpham",
+              "tags": [
+                "Object detection",
+                "CNN"
+              ]
+            },
+            "prevItem": {
+              "title": "Quá trình phát triển của CNN từ LeNet đến DenseNet.",
+              "permalink": "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet"
+            },
+            "nextItem": {
+              "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+              "permalink": "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf"
+            }
+          },
+          "content": "*Như chúng ta đã biết object detection bao gồm 2 nhiệm vụ chính là Classifier và Localization. Trong đó nhiệm vụ có vẻ khó khăn hơn là Localization. Trước khi deep learning phát triển như hiện nay, trong computer vision người ta detection object qua 2 giai đoạn. Đầu tiên là trích xuất feature từ hog,lbp,sift sau đó dùng các thuật toán trong machine learning như SVM để classifier. Bước tiếp theo là detection object trên ảnh lớn thì người ta sẽ dùng 1 window search trên toàn bộ bức ảnh sau đó dùng model đã classifier để phân lớp object. Các model này có ưu điểm là thời gian build model tương đối nhanh, cần ít dữ liệu . Nhược điểm là độ chính xác không cao và thời gian predict rất lâu nên khó có thể dùng trong real time.*\n<!--truncate-->\nVới tộc độ phát triển như hiện nay , dữ liệu của chúng ta ngày càng nhiều và các bài toán bắt đầu khó dần lên nên những model truyền thống tỏ ra kém hiệu quả. Các feature lấy ra từ computer vision truyền thống như hog,sift,lbp là những shadow feature nó chỉ lấy được những feature trên bề mặt nổi image mà thôi, do đó những bài toán như classifer con chó hay con mèo thì những feature này làm việc tương đối hiệu quả , nhưng nâng cấp bài toán lên đó là classifier con bull dog hay con béc rê thì những feature này làm việc kém hiệu quả. Cũng dễ hiểu vì cùng 1 class là dog thì những feature này tương đối giống nhau nên khó có thể phân biệt được con này con kia. Chính vì thế ta cần những feature sâu hơn, những feature mà nó ẩn ở trong image mà ta khó có thể quan sát được bằng mắt thường để phân biệt dog này hay dog kia. Trong deep learning , object detection nền tảng cơ bản là dựa trên mạng CNN để lấy những deep feature bằng cách đưa qua nhiều layer khác nhau feature được extract sâu hơn sau đó được đưa vào classifier và regression box. Hai hướng tiếp cận chính trong deep learning là :\n\n* Chia image ra thành những grid cell SxS . Mỗi cell được coi như region proposal giúp giảm thời gian và chi phí tính toán thay vì sử dụng trực tiếp image ( model SSD,YOLO)\n* Tìm những region proposal có nhiều khẳn năng chứa object nhất sử dụng selective search hay RPN ( model R-CNN,Fast R-CNN, Faster R-CNN)\n \nTrong bài này chúng ta sẽ tìm hiểu về các họ nhà CNN cho object detection.\n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./35474711_223243181605917_1003697740695207936_n.png').default} />\n</center>\n\n## 1. R-CNN\n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./35329075_223246958272206_8520772647733166080_n.png').default} />\n</center>\n\nR-CNN là viết tắt của “Region-based Convolutional Neural Networks”. Ý tưởng chính của nó gồm 2 phần : Đầu tiên là dùng selective search tìm các region of interest (roi) trên image để tạo ra các bounding box mà có xác suất cao là có object. Sau đó dùng CNN để lấy feature từ các region này để classifier và regression  box. Các bước thực hiện như sau :\n* Từ input image ta dùng selective search để lấy cái region proposal .Selective Search nó hoạt động bằng cách là đầu tiên tạo ra các seed là các region segementation trên image(trong skimage họ dùng Felsenszwalb’s efficient graph based image segmentation) Các region sau đó sẽ được merger lại với nhau bằng cách tính độ tương đồng về color,shape,textuture… Cuối cùng ta vẽ bounding box cho từng region.Mỗi image người ta sẽ lấy tầm 2k region proposal.\n* Tiếp đến các region proposal sẽ được swarped(crop) để fix size(vì một số mạng như VGG yêu cầu size input là cố định,hơn nữa ta cần feature output same size). Sau đó dùng CNN( VGG,Alexnet) để lấy feature.\n* Cuối cùng là dùng SVM để classifier và regression bounding box\nNhược điểm của phương pháp này là training rất lâu vì 2k image qua CNN để lấy feature mất rất nhiều thời gian (52 s trên cpu) . \n\n## 2. SPP net\n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./35346991_223247254938843_4269602627899097088_n.png').default} />\n</center>\n\nThay vì feed forword 2k image qua CNN thì người ta feed forwork qua CNN một lần để lấy feature map (feature map = feature + location). Sau đó dùng selective search để tìm region proposal, rồi project trên feature map để lấy feature tương ứng. Có một vấn đề ở đây là các feature map của region proposal có size khác nhau nên khi đưa qua CNN sẽ có length output khác nhau. Vì vậy người ta sử dụng Spatial paramy pooling layer để  fix size feature.(spp layer hoạt động  cũng tương tự bag of word trong image processing nó sẽ chia feature theo Spatial pyramid và áp dụng max pooling theo từng spatial giúp các feature có size khác nhau thành same size). Phần sau còn lại tương tự như R-CNN\n\n## 3. Fast R-CNN\n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./35348615_223247421605493_4297776049992761344_n.png').default} />\n</center>\n\nFast R-CNN cải thiện được các nhược điểm của R-CNN bằng cách hợp nhất 3 model độc lập vốn rất chậm chạp. Nó cũng có phần giống SPP-net là dùng CNN để lấy feature map một lần thay vì dùng riêng cho mỗi region proposal. Sau đó những feature này sẽ được đưa qua một Fully connection layer để classifier và regression bounding box. Model này tương đối nhanh chạy 2s/image.\nCác bước thức hiện thuật toán :\n* Dùng pretraining model (VGG,ZF…) để lấy feature map.\n* Sử dụng selective search để lấy region proposal (~2k image). Sau đó project lên feature map để lấy feature tương ứng\n* Feature sẽ được đưa qua ROI pooling để fix size.\n* Cuối cùng Fully connection layer để classifier và regression box\n  \n## 4. Faster R-CNN\n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./35326994_223247604938808_7752372882168086528_n.png').default} />\n</center>\n\nFaster R-CNN gồm region proposal network ( nó thay thế cho selective search) và phần còn lại tương tự như Fast R-CNN. Region proposal network(RPN) nó dùng 1 sliding window search trên feature map để tạo các anchor box. Sau đó chúng ta chuẩn bị data training cho RPN bằng cách gán nhãn cho mỗi anchor box dựa vào iou với ground truth. Cuối cùng dùng data này để classifier và regression bounding box. Ta thu được rất nhiều bounding box và dùng non maximum suppression(NMS) để loại bỏ bớt đi những box không có nhiều khẳn năng chứa object. Sau đó những bounding box này sẽ tương tự như selective search ở fast R-CNN nó được đưa qua ROI pooling để fix size và cuối cùng đưa vào fully connection layer để classifier (xác định object cụ thể) và regression box. Model này tương đối nhanh predict 0.2s/image(gpu)\nModel gồm các bước sau :\nPretrain model CNN để lấy feature map.\n* Training RPN để tìm bouding box và classifier (chỉ xác định là object và non-object không classifier cụ thể object). Một siliding window size NxM search trên feature map. Tại mỗi center của window, ta predict mutil region với scale và ratio khác nhau. Thông thường là 3 scale và 3 ratio nên tạo ra 9 anchor box. Positive sample IOU > 0.7, negative sample IOU < 0.3.\n* Dùng data này training để classifier và regression . Vì số background nhiều nên để hạn chế bias người ta dùng mini bath để training mỗi lần đưa vào tỉ lệ một pos và neg nhất định. Sau đó loại bớt bounding box có ít khẳn năng chứa object bằng NMS.\n* Ta project bounding box lên feature map để lấy feature tương ứng sau đó đưa vào ROI pooling layer fix size để đưa vào Fully connection layer để classifier từng object và regression box.\n\n## 5. Kết luận \nTrên đây mới chỉ là một bài giới thiệu sơ qua về cách hoạt động của R-CNN đến Faster R-CNN. Bên trong cấu trúc của mỗi model này tương đối phức tạp. Nếu có thể mình sẽ viết chi tiết cách hoạt động của từng model qua các bài sau."
+        },
+        {
+          "id": "Sentiment-Analysis-sử-dụng-Tf-Idf",
+          "metadata": {
+            "permalink": "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf",
+            "editUrl": "https://github.com/ThorPham/blog/2018-7-5-Sentiment-Analysis-sử-dụng-Tf-Idf /index.mdx",
+            "source": "@site/blog/2018-7-5-Sentiment-Analysis-sử-dụng-Tf-Idf /index.mdx",
+            "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+            "description": "Text mining ( lấy thông tin từ text) là một lĩnh vựng rộng và áp dụng trong nhiều lĩnh vực khác nhau. Một số ứng dụng có thể kể đến là : sentiment analysis, document classification, topic classification, text summarization, machine translation. Trong bài hôm nay ta sẽ tìm hiểu về sentiment analysis.Phân tích cảm xúc(sentiment analysis) được hiểu đơn giản là đánh giá 1 câu nói, tweet là tích cực (pos) hay tiêu cưc(neg). Chẳng hạn lấy một ví dụ, bạn mở một cửa hàng bán đồ ăn mà muốn biết trên mạng xã hội người ta nói gì về quán ăn của bạn. Bạn bắt đầu vào face, instagram hay tweeter để thu thập các commnent liên quan đến quán ăn của bạn. Bạn bắt đầu đoc thì có người khen người chê, vấn đề xảy ra là bây giờ số comment nó tăng lên 1000 hay 10000 bạn có đủ sức đọc các comment đó hay không.Bạn bắt đầu nghĩ ra sẽ build một model làm việc đó cho bạn. Ta bắt tay vào công việc.",
+            "date": "2018-07-05T00:00:00.000Z",
+            "formattedDate": "July 5, 2018",
+            "tags": [
+              {
+                "label": "NLP",
+                "permalink": "/blog/tags/nlp"
+              },
+              {
+                "label": "python",
+                "permalink": "/blog/tags/python"
+              },
+              {
+                "label": "sklearn",
+                "permalink": "/blog/tags/sklearn"
+              }
+            ],
+            "readingTime": 8.215,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Sentiment-Analysis-sử-dụng-Tf-Idf",
+              "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+              "authors": "thorpham",
+              "tags": [
+                "NLP",
+                "python",
+                "sklearn"
+              ]
+            },
+            "prevItem": {
+              "title": "Object detection từ R-CNN đến Faster R-CNN",
+              "permalink": "/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN"
+            },
+            "nextItem": {
+              "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
+              "permalink": "/blog/Nhận-dạng-chữ-số-viết-tay"
+            }
+          },
+          "content": "*Text mining ( lấy thông tin từ text) là một lĩnh vựng rộng và áp dụng trong nhiều lĩnh vực khác nhau. Một số ứng dụng có thể kể đến là : sentiment analysis, document classification, topic classification, text summarization, machine translation. Trong bài hôm nay ta sẽ tìm hiểu về sentiment analysis.Phân tích cảm xúc(sentiment analysis) được hiểu đơn giản là đánh giá 1 câu nói, tweet là tích cực (pos) hay tiêu cưc(neg). Chẳng hạn lấy một ví dụ, bạn mở một cửa hàng bán đồ ăn mà muốn biết trên mạng xã hội người ta nói gì về quán ăn của bạn. Bạn bắt đầu vào face, instagram hay tweeter để thu thập các commnent liên quan đến quán ăn của bạn. Bạn bắt đầu đoc thì có người khen người chê, vấn đề xảy ra là bây giờ số comment nó tăng lên 1000 hay 10000 bạn có đủ sức đọc các comment đó hay không.Bạn bắt đầu nghĩ ra sẽ build một model làm việc đó cho bạn. Ta bắt tay vào công việc.*\n<!--truncate-->\nThuật toán sử dung : mình sẽ sử dụng logistic regression kết hợp với kỹ thuật tf-idf, Library : pyvi(một thư viện xử lý tiếng việt), sklearn\n\nCác bước thực hiện :\n    1.  Chuẩn bị dữ liệu\n    2.  Tiền xử lý dữ liệu\n    3.  Build model\n    4.  Funny một tí\n\n## Chuẩn bị dữ liệu\nDữ liệu text có ở khắp mọi nơi từ facebook đến các website đâu đâu cũng có.Mình sẽ lấy dữ liệu từ trang tripnow.vn một trang web con của foody.vn chuyên về đánh giá các cửa hàng. Để đơn giản mình chỉ lấy comment ở các cửa hàng ở TP.hcm và trên mỗi comment đó có star thang đo từ 1-10 mình sẽ lấy nó làm căn cứ đánh giá comment là pos or neg.\nBắt đầu chiến dịch cà web nào (crawler). Mình sẽ sử dụng selenium để cà dữ liệu text.\n\n```python\n#load thu vien\nimport numpy as np\nimport selenium\nfrom selenium import webdriver\nimport time\nfrom selenium.webdriver.common.keys import Keys\n#open list name\nwith open(\"name.txt\") as f:\n  names = f.read()\nlist_name = names.split(\"\\n\")\n#crawler data\ndriver = webdriver.Chrome()\npath = \"https://www.tripnow.vn\"\ntexts = []\nscores = []\nfor name in range(len(list_name)):\n  path_link = path + list_name[name] + \"/binh-luan\"\n  driver.get(path_link)\n  actions = webdriver.ActionChains(driver)\n  count = 0\n  while (count<30):\n      load_more = driver.find_element_by_xpath(\"//div/*[@ng-click='LoadMore()']\")\n      actions.move_to_element(load_more).perform()\n      load_more.click()\n      driver.execute_script(\"window.scrollTo(0, document.body.scrollHeight);\")\n      count += 1   \n      time.sleep(3)\n  text =  driver.find_elements_by_xpath(\"//div/span[@ng-bind-html='Model.Description']\")\n  score = driver.find_elements_by_xpath(\"//li/div/div/div/span[@class='ng-binding']\")\n\n  for tx,sc in zip(text,score):\n      comment = tx.text\n      scoring = sc.text\n      texts.append(comment)\n      scores.append(scoring)\n```\nGiải thích code một tí :\n* Để tránh code dài mình lưu các tên cửa hàng ở file name.txt\n* Mỗi cửa hàng có rất nhiều comment (có thể vài trăm) nhưng mình chỉ lấy 300 comment ở mỗi cửa hàng vì máy mình tương đối yếu load nhiều máy chạy không nổi.\n* Comment được lấy từ //div/span[@ng-bind-html='Model.Description] và lưu vào biến texts\n* Score được lấy từ //li/div/div/div/span[@class='ng-binding'] và lưu vào biến scores\n* Mình cho nó chạy tầm 2 tiếng thu được tầm 6000 comment và được lưu dưới dạng text\n  \n<!-- ![](https://images.viblo.asia/469fcc5f-6858-4c9e-a42a-642e165a49ed.jpg)\n -->\n <center>\n   <img width=\"600\" height=\"300\" src=\"https://images.viblo.asia/469fcc5f-6858-4c9e-a42a-642e165a49ed.jpg\" />\n</center>\n\n<!-- ![](https://images.viblo.asia/46576b53-7631-4664-9e27-c20530c92f7e.jpg) -->\n<center>\n   <img width=\"600\" height=\"300\" src=\"https://images.viblo.asia/46576b53-7631-4664-9e27-c20530c92f7e.jpg\" />\n</center>\n\n## Tiền xử lý dữ liệu\nTrước tiên ta tìm hiểu kỹ thuật TF-IDF nó là viết tắt của từ Term frequency invert document frequency.Nó là một kỹ thuật feature extraction dùng trong text mining và information retrieval. Trước khi có tf-idf người ta dùng one-hot-encoding để embedding words sang vector. Nhưng kỹ thuật này gặp một số hạn chế là :\n* Những từ thường xuyên xuất hiện sẽ không có nhiều thông tin nhưng vẫn có tỉ trọng(weight) ngang với các từ khác.vd : stop word chẳng hạn hay chúng ta phân tích vềquán ăn nào đó thì từ \"quán ăn\" xuất hiện ở tất cả document.Chúng ta cần giảm tỉ trọng về mặt thông tin nó xuống vì thông tin không mang nhiều giá trị.\n* Những từ hiếm(rare word) or key word không có sự khác biệt về tỉ trọng thông tin\nĐể khắc phục hạn chế này tf-idf đã ra đời.Tf-idf bao gồm 2 thành phần là tf(term frequency) và idf(inverse document frequency).\n\n$$\ntf(w,d) = \\frac{\\text{number of word w in document d}}{\\text{total word in document}}\n$$\n\n* tf đo lường tỉ trọng tần suất từ w có trong document d.Vì document thường có lenght khác nhau nên để normalization ta chia nó cho number word trong document d.\n  \n$$\nidf = tf* \\frac{N}{\\text{documnet in word w appear}}\n$$\n\n* N là tổng số document trong dataset.Tỉ số $\\frac{N}{\\text{documnet in word w appear}}$  được xem là inverse document frequency. Nếu một từ xuất hiện nhiều ở các document thì tỉ số này sẽ gần 1.Và ngược lại một từ ít xuất hiện hơn tỉ số này sẽ cao hơn 1. Điều này giúp giảm tỉ trọng của những từ thường xuyên suất hiện và tăng tỉ trọng những từ ít xuất hiện trong document hơn (lưu ý N luôn lớn hơn hoặc bằng documnet in word w appear).\n* Một vấn đề là khi N rất lớn mà documnet in word w appear  rất nhỏ thì tỉ số này rất lơn cho nên là người dùng log transform để giảm giá trị tỉ số  $\\frac{N}{documnet in word w appear}$ ránh gây khó khăn trong việc tính toán ( lưu ý log nó làm giảm giá trị theo cấp lũy thừa). Khi đó công thức idf cuối cùng sẽ là :\n  \n$$\nidf = tf* log(\\frac{N}{\\text{documnet in word w appear}})\n$$\n\n* Ví dụ : Một document 100 word chứa word cat 3 lần.$tf = \\frac{3}{100} = 0.03$ . Giả sử có 10000 document mà word cat xuất hiện trong 1000 document. $idf(cat) = 0.03* log(\\frac{10000}{1000}) = 0.06$.\n*  Ta bắt đầu xử lý dữ liệu. Đầu tiên là load dữ liệu\n```python\n#import library\nimport numpy as np\nimport pandas as pd\nfrom pyvi import ViTokenizer\nimport glob\nfrom collections import Counter\nfrom string import punctuation\n#load data\npaths = glob.glob(\"./comment/*.txt\")\ncomments = []\nfor path in paths :\n  with open(path,encoding=\"utf-8\") as file:\n      text= file.read()\n      text_lower = text.lower()\n      text_token = ViTokenizer.tokenize(text_lower)\n      comments.append(text_token)\n  file.close()\n```\nDữ liệu sẽ được tách từ bằng ViTokenizer.tokenize sau đó được lưu dưới biến comment.\n```python\nstop_word = []\nwith open(\"stop_word.txt\",encoding=\"utf-8\") as f :\n  text = f.read()\n  for word in text.split() :\n      stop_word.append(word)\n  f.close()\n punc = list(punctuation)\nstop_word = stop_word + punc\nprint(stop_word)\n```\nTiếp theo là xây dựng stop_word và punctuation\n<!-- ![](https://images.viblo.asia/15136ee2-802b-4526-a8ac-b1ede543a4bf.jpg)\n -->\n<center>\n   <img width=\"500\" height=\"300\" src=\"https://images.viblo.asia/15136ee2-802b-4526-a8ac-b1ede543a4bf.jpg\" />\n</center>\n\n```python\nsentences = []\nfor comment in comments:\n  sent = []\n  for word in comment.split(\" \") :\n          if (word not in stop_word) :\n              if (\"_\" in word) or (word.isalpha() == True):\n                  sent.append(word)\n  sentences.append(\" \".join(sent)) \n```\nLàm sạch data loại bỏ stop_word , những từ không phải alphabet được remove\nTiếp theo ta embedding text thành vector sử dụng if-idf với function TfidfVectorizer trong `sklearn'\n```python\nfrom sklearn.feature_extraction.text import TfidfVectorizer\ntf = TfidfVectorizer(min_df=5,max_df= 0.8,max_features=3000,sublinear_tf=True)\ntf.fit(sentences)\nX = tf.transform(sentences)\n```\nHàm TfidfVectorizer có các tham số chúng ta cần chú ý là:\n* min_df : loại bỏ những từ nào từ vocabulary có tần suất suất hiện nhỏ hơn min_df ( tính theo count)\n* max_df \" loại bỏ những từ nào từ vocabulary có tần suất xuất hiện lớn hơn max_df ( tính theo %)\n* sublinear_tf: Scale term frequency bằng logarithmic scale\n* stop_words loại bỏ stop word, chúng ta đã làm trước đó nên không cần tham số này\n* max_features lựa chọn số character vào vocabulary\n* vocabulary nếu chúng ta đã xây dựng vocabulury trước đó thì không cần max_features\n* token_pattern là regular expression để chọn word vào vocabulary\n\nXử lý label : ta sẽ đưa ra một threshold để quyết định 1 comment là pos hay neg. Ta chọn threshold là 6, khi score < 6 thì comment được xem là neg và ngược lại là pos\n```python\nfrom sklearn.preprocessing import Binarizer\nbinaray = Binarizer(threshold=6)\ny = binaray.fit_transform(y_score)\ny = np.array(y).flatten()\n```\nNhận xét dữ liệu của chúng ta là không tốt lắm vì số neg = 691 trên tổng số comment là 6000. Như vậy chỉ có 10% là neg khi đó dữ liệu sẽ unbalance . Cũng dễ hiểu vì đa số quán ăn trên trang tripnow.vn là ngon hoặc là foody.vn thuê người comment chẳng hạn. Vì cả 2 label neg và pos có thể xem là quan trọng như nhau. không có biến nào trội hơn nên model của chúng ta trên data này có lẽ sẽ không tốt. Hơn nữa score này chỉ mang tính chất tượng trưng nên không dám chắc nó là tiêu chí phân loại neg và pos tốt.\nChia dữ liệu để training và testing tỷ lệ test là 30%\n```python\nfrom sklearn.model_selection import train_test_split\nX_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.3,random_state=10,shuffle=True)\n```\n## Build model\nTa dùng logistic regression để training model.\n```python\nmodel = LogisticRegression()\nmodel.fit(X_train,y_train)\ny_pre = model.predict(X_test)\nprint(classification_report(y_test,y_pre))\n```\n<!-- ![](https://images.viblo.asia/69381bdf-fcee-4c52-8643-b5b1792adc83.jpg) -->\n<center>\n   <img width=\"600\" height=\"300\" src=\"https://images.viblo.asia/69381bdf-fcee-4c52-8643-b5b1792adc83.jpg\" />\n</center>\n\nAccuracy là 91% nhưng recall chỉ có 23% tương đối thấp. Có nghĩa là trong 191 comment neg ta chỉ dự đoán chính xác khoảng 44 comment\nBây giờ ta thử predict một số câu.\n```python\ntext =[[\"quán nấu dở quá\"],[\"đồ ăn bình_thường\"],[\"quán nấu ngon\"]]\nfor i in text:\n  test = tf.transform(i)\n  print(model.predict(test))\n==>> [0] [1] [1]\n```\nKhông  tốt lắm ha do dữ liệu unbalance quá với lại score chưa chuẩn để phân loại\n## Funny một tí\nTa sẽ xem những từ nào được sử dụng nhiều nhất trong document và xây dựng wordcloud của nó.\n```python\nimport wordcloud\nimport matplotlib.pyplot as plt\n%matplotlib inline\ncloud = np.array(sentences).flatten()\nplt.figure(figsize=(20,10))\nword_cloud = wordcloud.WordCloud(max_words=100,background_color =\"black\",\n                               width=2000,height=1000,mode=\"RGB\").generate(str(cloud))\nplt.axis(\"off\")\nplt.imshow(word_cloud)\n```\n<!-- ![](https://images.viblo.asia/fb9394db-32ea-49dc-9580-c76103f50f32.jpg)\n -->\n\n<center>\n   <img width=\"800\" height=\"400\" src=\"https://images.viblo.asia/fb9394db-32ea-49dc-9580-c76103f50f32.jpg\" />\n</center>"
+        },
+        {
+          "id": "Nhận-dạng-chữ-số-viết-tay",
+          "metadata": {
+            "permalink": "/blog/Nhận-dạng-chữ-số-viết-tay",
+            "editUrl": "https://github.com/ThorPham/blog/2018-06-4-Nhận-dạng-chữ-số-viết-tay/index.md",
+            "source": "@site/blog/2018-06-4-Nhận-dạng-chữ-số-viết-tay/index.md",
+            "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
+            "description": "Có rất nhiều thuật toán để nhận diện chữ số viết tay (hand writen digit) như neural network,CNN với độ chính xác rất cao lên tới 99%. Nhưng cũng không nên phủ nhận các thuật toán áp dụng theo kiểu truyền thống tuy vẫn có nhiều ưu điểm là đơn giản và chi phí tính toán thâp.Trong bài viết này chúng ta cùng tìm hiểu Hog(histogram of oriented gradient) và svm( support vector machine) để nhận dạng chữ số viết tay trên bộ dữ liệu MNIST.",
+            "date": "2018-06-04T00:00:00.000Z",
+            "formattedDate": "June 4, 2018",
+            "tags": [
+              {
+                "label": "opencv",
+                "permalink": "/blog/tags/opencv"
+              },
+              {
+                "label": "sklearn",
+                "permalink": "/blog/tags/sklearn"
+              }
+            ],
+            "readingTime": 3.135,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Nhận-dạng-chữ-số-viết-tay",
+              "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
+              "authors": "thorpham",
+              "tags": [
+                "opencv",
+                "sklearn"
+              ]
+            },
+            "prevItem": {
+              "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+              "permalink": "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf"
+            },
+            "nextItem": {
+              "title": "Tìm hiểu về thư viện keras trong deep learning",
+              "permalink": "/blog/Tìm-hiểu-về-thư-viện-keras-trong-deep-learning"
+            }
+          },
+          "content": "*Có rất nhiều thuật toán để nhận diện chữ số viết tay (hand writen digit) như neural network,CNN với độ chính xác rất cao lên tới 99%. Nhưng cũng không nên phủ nhận các thuật toán áp dụng theo kiểu truyền thống tuy vẫn có nhiều ưu điểm là đơn giản và chi phí tính toán thâp.Trong bài viết này chúng ta cùng tìm hiểu Hog(histogram of oriented gradient) và svm( support vector machine) để nhận dạng chữ số viết tay trên bộ dữ liệu MNIST.*\n<!--truncate-->\nCấu trúc bài viết:\n  - Xây dựng model nhận diện digit.\n  - Predict trên ảnh có nhiều ditgit\n## Xây dựng model nhận diện digit.\nDữ liệu mà chúng ta training model là mnist. Đây có thể coi là \"hello word\" trong machine learning. Trước hết ta tìm hiểu sơ qua về dữ liệu, mnist là tập hợp các ảnh xám về digit có chiều là 28x28 bao gồm 70.000 ngàn ảnh, trong đó có 60.000 ảnh để training và 10.000 ảnh để testing. Ý tưởng của model là dùng HOG(histogram oriented of gradient) để extract feature( các bạn có thể coi các bài trước để biết thêm hog là gì). Sau khi có feature ta sẽ đưa vào model SVM để phân loại. Cuối cùng dùng opencv đế segmentation digit và dùng model chúng ta vừa build để predict. Bắt tay vào model nào.\n\nĐầu tiên load dataset và load các thư viện cần dùng:\n```py\nimport cv2\nimport numpy as np\nfrom skimage.feature import hog\nfrom sklearn.svm import LinearSVC\nfrom keras.datasets import mnist\nfrom sklearn.metrics import accuracy_score\n#load data\n(X_train,y_train),(X_test,y_test) = mnist.load_data()\n```\nTiếp theo ta sẽ tính hog. Ta dùng orientations=9,pixels_per_cell=(14,14),cells_per_block=(1,1).\n```py\n#cho x_train\nX_train_feature = []\nfor i in range(len(X_train)):\n    feature = hog(X_train[i],orientations=9,pixels_per_cell=(14,14),cells_per_block=(1,1),block_norm=\"L2\")\n    X_train_feature.append(feature)\nX_train_feature = np.array(X_train_feature,dtype = np.float32)\n\n#cho x_test\nX_test_feature = []\nfor i in range(len(X_test)):\n    feature = hog(X_test[i],orientations=9,pixels_per_cell=(14,14),cells_per_block=(1,1),block_norm=\"L2\")\n    X_test_feature.append(feature)\nX_test_feature = np.array(X_test_feature,dtype=np.float32)\n```\nTiếp theo ta build model vào predict\n```py\nmodel = LinearSVC(C=10)\nmodel.fit(X_train_feature,y_train)\ny_pre = model.predict(X_test_feature)\nprint(accuracy_score(y_test,y_pre))\n```\nAccuracy là 88% không cao lắm. Ta có thể điều chỉnh các tham số để tăng độ chính xác của model.\n## Predict trên ảnh có nhiều ditgit\nĐến bước này ta sẽ dùng opencv, đầu tiên ta sẽ xử lý ảnh và tìm contours của digit trên image.\nImage này lượm trên mạng ha.\n\n<center>\n   <img width=\"600\" height=\"200\" src={require('./digit.jpg').default} />\n</center>\n\n```py\nimage = cv2.imread(\"digit.jpg\")\nim_gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)\nim_blur = cv2.GaussianBlur(im_gray,(5,5),0)\nim,thre = cv2.threshold(im_blur,90,255,cv2.THRESH_BINARY_INV)\n_,contours,hierachy = cv2.findContours(thre,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)\nrects = [cv2.boundingRect(cnt) for cnt in contours]\n```\nGải thích code một tí hem:\n  - Đầu tiên convert color sang gray color\n  - Tiếp theo giảm nhiễu bằng Gaussian( tùy thuộc image mà ta xử lý khác nhau)\n  - Tiếp theo dùng threshold chuyển về ảnh binary\n  - Cuối cùng là tìm contour và vẽ bouding box \nSau đó predict ditgit của mỗi box.\n\n```py\nfor i in contours:\n    (x,y,w,h) = cv2.boundingRect(i)\n    cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),3)\n    roi = thre[y:y+h,x:x+w]\n    roi = np.pad(roi,(20,20),'constant',constant_values=(0,0))\n    roi = cv2.resize(roi, (28, 28), interpolation=cv2.INTER_AREA)\n    roi = cv2.dilate(roi, (3, 3))\n    \n    # Calculate the HOG features\n    roi_hog_fd = hog(roi, orientations=9, pixels_per_cell=(14, 14), cells_per_block=(1, 1),block_norm=\"L2\")\n    nbr = model.predict(np.array([roi_hog_fd], np.float32))\n    cv2.putText(image, str(int(nbr[0])), (x, y),cv2.FONT_HERSHEY_DUPLEX, 2, (0, 255, 255), 3)\n    cv2.imshow(\"image\",image)\ncv2.imwrite(\"image_pand.jpg\",image)\ncv2.waitKey()\ncv2.destroyAllWindows()\n```\n<!-- ![digit_predict](./ditgit-predict.jpg) -->\n\n<center>\n   <img width=\"600\" height=\"200\" src={require('./ditgit-predict.jpg').default} />\n</center>\n\nMột số lưu ý là : Ta nên padding cho mỗi digit một khoảng nào đó tránh trường hợp digit ko có background sẽ khó predict. Tuy thuật toán hog + svm này có độ chính xác không cao bằng các thuật toán trong deep learning nhưng nó vẫn tạm chấp nhận được.Mình viết bài này để mọi người hình dung được các bước thực hiện thuật toán và các predict khi detection multi digit.\n\nTham Khảo : \n* http://hanzratech.in/\n* https://pyimagesearch.com\n* http://learnopencv.com"
+        },
+        {
+          "id": "Tìm-hiểu-về-thư-viện-keras-trong-deep-learning",
+          "metadata": {
+            "permalink": "/blog/Tìm-hiểu-về-thư-viện-keras-trong-deep-learning",
+            "editUrl": "https://github.com/ThorPham/blog/2018-5-25-Tìm-hiểu-về-thư-viện-keras-trong-deep-learning/index.md",
+            "source": "@site/blog/2018-5-25-Tìm-hiểu-về-thư-viện-keras-trong-deep-learning/index.md",
+            "title": "Tìm hiểu về thư viện keras trong deep learning",
+            "description": "Keras là một library được phát triển vào năm 2015 bởi François Chollet, là một kỹ sư nghiên cứu deep learning tại google. Nó là một open source cho neural network được viết bởi ngôn ngữ python. keras là một API bậc cao có thể sử dụng chung với các thư viện deep learning nổi tiếng như tensorflow(được phát triển bởi gg), CNTK(được phát triển bởi microsoft),theano(người phát triển chính Yoshua Bengio). keras có một số ưu điểm như :",
+            "date": "2018-05-25T00:00:00.000Z",
+            "formattedDate": "May 25, 2018",
+            "tags": [
+              {
+                "label": "python",
+                "permalink": "/blog/tags/python"
+              },
+              {
+                "label": "Keras",
+                "permalink": "/blog/tags/keras"
+              }
+            ],
+            "readingTime": 9.31,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Tìm-hiểu-về-thư-viện-keras-trong-deep-learning",
+              "title": "Tìm hiểu về thư viện keras trong deep learning",
+              "authors": "thorpham",
+              "tags": [
+                "python",
+                "Keras"
+              ]
+            },
+            "prevItem": {
+              "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
+              "permalink": "/blog/Nhận-dạng-chữ-số-viết-tay"
+            },
+            "nextItem": {
+              "title": "Feature extraction trong computer vision",
+              "permalink": "/blog/Feature-extraction-trong-computer-vision"
+            }
+          },
+          "content": "Keras là một library được phát triển vào năm 2015 bởi François Chollet, là một kỹ sư nghiên cứu deep learning tại google. Nó là một open source cho neural network được viết bởi ngôn ngữ python. keras là một API bậc cao có thể sử dụng chung với các thư viện deep learning nổi tiếng như tensorflow(được phát triển bởi gg), CNTK(được phát triển bởi microsoft),theano(người phát triển chính Yoshua Bengio). keras có một số ưu điểm như :\n* Dễ sử dụng,xây dựng model nhanh.\n* Có thể run trên cả cpu và gpu\n* Hỗ trợ xây dựng CNN , RNN và có thể kết hợp cả 2.*\n<!--truncate-->\n## Cách cài đặt :\nTrước khi cài đặt keras bạn phải cài đặt một trong số các thư viện sau tensorflow,CNTK,theano. Sau đó bạn có thể cài đặt bằng 1 số lệnh sau đối với window:\n* pip install keras\n* conda install keras\n  \n## Tìm hiểu cấu trúc của Keras\nCấu trúc của keras chúng ta có thể chia ra thành 3 phần chính :\n<!-- ![keras0](/assets/images/keras0.jpg) -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./keras0.jpg').default} />\n</center>\n\n### Đầu tiền là các module dùng để xây dựng bộ xương cho model :\n   \n<!-- ![keras1](/assets/images/keras1.jpg) -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./keras1.jpg').default} />\n</center>\n\nĐầu tiên ta tìm hiểu sub-module : Models trong keras. Để khởi tạo một model trong keras ta có thể dùng 2 cách:\n1. Cách 1 : Thông qua  Sequential như ví dụ dưới. Chúng ta khởi tạo model bằng `Sequential` sau đó dùng method add để thêm các layer.\n```py\nimport numpy as np\nfrom keras.models import Sequential,Model\n\nmodel = Sequential()\nmodel.add(Conv2D(32, kernel_size=(3, 3),\n                 activation='relu',\n                 input_shape=input_shape))\nmodel.add(Flatten())\nmodel.add(Dense(128, activation='relu'))\nmodel.add(Dense(num_classes, activation='softmax'))\n\nmodel.compile(loss=keras.losses.categorical_crossentropy,\n              optimizer=keras.optimizers.Adadelta(),\n              metrics=['accuracy'])\n\nmodel.fit(x_train, y_train,\n          batch_size=batch_size,\n          epochs=epochs,\n          verbose=1,\n          validation_data=(x_test, y_test))\n```\n\n2. Cách thứ 2 để khởi tạo model là dùng function API . Như ví dụ dưới\n```py\nfrom keras.models import Model\nfrom keras.layers import Input, Dense\n\na = Input(shape=(32,))\nb = Dense(32)(a)\nmodel = Model(inputs=a, outputs=b)\n```\n\n* Nó cũng tương tự như computation graph, chúng ta xem input cũng là một layer sau đó build từ input tới output sau đó kết hợp lại bằng hàm  `Model`. Ưu điểm của phương pháp này có thể tùy biến nhiều hơn,giúp ta xây dựng các model phức tạp nhiều input và output.\n* Khi chúng ta khởi tạo một model thì có các method ta cần lưu ý là :\n* `compile` : Sau khi build model xong thì compile nó có tác dụng biên tập lại toàn bộ model của chúng ta đã build. Ở đây chúng ta có thể chọn các tham số để training model như : thuật toán training thông qua tham số `optimizer`, function loss của model chúng ta có thể sử dụng mặc định hoặc tự build thông qua tham số `loss`, chọn metrics hiện thị khi model được training\n* `summary` method này giúp chúng ta tổng hợp lại model xem model có bao nhiêu layer, tổng số tham số bao nhiêu,shape của mỗi layer..\n* `fit` dùng để đưa data vào training để tìm tham số model(tương tự như sklearn)\n* `predict` dùng để predict các new instance\n* `evaluate` để tính toán độ chính xác của model\n* `history` dùng để xem accuracy,loss qua từng epochs . Thường dùng với matplotlib để vẽ chart.\n  \nTiếp theo chúng ta tìm hiểu đên sub-module Layers : Nó chứa các layers chuyên dụng để ta build các model như CNN,RNN,GANs..Có rất nhiều layers nên ta chỉ quan tâm đến một số layer thường sử dụng.\n<!-- ![keras2](/assets/images/keras2.jpg) -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./keras2.jpg').default} />\n</center>\n\nCore layer : chứa các layer mà hầu như model nào cũng sử dụng đến nó.\n* `Dense` layer này sử dụng như một layer neural network bình thường. Các tham số quan tâm.\n  * `units` chiều output\n  * `activation` dùng để chọn activation.\n  * `input_dim` chiều input nếu là layer đầu tiên\n  * `use_bias` có sử dụng bias ko,true or false\n  * `kernel_initializer` khởi tạo giá trị đầu cho tham số trong layer trừ bias\n  * `bias_initializer` khởi tạo giá trị đầu cho bias\n  * `kernel_regularizer` regularizer cho coeff\n  * `bias_regularizer` regularizer cho bias\n  * `activity_regularizer` có sử dụng regularizer cho output ko\n  * `kernel_constraint`,`bias_constraint` có ràng buộc về weight ko\n* `Activation` dùng để chọn activation trong layer(có thể dùng tham số activation thay thế).Xem phần sau.\n* `Dropout` layer này dùng như regularization cho các layer hạn chế overfiting. Tham số cần chú ý :\n  * `rate` tỉ lệ dropout\n  * `noise_shape` cái này chưa tìm hiểu\n  * `seed` random seed bình thường\n* `Flatten` dùng để lát phằng layer để fully connection, vd : shape : 20x20 qua layer này sẽ là 400x1\n* `Input` layer này sử dụng input như 1 layer như vd trước ta đã nói.\n* `Reshape` giống như tên gọi của nó, dùng để reshape\n* `Lambda` dùng như lambda trong python thôi ha\n* Convolutional Layers: chứa các layer trong mạng nơ ron tích chập . `Conv1D`,`Conv2D` là convolution layer dùng để lấy feature từ image. tham số cần chú ý:\n  * `filters` số filter của convolution layer\n  * `kernel_size` size window search trên image\n  * `strides` bước nhảy mỗi window search\n  * `padding` same là dùng padding,valid là ko\n  * `data_format` format channel ở đầu hay cuối\n* `UpSampling1D`,`UpSampling2D` Ngược lại với convolution layer\n  * `size` vd (2,2) có nghĩa mỗi pixel ban đầu sẽ thành 4 pixel\n  * `ZeroPadding1D`,`ZeroPadding2D` dùng để padding trên image.\n  * `padding` số pixel padding \n* Pooling Layers : Chứa các layer dùng trong mạng CNN.\n  * `MaxPooling1D`,`MaxPooling2D` dùng để lấy feature nổi bật(dùng max) và giúp giảm parameter khi training\n  * `pool_size` size pooling\n  * `AveragePooling1D`,`AveragePooling2D` giống như maxpooling nhưng dùng Average\n* `GlobalMaxPooling1D`,`GlobalMaxPooling2D` chưa dùng bao giờ nên chưa hiểu nó làm gì\n* Recurrent Layers chứa các layers dùng trong mạng RNN\n  * `RNN` layer RNN cơ bản\n  * `GRU` khắc phục hạn chế RNN tránh vanish gradient.\n  * `LSTM` Long Short-Term Memory layer\n* Embedding layer : `Embedding` dùng trong nhiều trong nlp mục đích embbding sang một không gian mới có chiều nhỏ hơn, và dc learning from data thay cho one-hot lad hard code.\n  * `input_dim` size của vocabulary\n  * `output_dim` size của word embbding\n  * `input_length` chiều dài mỗi sequence\n* Merge Layers chứa các layers giúp chúng ta cộng,trừ,hoặc nối các layer như các vector vậy :\n  * `Add` cộng các layers\n  * `Subtract`trừ các layers\n  * `Multiply`nhân các layer\n  * `Average` tính trung bình các layers\n  * `Maximum` lấy maximun giữa các layers\n  * `Concatenate` nối các layer\n* `Dot` Nhân matrix giữ 2 layers\nOwn Keras layers : Giúp chúng ta có thể xây dựng layer như theo ý muốn, gồm 3 method chúng ta cần chú ý là `build`,`call` và `compute_output_shape`\n  \n```py\nfrom keras import backend as K\nfrom keras.engine.topology import Layer\nimport numpy as np\n\nclass MyLayer(Layer):\n\n    def __init__(self, output_dim, **kwargs):\n        self.output_dim = output_dim\n        super(MyLayer, self).__init__(**kwargs)\n\n    def build(self, input_shape):\n        # Create a trainable weight variable for this layer.\n        self.kernel = self.add_weight(name='kernel', \n                                      shape=(input_shape[1], self.output_dim),\n                                      initializer='uniform',\n                                      trainable=True)\n        super(MyLayer, self).build(input_shape)  # Be sure to call this at the end\n\n    def call(self, x):\n        return K.dot(x, self.kernel)\n\n    def compute_output_shape(self, input_shape):\n        return (input_shape[0], self.output_dim)\n```\n\n### Tiếp theo chúng ta tìm hiểu đến tiền xử lý dữ liệu trong keras, nó được chia ra làm 3 phần :\n* `Sequence Preprocessing` tiền xử lý chuỗi .\n    * `TimeseriesGenerator` cái này dùng để tạo dữ liệu cho time series\n    * `pad_sequences` dùng để padding giúp các chuỗi có độ dài bằng nhau\n    * `skipgrams` tạo data trong model skip gram,kết quả trả về 2 tuple nếu word xuất hiện cùng nhau là 1 nếu ko là 0.\n* `Text Preprocessing` tiền xử lý text\n    * `Tokenizer` giống kỹ thuật tokenizer trong nlp, tạo tokenizer từ documment\n    * `one_hot` tạo data dạng one hot encoding\n    * `text_to_word_sequence` covert text thành sequence\n* `Image Preprocessing` tiền xử lý image\n    * `ImageDataGenerator` tạo thêm data bằng cách scale,rotation...\n    \n### Các function trong bộ xương của model\nCác hàm `loss functions` thường dùng :\n* `mean_squared_error` thường dùng trong regression tính theo eculic\n* `mean_absolute_error` tính theo trị tuyệt đối\n* `categorical_crossentropy` dùng trong classifier nhiều class\n* `binary_crossentropy` dùng trong classifier 2 class\n* `kullback_leibler_divergence` dùng để tính loss giữa phân phối thực tế và thực nghiệm\n  \n`metrics` nó là thước đo để ta đánh giá accuracy của model :\n* `binary_accuracy` nếu y_true==y_pre thì trả về 1 ngược lại 0,dùng cho 2 class\n* `categorical_accuracy` tương tự binary_accuracy nhưng cho nhiều class\n  \n`optimizers` dùng để chọn thuật toán training.\n* `SGD` Stochastic gradient descent optimizer\n* `RMSprop` RMSProp optimizer\n* `Adam` Adam optimizer\n  \n`activations` để chọn activation function \n* `linear` như trong linear regression\n* `softmax` dùng trong multi classifier\n* `relu` max(0,x) dùng trong các layer cnn,rnn để giảm chi phí tính toán\n* `tanh` range (-1,1)\n* `Sigmoid` range (0,1) dùng nhiều trong binary class\n  \nCallbacks : khi model chúng ta lớn có khi training thì gặp sự cố ta muốn lưu lại model để chạy lại thì callback giúp t làm điều này :\n* `ModelCheckpoint` lưu lại model sau mỗi epoch\n* `EarlyStopping` stop training khi training ko cải thiện model\n* `ReduceLROnPlateau` giảm learning mỗi khi metrics ko được cải thiện\n  \nDatasets. Keras hỗ trợ một số dataset theo công thức :\n* `cifar100` gồm 50,000 32x32 color training images, labeled over 100 categories, and 10,000 test images.\n* `mnist` data 70k image data hand written.\n* `fashion_mnist` Dataset of 70k 28x28 grayscale images of 10 fashion categories\n* `imdb` 25,000 movies reviews from IMDB, label đánh theo pos/neg\n* `reuters` 11,228 newswires from Reuters, labeled over 46 topics\n* `boston_housing` data giá nhà ở boston theo 13 features\n  \n```py\nfrom keras.datasets import name_data\n(X_train,X_test),(y_train,y_test) = name_data.load_data()\n```\n`Applications` chứa các pre-training weight của các model deep learning nổi tiếng.`Xception`,`VGG16`,`VGG19`,`resnet50`,`inceptionv3`,\n`InceptionResNetV2`,`MobileNet`,`DenseNet`,`NASNet` cẩu trúc chung như sau :\n* `preprocess_input` dùng để preprocessing input custom same với input của pretraining\n* `decode_predictions` dùng để xem label predict\n```py\nfrom keras.applications.name_pre_train import Name_pre_train\nfrom keras.applications.name_pre_train import preprocess_input, decode_predictions\nmodel = Name_pre_train(weights='tên dataset')\n```\n\n`backends` banckend có nghĩa là thay vì keras xây dựng từ đầu các công thức từ đơn giản đến phức tạp, thì nó dùng những thư viện đã xây dựng sẵn rồi và dùng thôi. Giúp tiết kiệm dc thời gian và chí phí. Trong keras có hỗ trợ 3 backend là tensorflow,theano và CNTK.\n`initializers` khởi tạo giá trị  weight của coeff và bias trước khi training lần lượt `kernel_initializer` and `bias_initializer`. mặc định là `glorot_uniform` phân phối uniform với giá trị 1/căn(input+output).\n`regularizers` Dùng để phạt những coeff nào tác động quá mạnh vào mỗi layer thường dùng là L1 và L2\n`constraints` dùng để thiết lập các điều kiện ràng buộc khi training\n`visualization` giúp chúng ta plot lại cấu trúc mạng neral network.\n`Utils` chứa các function cần thiết giúp ta xử lý data nhanh hơn.\n`normalize` chuẩn hóa data theo L2\n`plot_model` giúp chúng ta plot model \n`to_categorical` covert class sang binary class matrix"
+        },
+        {
+          "id": "Feature-extraction-trong-computer-vision",
+          "metadata": {
+            "permalink": "/blog/Feature-extraction-trong-computer-vision",
+            "editUrl": "https://github.com/ThorPham/blog/2018-4-22-Feature-extraction-trong-computer-vision/index.md",
+            "source": "@site/blog/2018-4-22-Feature-extraction-trong-computer-vision/index.md",
+            "title": "Feature extraction trong computer vision",
+            "description": "Như chúng ta đã biết Feature engineering là quá trình chúng ta thực hiện trích xuất và trích chọn các đặc trưng(thuộc tính) quan trọng từ dữ liệu thô để sử dụng làm đại diện cho các mẫu dữ liệu huấn luyện.Vì vậy trong một tập dataset không phải dữ liệu nào cũng quan trọng, không phải đặc trưng nào cũng dễ nhận biết. Chính vì thế đối với mỗi loại dữ liệu sẽ có những đặc trưng riêng , trong bài viết này ta cùng tìm hiểu 2 đặc trưng quan trọng trong CV truyền thống",
+            "date": "2018-04-22T00:00:00.000Z",
+            "formattedDate": "April 22, 2018",
+            "tags": [
+              {
+                "label": "Feature extraction",
+                "permalink": "/blog/tags/feature-extraction"
+              },
+              {
+                "label": "computer vision",
+                "permalink": "/blog/tags/computer-vision"
+              }
+            ],
+            "readingTime": 3.705,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Feature-extraction-trong-computer-vision",
+              "title": "Feature extraction trong computer vision",
+              "authors": "thorpham",
+              "tags": [
+                "Feature extraction",
+                "computer vision"
+              ]
+            },
+            "prevItem": {
+              "title": "Tìm hiểu về thư viện keras trong deep learning",
+              "permalink": "/blog/Tìm-hiểu-về-thư-viện-keras-trong-deep-learning"
+            },
+            "nextItem": {
+              "title": "Drowsiness detection với Dlib và OpenCV",
+              "permalink": "/blog/Drowsiness-detection"
+            }
+          },
+          "content": "*Như chúng ta đã biết Feature engineering là quá trình chúng ta thực hiện trích xuất và trích chọn các đặc trưng(thuộc tính) quan trọng từ dữ liệu thô để sử dụng làm đại diện cho các mẫu dữ liệu huấn luyện.Vì vậy trong một tập dataset không phải dữ liệu nào cũng quan trọng, không phải đặc trưng nào cũng dễ nhận biết. Chính vì thế đối với mỗi loại dữ liệu sẽ có những đặc trưng riêng , trong bài viết này ta cùng tìm hiểu 2 đặc trưng quan trọng trong CV truyền thống*\n<!--truncate-->\nNội dung bài viết :\n1. Local binary pattern\n2. Histogram Oriented of Gradient\n\n## Local binary pattern\n* Local binary pattern nó là một thuật toán mô tả texture(cầu trúc) của một image. Ý tưởng cơ bản của nó là mô phỏng lại cấu trúc cục bộ\n(local texture) của image bằng cách so sánh mỗi pixel với các pixel lân cận nó(neighbors).Ta sẽ đặt một pixel là trung tâm(center) và so sánh\nvới các pixel lân cận với nó, nếu pixel trung tâm lớn hơn hoặc bằng pixel lân cận thì nó sẽ trả về giá trị 1, ngược lại 0. Ví dụ chúng ta\nlấy bán kính 8 pixel lân cận thì lbp sẽ có dạng 11001111, là một chuỗi nhị phân để đơn giản và dễ đọc hơn ta sẽ chuyển về dạng decimal 207.\n\n<!-- ![LBP](./lbp.jpg) -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./lbp.jpg').default} />\n</center>\n\n* Cách tính này có hạn chế đó là chỉ giới hạn 3x3 pixel không đủ để mô tả các cấu trúc large scale nên người ta mở rộng khái niệm LBP bằng cách định nghĩa thêm 2 tham số là (P,R) trong đó P là số pixel lân cận xem xét  và R là bán kính ta quét từ pixel trung tâm. Như hình bên dưới.\n\n<!-- ![LBP2](./lbp2.jpg) -->\n <center>\n   <img width=\"600\" height=\"300\" src={require('./lbp2.jpg').default} />\n</center>\n* Công thức LBP như sau :\n\n$$\nLBP_{r,p} = \\sum_{n=0}^{p-1}S(X_{r,p,n}-X_{p})2^{n}\n$$\n\n trong đó :\n \n $$ \n S(x) =  \\begin{cases}\n  1, & \\text{if } x >= 1, \\\\\n  0, & \\text{otherwise}.\n\\end{cases}\n $$\n* Code trong python với skimage\n\n```py\nimport numpy as np\nfrom skimage import io\nfrom skimage.feature import local_binary_pattern\nfrom matplotlib import pyplot as plt\n%matplotlib inline\n\nim = io.imread(\"image.png\",as_grey=True)\nlbp = local_binary_pattern(im,8,1,method=\"uniform\")\nplt.figure(figsize=(25,25))\nplt.subplot(1,3,1)\nplt.imshow(im,cmap=\"gray\")\nplt.subplot(1,3,2)\nplt.imshow(lbp,cmap=\"gray\")\n```\n\n% ![lbp3](./lbp3.jpg)\n <center>\n   <img width=\"600\" height=\"300\" src={require('./lbp3.jpg').default} />\n</center>\n\n## Histogram Oriented of Gradient \n\nHistogram Oriented of Gradient (Hog) là một feature descriptor thường được dùng trong object recognition. Như chúng ta đã biết trong\nimage processing thì khái niệm đạo hàm rất quan trọng. Nó là cơ sở của rất nhiều thuật toán như edge,coner detection. Dựa vào đặc điểm này người ta mới xây dựng nó làm feature trên cơ sở derivative. Đạo hàm của image là một matrix theo ox và oy nó có 2 đặc trưng là độ lớn(magnitude) và hướng(direction). Để làm feature trên image thì không thể để 2 đại lượng này rời rạc được nên người ta mới nghĩ ra phương pháp chuẩn hóa nó (quantization) đó là đưa nó về dạng histogram của magnitude theo direction.Bây giờ ta tìm hiểu các bước tính toán ra hog.\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./hog.jpg').default} />\n</center>\n\nCác bước tính hog cụ thể. Xét trên 1 cell như trong ảnh là 8x8:\n1. Tính đạo hàm của image theo x,y\n$$\n\\begin{align*}\n\\nabla f(x, y)\n= \\begin{bmatrix}\n  g_x \\\\\n  g_y\n\\end{bmatrix}\n= \\begin{bmatrix}\n  \\frac{\\partial f}{\\partial x} \\\\[6pt]\n  \\frac{\\partial f}{\\partial y}\n\\end{bmatrix}\n= \\begin{bmatrix}\n  f(x, y+1) - f(x, y-1)\\\\\n  f(x+1, y) - f(x-1, y)\n\\end{bmatrix}\n\\end{align*}\n$$\n2. Tính magitude $g = \\sqrt{ g_x^2 + g_y^2 }$ và direction $\\theta = \\arctan{(g_y / g_x)}$\n3. Chia magitude theo 9 bins( có hướng theo direction từ 0-180 mỗi bin 20)\n4. Lưu ý trên 1 block 16x16 thì để tránh ảnh hưởng của độ sáng tối ảnh hưởng tới image người ta sẽ chuẩn hóa gradient(Normalizing Gradient Vectors). Vì như chúng ta biết khi chuẩn hóa cộng hoặc trừ 1 đại lượng trên image sẽ ko làm thay đổi gradient.\n5. \nẢnh minh họa cách đưa magitude vào bin theo direction  \n\n <center>\n   <img width=\"600\" height=\"300\" src=\"https://www.learnopencv.com/wp-content/uploads/2016/12/hog-histogram-1.png\" />\n</center>\n\n  \n\nCode trong python : Ta có thể dùng opencv hoặc skimage để tính hog :\n  * Trong opencv: `cv2.HOGDescriptor` với các tham số win_size,block_size,block_stride,cell_size,num_bín\n  * Trong skimage : `fucntion hog` với các tham số orientations, pixels_per_cell,cells_per_block"
+        },
+        {
+          "id": "Drowsiness-detection",
+          "metadata": {
+            "permalink": "/blog/Drowsiness-detection",
+            "editUrl": "https://github.com/ThorPham/blog/2018-4-21-Drowsiness-detection /index.mdx",
+            "source": "@site/blog/2018-4-21-Drowsiness-detection /index.mdx",
+            "title": "Drowsiness detection với Dlib và OpenCV",
+            "description": "*Bài trước chúng ta đã tìm hiểu về facial landmark. Trong bài này chúng ta sẽ ứng dụng facial landmark vào Drowsiness detection. Drowness detection",
+            "date": "2018-04-21T00:00:00.000Z",
+            "formattedDate": "April 21, 2018",
+            "tags": [
+              {
+                "label": "opencv",
+                "permalink": "/blog/tags/opencv"
+              },
+              {
+                "label": "python",
+                "permalink": "/blog/tags/python"
+              },
+              {
+                "label": "Dlib",
+                "permalink": "/blog/tags/dlib"
+              }
+            ],
+            "readingTime": 3.83,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Drowsiness-detection",
+              "title": "Drowsiness detection với Dlib và OpenCV",
+              "authors": "thorpham",
+              "tags": [
+                "opencv",
+                "python",
+                "Dlib"
+              ]
+            },
+            "prevItem": {
+              "title": "Feature extraction trong computer vision",
+              "permalink": "/blog/Feature-extraction-trong-computer-vision"
+            },
+            "nextItem": {
+              "title": "Tìm hiểu eigenFace trong face recognite",
+              "permalink": "/blog/Tìm-hiểu-eigenFace-trong-face-recognite"
+            }
+          },
+          "content": "*Bài trước chúng ta đã tìm hiểu về facial landmark. Trong bài này chúng ta sẽ ứng dụng facial landmark vào Drowsiness detection. Drowness detection\ndùng để xác định trạng thái ngủ gật hay không dựa vào facial landmark của eye. Thường được cái tài xế xử dụng khi điều khiển phương tiện giao\nthông để hạn chế tai nạn.*\n<!--truncate-->\nCấu trúc của bài :\n  * Tìm hiểu ý tưởng.\n  * Xây dựng model.\n  * Test model\n  \n## Tìm hiểu ý tưởng\nÝ tưởng cũng rất đơn giản thôi, là chúng ta sẽ dựa vào facial landmark của eyes để xác định được tỉ lệ nào đó như một ngưỡng để xem xét\nmắt đang nhắm hay mở.Trong paper **Real-Time Eye Blink Detection using Facial Landmarks** của **Tereza Soukupova** và **Jan ´ Cech** đã\ntìm ra được một công thức giải quyết vấn đề này có tên gọi là eye aspect ratio(EAR).Chúng ta cùng tìm hiểu qua về công thức này.\n\n$$\nEAR =  \\frac{||p_{2} - p_{6}|| + ||p_{3} - p_{5}||}{||p_{1} - p_{4}||}\n$$\n\nTrong đó $p_{i}$ là lankmark point của eye, ký hiệu $||$ là khoảng cách euclide.\n  \n<p align=\"center\">\n  <img width=\"600\" height=\"300\" src={require('./drowness1.jpg').default}/>\n</p>\n\nĐồ thị EAR,trong đó p1,p2,p3,p4,p5,p6 là landmark point của eye(lưu ý ta sẽ ký hiệu bắt đầu bằng 0 thay vì bằng 1 trong model).Biểu đồ bên dưới là đồ thị của EAR . Khi mà eye ta thấy là EAR sẽ nằm dưới threshold 0.15 và bình thường của nó sẽ lớn hơn 0.25. \nĐó là ý tưởng của bài toán.Ở đây có 1 số lưu ý là :\n   * Có 2 eye nên ta sẽ lấy trung bình của 2 eye để lấy EAR\n   * Để tránh trường hợp nháy mắt hay hay detection sai ta sẽ cho EAR một khoảng thời gian đủ lâu để xác nhận là drowsiness.\n   * Threshold sẽ do ta chọn theo ý muốn ta ta thấy hợp lý.\n\n## Xây dựng model\nTrước hết ta xây dựng các hàm helper .\nĐầu tiên là hàm chuyển landmark point thành array . Vì mặc định nó rất khó xài.\n```py\ndef landmark_transform(landmarks):\n    land_mark_array = []\n    for i in landmarks:\n        land_mark_array.append([int(i.x),int(i.y)])\n    return np.array(land_mark_array)\n```\nTiếp theo là hàm tính EAR.\n```py\ndef calculate_distance(eye):\n    assert len(eye)== 6\n    p0,p1,p2,p3,p4,p5 = eye\n    distance_p1_p5 = np.sqrt((p1[0]-p5[0])**2 + (p1[1]-p5[1])**2)\n    distance_p2_p4 = np.sqrt((p2[0]-p4[0])**2 + (p2[1]-p4[1])**2)\n    distance_p0_p3 = np.sqrt((p0[0]-p3[0])**2 + (p0[1]-p3[1])**2)\n    EAR = (distance_p1_p5 + distance_p2_p4)/(2*distance_p0_p3)\n    return EAR\n```\nTiếp theo là hàm vẽ contours cho eye để tiện theo dõi. Chúng ta dùng `convexhull` để xấp xỉ hình elip giống với eye.\n```py\ndef draw_contours(image,cnt):\n    hull = cv2.convexHull(cnt)\n    cv2.drawContours(image,[hull],-1,(0,255,0),2)\n```\nCuối cùng là hàm **alarm** (thông báo) khi drowsiness được phát hiện\n```py\ndef sound_alarm():\n    playsound.playsound(\"sound.mp3\")\n```\nBây giờ ta gộp các function helper đã tạo thành một model hoàn chỉnh.\n\n```py\npath = \"shape_predictor_68_face_landmarks.dat\"\ndetector = dlib.get_frontal_face_detector()\npredict_landmark = dlib.shape_predictor(path)\n\ncap = cv2.VideoCapture(0)\ntotal=0\nalarm = False\nwhile cap.isOpened() == True :\n    ret,frame = cap.read()\n    frame_gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)\n    rects = detector(frame_gray,1)\n    if len(rects) > 0 :\n        for i in rects:\n            cv2.rectangle(frame,(i.left(),i.top()),(i.right(),i.bottom()),(0,255,0),2)\n            land_mark = predict_landmark(frame_gray,i)\n            left_eye = landmark_transform(land_mark.parts()[36:42])\n            right_eye = landmark_transform(land_mark.parts()[42:48])\n            draw_contours(frame,left_eye)\n            draw_contours(frame,right_eye)\n            EAR_left,EAR_right = calculate_distance(left_eye),calculate_distance(right_eye)\n            ear = np.round((EAR_left+EAR_right)/2,2)\n            cv2.putText(frame, \"EAR :\" + str(ear) ,(200, 100),cv2.FONT_HERSHEY_SIMPLEX, 1.7, (0, 255, 0), 2)\n            if ear > 0.25 :\n                total=0\n                alarm=False\n                cv2.putText(frame, \"Eyes Open \", (10, 30),cv2.FONT_HERSHEY_SIMPLEX, 1.2, (0,255, 0 ), 2)\n            else:\n                total+=1\n                print(total)\n                if total>10:\n                    if not alarm:\n                        sound_alarm()\n                        cv2.putText(frame, \"drowsiness detect\" ,(10, 30),cv2.FONT_HERSHEY_SIMPLEX, 1.2, (0, 255, 0), 2)\n    cv2.imshow(\"image\", frame)\n    if cv2.waitKey(1) & 0xFF == ord('q'):\n        cv2.destroyAllWindows()\n        cap.release()\n        break               \n```\n\nGiải thích code một tí .( lưu ý các tham số do mình chọn các bạn có thể điều chỉnh theo ý mình).\n  * Ta sẽ không nhắc lại cách tìm facial landmark với faced detection với Dlib( bạn đọc có thể xem lại ở bài trước)\n  * Các thông số ta đặt trong model : threshold của EAR là 0.25(nhỏ hơn sẽ xem là close eye)\n  * Point landmark của eye: left_eye : 37-42,right_eye : 43-49\n  * Ta sẽ đếm số lần eye close nếu nó vượt quá 10 thì sẽ có \"alarm\" qua biến là `total`\n  * `detector` và `predict_landmark` dùng để detection face và landmark\n  * Nếu `detector` thấy face thì ta sẽ tính` EAR_left` và `EAR_right` sau đó tính trung bình được `ear`\n  * Cuối cùng xem xét điều kiện nếu total >10 thì sẽ `alarm`\n\n## Test model\nTa sẽ test thử model. Vì máy mình cũ và webcame rất tối nên nhiều khi bị lag hoặc đứng hình.\n[https://www.youtube.com/watch?v=oROrBeClnec]\n<div class=\"x-frame video\" data-video=\"https://www.youtube.com/watch?v=oROrBeClnec\"> </div>\n\nTham Khảo :\n* http://hanzratech.in/\n* https://pyimagesearch.com\n* https://learnopencv.com"
+        },
+        {
+          "id": "Tìm-hiểu-eigenFace-trong-face-recognite",
+          "metadata": {
+            "permalink": "/blog/Tìm-hiểu-eigenFace-trong-face-recognite",
+            "editUrl": "https://github.com/ThorPham/blog/2018-4-19-Tìm-hiểu-eigenFace-trong-face-recognite/index.md",
+            "source": "@site/blog/2018-4-19-Tìm-hiểu-eigenFace-trong-face-recognite/index.md",
+            "title": "Tìm hiểu eigenFace trong face recognite",
+            "description": "*Có bao giờ bạn vào facebook rồi một ngày nọ có một thông báo hiện lên bạn được tag trong một bước ảnh nào đó. Đã bao giờ bạn nghĩ làm sao",
+            "date": "2018-04-19T00:00:00.000Z",
+            "formattedDate": "April 19, 2018",
+            "tags": [
+              {
+                "label": "python",
+                "permalink": "/blog/tags/python"
+              },
+              {
+                "label": "Face recognition",
+                "permalink": "/blog/tags/face-recognition"
+              }
+            ],
+            "readingTime": 5.665,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Tìm-hiểu-eigenFace-trong-face-recognite",
+              "title": "Tìm hiểu eigenFace trong face recognite",
+              "authors": "thorpham",
+              "tags": [
+                "python",
+                "Face recognition"
+              ]
+            },
+            "prevItem": {
+              "title": "Drowsiness detection với Dlib và OpenCV",
+              "permalink": "/blog/Drowsiness-detection"
+            },
+            "nextItem": {
+              "title": "Tìm hiểu regression trong object detection",
+              "permalink": "/blog/Tìm-hiểu-regression-trong-object-detection"
+            }
+          },
+          "content": "*Có bao giờ bạn vào facebook rồi một ngày nọ có một thông báo hiện lên bạn được tag trong một bước ảnh nào đó. Đã bao giờ bạn nghĩ làm sao \nfacebook nhận diện ra mặt bạn, mình cũng không biết nữa vì tất cả thuật toán của nó là điều bí mật. Tuy vậy vẫn có nhiều phương pháp nhận \ndiện giương mặt đơn giản mà ta có thể thử. Bài này ta sẽ tìm hiểu về eigenface và cùng một model đơn giản với Opencv. Eigenface lấy ý tưởng đằng sau từ PCA, chắc cũng đã có nhiều người biết đến phương pháp này. PCA là một phương pháp giảm chiều dữ liệu, khi mà dữ liệu có chiều lớn mà chúng ta chỉ có thể visualize ở chiều nhỏ hơn 3 thì PCA sẽ là một phương pháp giúp ta đữa data về một không gian mới(ta gọi là PCA space) mà vẫn cố giữ lại được thông tin nhiều nhất có thể trên data.*\n<!--truncate-->\nNội dung bài viết : \n1. Tìm hiểu về PCA\n2. Tìm hiểu EigenFace\n3. Build model\n\n## 1. Tìm hiểu về PCA\nPCA là một trong những phương pháp giảm chiều dữ liệu ( Dimensionality reduction techniques ) phổ biến nhất và được sử dụng trong nhiều lĩnh vực khác nhau. PCA có nhiều ứng dụng như tìm mối tương quan giữa các biến ( relationship between observation), trích xuất những thông\ntin quan trọng từ data,phát hiện và loại bỏ outlier và giảm chiều chiều dữ liệu.Ý tưởng của phương pháp PCA là tìm ra một không gian mới\nđể chiếu(project) data sao cho variation giữ lại là nhiều nhất. Ta có thể hình dung qua hình vẽ dưới đây.\n\n<!-- ![pca1](/assets/images/pca1.jpg) -->\n<center>\n   <img width=\"600\" height=\"300\" src={require('./pca1.jpg').default} />\n</center>\nCó 2 phương pháp tiếp cận PCA là covarian matrix và SVD chúng ta chỉ tìm hiểu về covarian matrix trong bài này .\nPhương pháp Covarian matrix : Các bước thực hiện thuật toán như sau :\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./pca.jpg').default} />\n</center>\n\n* X data có chiều MxN ( với N là số sample ,M là số feature).\n* Tính mean của X :\n$$\n\\mu = \\frac{1}{N}\\cdot\\sum_{i=1}^{N}x_{i}\n$$\n* Trừ X với mean của X :\n$$\nD = \\{d_{1},d_{2},..,d_{N}\\} = \\sum_{i=1}^{N}x_{i} - \\mu\n$$\n* Tính toán covarian :\n\n $$\n \\sum = \\frac{1}{N-1}\\cdot D\\cdot D^{T}\n $$\n\n* Tính toán EigenVector **V** và EigenValue $\\lambda$ của Covarian $\\sum$\n* Sort EigenValue tương ứng với EigenVector theo thứ tự $\\lambda$ giảm dần .\n* Chọn những EigenVector tương ứng với EigenValue lớn nhất $ W = \\{v_{1},v_{2},..v_{k}\\} $ . EigenVector W sẽ làm đại diện để project X vào PCA space\n* Tất cả sample X sẽ được project vào không gian nhỏ hơn theo công thưc $Y = W^{T}\\cdot D$\n\nLưu ý về dimension cái biến :\n\n <center>\n   <img width=\"600\" height=\"300\" src={require('./dimension.jpg').default} />\n</center>\n\nXây dựng PCA space :\n  * Để xây dựng không gian nhỏ hơn (từ M thành k), trong đó k là số eigen value mà ta chọn. Khi đó PCA space được định nghĩa là \n  $ W = \\{v_{1},v_{2},..,v_{k}\\} . Ta viết lại biến Y là project của X qua W như sau :\n  $$\n  Y = W_{T} \\cdot D = \\sum_{i=1}^{N}(x_{i} - \\mu)\n  $$\n## Tìm hiểu EigenFace \nEigenFace Hiểu một cách đơn giản là nó dung PCA là feature extraction sau đó mới đưa vào model để training. Mỗi image có chiều chẳng hạn 28x28 = 784 pixel nếu đưa hết vào model thì có một số nhược điểm sau :\n* Thời gian training lâu vì chiều dữ liệu lớn\n* Không phải tất cả các vị trí trên image đều quan trọng\nVì vậy PCA giúp ta khắc phục các nhược điểm này , nó giúp ta giảm chiều dữ liệu mà vẫn giữ lại được những thông tin quan trọng trên image.\nCác bước thực hiện thuật toán :\n* Chuẩn bị dữ liệu : Face nên được alignment và có cùng kích thước NxN sau đó chuẩn hóa bằng cách chia 255.\n* Image sau đó được Flatten thành 1xN^2 pixel, chúng ta có M image nên data sẽ có chiều MxN^2\n* Sau đó chúng ta tính mean và tính toán covariance như ở thuật toán PCA ở trên\n* Điểm khác biệt ở đây là covarian có chiều N^2xN^2 quá lớn để tính trực tiếp eigen vector và egien value nên có 1 cái trick ở đây đó\nlà người ta sẽ tính eigen vector của MxM( vì MxM có kích thước nhỏ hơn nhiều so với N^2xN^2). Sau đó tính ngược lại cho N^2xN^2\n* Cuối cùng chọn số eigen vector để chiếu data sang không gian mới lấy nó là feature để training.\n## Build model\nChúng ta có thể tự xây dựng model hoặc dùng thư viện có sẵn trong opencv chẳng hạn.Data set bộ data 2k image 12 ca sỹ việt nam đã aligment\nCode với sklearn :\n```py\nimport numpy as np\nimport os\nimport glob\nimport cv2\n\nnames = [\"bao thy\",\"chi pu\",\"dam vinh hung\",\"dan truong\",\"ha anh tuan\",\"ho ngoc ha\",\n         \"huong tram\",\"lam truong\",\"my tam\",\"No phuoc thing\",\"son tung\",\"tuan hung\"]\nname_index = {name:index for index,name in enumerate(names)}\nindex_name = {index:name for index,name in enumerate(names)}\n\nlabel = []\ndata = []\nfor name in names :\n    paths = glob.glob(\".//\" +name +\"//*.png\")\n    for path in paths:\n        image = cv2.imread(path,0)\n        data.append(image.flatten())\n        label.append(name_index[name])\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.svm import SVC\nfrom sklearn.decomposition import RandomizedPCA\nfrom sklearn.metrics import accuracy_score\n\nmean = np.mean(data,axis=0)\ndata_normal = data-mean\npca = PCA(n_components=100,svd_solver='randomized',whiten=True)\nX = pca.fit_transform(data_normal)\n==> split data to train and test\nX_train,X_test, y_train,y_test = train_test_split(X,label,test_size=0.3,shuffle=True)\n==> build model\nsvm = SVC(C=10)\nsvm.fit(X_train,y_train)\ny_pre = svm.predict(X_test)\nprint(accuracy_score(y_test,y_pre))\n```\nAccuarcy chỉ có 62% thôi ha. Tương đối thấp vì PCA là 1 feature extraction dạng shadow learning nên feature chỉ làm việc tốt đối với\nnhững image có sự khác biệt lớn về structer and texture như chó mèo.. Còn face thì khó hơn ta có thể dùng các kỹ thuật feature của deep learning để training. Bạn có thể đọc ở bài face veritication :\n* Build với Opencv\n* Tương đối đơn giản nên mình chỉ show gợi ý thôi :\n* Đầu tiên khởi tạo model và training model như sau :\n```py\nrecognizer = cv2.face.EigenFaceRecognizer_create()\nrecognizer.train(Faces,IDs)\n```\nSau đó lưu file dưới dạng yml :`recognizer.save(\"recognier.yml\")`\nCuối cùng là recognition realtime\n```py\ncascade = cv2.CascadeClassifier(\"haarcascade_frontalface_alt.xml\")\n # Use urllib to get the image and convert into a cv2 usable format\nimage = cv2.imread(\"my_tam.png\")\nframe_gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)\ndetection = cascade.detectMultiScale(frame_gray,scaleFactor=1.3,minNeighbors=5)\nfor (x,y,w,h) in detection:\n    cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),2)\n    roi = frame_gray[y:y+h,x:x+w]\n    roi = imutils.resize(roi,width=96,height=96)\n    single = recognizer.predict(roi)[0]\n    print(index_name[single])\n    cv2.putText(image,index_name[single],(int(x),int(y-10)),cv2.FONT_HERSHEY_COMPLEX_SMALL,2,(0,0,255),2)\ncv2.imshow(\"frame\",image)\ncv2.waitKey()\ncv2.destroyAllWindows()\n```\nTham khảo : http://blog.manfredas.com/eigenfaces-tutorial/,bài giảng computer vision của thầy Mubarak"
+        },
+        {
+          "id": "Tìm-hiểu-regression-trong-object-detection",
+          "metadata": {
+            "permalink": "/blog/Tìm-hiểu-regression-trong-object-detection",
+            "editUrl": "https://github.com/ThorPham/blog/2018-4-18-Tìm-hiểu-regression-trong-object-detection/index.md",
+            "source": "@site/blog/2018-4-18-Tìm-hiểu-regression-trong-object-detection/index.md",
+            "title": "Tìm hiểu regression trong object detection",
+            "description": "*Lần đầu tiên mình đọc về thuật toán YOLO(you look only one) là trên khóa \"Convolution neural network\" của thầy Andrew Ng trên coursera.",
+            "date": "2018-04-18T00:00:00.000Z",
+            "formattedDate": "April 18, 2018",
+            "tags": [
+              {
+                "label": "python",
+                "permalink": "/blog/tags/python"
+              },
+              {
+                "label": "Object detection",
+                "permalink": "/blog/tags/object-detection"
+              }
+            ],
+            "readingTime": 5.125,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Tìm-hiểu-regression-trong-object-detection",
+              "title": "Tìm hiểu regression trong object detection",
+              "authors": "thorpham",
+              "tags": [
+                "python",
+                "Object detection"
+              ]
+            },
+            "prevItem": {
+              "title": "Tìm hiểu eigenFace trong face recognite",
+              "permalink": "/blog/Tìm-hiểu-eigenFace-trong-face-recognite"
+            },
+            "nextItem": {
+              "title": "Nhận diện pedestrian với window search",
+              "permalink": "/blog/Nhận-diện-pedestrian-với-window-search"
+            }
+          },
+          "content": "*Lần đầu tiên mình đọc về thuật toán YOLO(you look only one) là trên khóa \"Convolution neural network\" của thầy Andrew Ng trên coursera.\nCó hàng ngàn câu hỏi vì sao ở trong đầu mình hiện ra dù đi hỏi khắp nơi mà nhiều trong số đó vẫn chưa có lời giải đáp thỏa mãn mình. Trong đó có key word `Bounding-box regression`, mình suy nghĩ rất nhiều, đọc cũng kha khá bài viết trên mạng mà vẫn không hiểu nổi. Một câu hỏi cứ lởn vởn trong đầu mình là các `bouding box` trong thuật toán yolo được tạo ra như thế nào ta, trước giờ mình chỉ dùng regression để predict  các biến liên tục vậy họ áp dụng để detection bounding box ra sao. Người ta build yolo là tổng hợp của rất nhiều thuật toán tạo nên bộ xương cho yolo .Thiết nghĩ những người mới lần đầu tập tọe vào deep learning như mình thì nên chia yolo từng phần để xử lý có lẽ sẽ dễ thở hơn. Trong bài hôm nay mình sẽ làm rõ `bounding box` được tạo ra từ regression như thế nào bằng một ví dụ rất đơn giản.*\n<!--truncate-->\nCác bươc thực hiện :\n* Chuẩn bị dữ liệu .\n* Traing model .\n* Đánh giá model\n  \n## I.Chuẩn bị dữ liệu .\nDữ liệu `input` là những image có object mà ta muốn detection và `ouput` là những bouding box sẽ có dạng (x,y,w,h). Trong đó x,y là tọa độ leftop của bounding box, (w,h) là width và height. Chúng ta sẽ mô phỏng dữ liệu như sau :\n```py\nnp.random.seed(10)\nnumber_data = 5000\nimg_size = 8\nmin_size_obj = 1\nmax_size_obj = 4\nnumber_obj = 1\n# x là dataset image, y là label với 4 tham số(x,y,w.h)\nbboxes = np.zeros((5000,1,4))\nimage = np.zeros((5000,img_size,img_size))\nfor i in range(5000):\n    for obj in range(number_obj):\n        w,h = np.random.randint(min_size_obj,max_size_obj,size = 2)\n        x = np.random.randint(0,img_size-w)\n        y = np.random.randint(0,img_size-h)\n        bboxes[i,obj,:] = (x,y,w,h)\n        image[i,y:y+h,x:x+w] = 1\n```\nGiải thích một tí :\n* Ta sẽ tạo 5000 image có size (8,8) `image = np.zeros((5000,img_size,img_size))`. Image sẽ có background là white\n* 5000 `bounding box` có size từ w,h từ 1-4 và có màu đen\n* Mỗi image chỉ có duy nhất 1 object\nImage sau khi tạo sẽ như thế này :\n```py\nplt.figure(figsize=(15,15))\nplt.axis(\"off\")\nfor i in range(4):\n    plt.subplot(1,4,i+1)\n    plt.imshow(image[i],cmap=\"Greys\",interpolation='none', origin='lower', extent=[0, img_size, 0, img_size])\n    for bbox in bboxes[i]:\n        plt.gca().add_patch(matplotlib.patches.Rectangle((bbox[0], bbox[1]), bbox[2], bbox[3], ec='r', fc='none'))\n```\n![bounding_box](./bounding.jpg)\nCái chúng ta cần predict là đường viền màu đỏ. Image sẽ có dimension là (5000, 8, 8) ,bounding box có dimension là (5000, 1, 4).\nChúng ta sẽ dùng một mạng neural network đơn giản để training với library keras. Ở đây người ta gọi `Bounding-box regression` trong khi dùng neural network training, rất nhiều người lầm tưởng là dùng `simple regression`. Hãy mở rộng khái niệm `regression` ra một tí, nó là bài toán predict khi output là biến liên tục. Vì bounding box ở đây (x,y,w,h) là bốn biến liên tục nên ta gọi là bài toán regression.\nĐầu tiên chúng ta sẽ reshape các biến trước khi đưa vào model. Cũng có thể normalizer trước khi training để thuật toán hội tụ nhanh hơn. Nhưng do ảnh kích thước nhỏ và là binary nên không cần thiết . Sau đó chia dữ liệu thành training và testing với test_size = 0.3\n\n```py\nfrom sklearn.model_selection import train_test_split\nX = image.reshape((5000,-1))\ny = bboxes.reshape((5000,-1))\nX_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.3,random_state=10)\n```\n\n* X sẽ có chiều là (5000,64) \n* y có chiều là (5000,4)\n## II.Build model.\n\n```py\nfrom keras.models import Sequential\nfrom keras.layers import Dense,Dropout,Activation\n\nmodel = Sequential()\nmodel.add(Dense(300,input_dim =64))\nmodel.add(Dense(100))\nmodel.add(Dropout(0.2))\nmodel.add(Activation(\"relu\"))\nmodel.add(Dense(4))\nmodel.compile(optimizer=\"adadelta\",loss=\"mse\")\nmodel.summary()\n```\n\n* Ta dùng 2 layers : layer 1 là 300 node,layer 2 là 100 node với activation là `relu`.Cuối cùng là một layer `dropout` với tỉ lệ 20%\n* Optimizer bằng `adadelta` và loss là `mean square error`.\n  \n<!-- ![summary](./summary.jpg) -->\n<center>\n   <img width=\"600\" height=\"300\" src={require('./summary.jpg').default} />\n</center>\n\n## III.Traing model\n\n```py\nmodel.fit(X_train,y_train,epochs=50,batch_size=200)\ny_predict = model.predict(X_test)\n```\n* Training model với 50 epochs và batch size mỗi epochs là 200. Máy chạy cpu tầm chưa đến 1p\n* Sau đó predict test data dưới variable y_predict\n  \n<!-- ![training](./training.jpg)\n -->\n<center>\n   <img width=\"600\" height=\"300\" src={require('./training.jpg').default} />\n</center>\n\n\n## Đánh giá model\nNhìn vào hình vẽ đầu tiền ta có nhận xét là : model predict tốt là khi đường viền màu đỏ và  `bounding box` nó càng sát nhau . Như vậy\nta có thể dùng cái này để đánh giá model. Ta đã quen với khái niệm `IOU` là `Intersection over Union`. Có nghĩa là ta sẽ đánh giá model bằng tỉ lệ area overlap với area union giữa thực tế và predict. Sau đó tính mean là sẽ ra được tỉ lệ IOU của model . IOU càng cao có nghĩa model predict tốt và ngược lại.\n* Xây dựng một function tính IOU.\n```py\ndef overlaping_area(detection_1,detection_2):\n    \n    x_1 = detection_1[0]\n    y_1 = detection_1[1]\n    x_w_1 = detection_1[0] + detection_1[2]\n    y_h_1 = detection_1[1] + detection_1[3]\n    \n    x_2 = detection_2[0]\n    y_2 = detection_2[1]\n    x_w_2 = detection_2[0] + detection_2[2]\n    y_h_2 = detection_2[1] + detection_2[3]\n    # tính overlap theo ox,oy .Nếu ko giao nhau trả về 0\n    overlap_x = max(0,min(x_w_1,x_w_2) - max(x_1,x_2))\n    overlap_y = max(0,min(y_h_1,y_h_2) - max(y_1,y_2))\n    # tính area overlap\n    overlap_area = overlap_x*overlap_y\n    # tính total area hợp của 2 detection\n    total_area = detection_1[2]*detection_1[3] + detection_2[2]*detection_2[3] - overlap_area\n    \n    return np.round(overlap_area/float(total_area),3)\n```\nCài này mình đã đề cập nhiều trong bài viết trước nên không nhắc lại ở đây.\nEvaluation model bằng IOU\n```py\nX_test_image = X_test.reshape((-1,8,8))\nbbox_y = y_predict.reshape((-1,1,4))\nbbx_y_true = y_test.reshape((-1,1,4))\nplt.figure(figsize=(15,15))\nfor i in range(4):\n    iou = overlaping_area(bbox_y[i].flatten(),bbx_y_true[i].flatten())\n    plt.subplot(1,4,i+1)\n    plt.imshow(X_test_image[i],cmap=\"Greys\",interpolation='none', origin='lower', extent=[0, img_size, 0, img_size])\n    for bbox in bbox_y[i]:\n        plt.gca().add_patch(matplotlib.patches.Rectangle((bbox[0], bbox[1]), bbox[2], bbox[3], ec='r', fc='none'))\n        plt.title(\"IOU = \"+str(iou),color='blue')\n```\n![evaluation](./evaluation.jpg)\n```py\nIOU = []\nfor i in range(len(X_test)):\n    iou = overlaping_area(bbox_y[i].flatten(),bbx_y_true[i].flatten())\n    IOU.append(iou)\nnp.mean(IOU)\n```\nTa tính được mean cua IOU `0.79` tức 79% tương đối tốt, chúng ta có thể cải thiện model bằng một số cách như : normalizer data trước khi training, thay đổi số node trên mỗi layer hoặc thay đổi active fuction"
+        },
+        {
+          "id": "Nhận-diện-pedestrian-với-window-search",
+          "metadata": {
+            "permalink": "/blog/Nhận-diện-pedestrian-với-window-search",
+            "editUrl": "https://github.com/ThorPham/blog/2018-4-11-Nhận-diện -pedestrian-với-window-search/index.mdx",
+            "source": "@site/blog/2018-4-11-Nhận-diện -pedestrian-với-window-search/index.mdx",
+            "title": "Nhận diện pedestrian với window search",
+            "description": "Object regconite bao gồm 2 phần việc đó là object classifier và  object detection. Hiểu một cách đơn giản đó là nếu chúng ta muốn máy tính nhận dạng được con mèo hay con chó thì trước tiên nó sẽ phải detecter đối tượng đó trên image và sau đó xem đối tượng đó là cái gì bằng cách classifier .Với sự phát triển của deep learning như hiện nay đã có rất nhiều thuật toán giúp ta giải quyết vấn đề này như R-CNN,Fast or Faster R-CNN,YOLO hay SSD với tốc độ xử lý nhanh và độ chính xác cao. Tuy vậy những cách truyền thống vẫn là sự lựa chon tốt khi mà chúng ta có ít dữ liệu và muốn build một model nào đó đơn giản hơn những cái phức tạp hơn như deep learning. Trong bài này chúng ta sẽ nhận diện pedestrian bằng phương pháp cổ điển trong computer vision và sau đó bạn có thể tự build một model custom nào đó theo ý của bạn .Thuật toán sử dụng trong bài là HOG + SVM + Window search.",
+            "date": "2018-04-11T00:00:00.000Z",
+            "formattedDate": "April 11, 2018",
+            "tags": [
+              {
+                "label": "opencv",
+                "permalink": "/blog/tags/opencv"
+              },
+              {
+                "label": "python",
+                "permalink": "/blog/tags/python"
+              },
+              {
+                "label": "computer vision",
+                "permalink": "/blog/tags/computer-vision"
+              }
+            ],
+            "readingTime": 7.53,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Nhận-diện-pedestrian-với-window-search",
+              "title": "Nhận diện pedestrian với window search",
+              "authors": "thorpham",
+              "tags": [
+                "opencv",
+                "python",
+                "computer vision"
+              ]
+            },
+            "prevItem": {
+              "title": "Tìm hiểu regression trong object detection",
+              "permalink": "/blog/Tìm-hiểu-regression-trong-object-detection"
+            },
+            "nextItem": {
+              "title": "Tìm hiểu về Word2Vec",
+              "permalink": "/blog/Tìm-hiểu-về-Word2Vec"
+            }
+          },
+          "content": "*Object regconite bao gồm 2 phần việc đó là object classifier và  object detection. Hiểu một cách đơn giản đó là nếu chúng ta muốn máy tính nhận dạng được con mèo hay con chó thì trước tiên nó sẽ phải detecter đối tượng đó trên image và sau đó xem đối tượng đó là cái gì bằng cách classifier .Với sự phát triển của deep learning như hiện nay đã có rất nhiều thuật toán giúp ta giải quyết vấn đề này như R-CNN,Fast or Faster R-CNN,YOLO hay SSD với tốc độ xử lý nhanh và độ chính xác cao. Tuy vậy những cách truyền thống vẫn là sự lựa chon tốt khi mà chúng ta có ít dữ liệu và muốn build một model nào đó đơn giản hơn những cái phức tạp hơn như deep learning. Trong bài này chúng ta sẽ nhận diện pedestrian bằng phương pháp cổ điển trong computer vision và sau đó bạn có thể tự build một model custom nào đó theo ý của bạn .Thuật toán sử dụng trong bài là HOG + SVM + Window search.*\n<!--truncate-->\nCách bước thực hiện ta chia làm 2 giai đoạn tương ứng với classifier và detecter :\n\n**Giai đoạn 1 classifier**\n    1. Chuẩn bị dữ liệu\n    2. Trích chọn đặc trưng\n    3. Build model\n    4. Đánh giá và cải thiện model\n\n**Giai đoạn 2  Detection**\n    1. Xây dựng sliding window\n    2. Xây dựng NMS(non-maxinum-suppression)\n    3. Detecter\n## Giai đoạn 1 classifier\n\n### 1. Chuẩn bị dữ liệu\nDữ liệu chúng ta cần chuẩn bị gồm 2 phần . Một là positive sample ( gọi tắt là pos) là data pedestrian và chúng ta gắn label cho nó là 1. Thứ hai là negative sample (Neg) là dữ liệu không chứa pedestrian bạn có thể lấy như background, car, house ... và ta gắn nhãn là -1.(lưu ý nếu training trong opecv thì nhãn gắn bắt buộc là 1 và -1 ).\n```py\n# image positive\npath_pos = glob.glob(\"./pedestrians128x64/\"+\"*.ppm\")\nplt.subplots(figsize =(10,5))\nfor i in range(6):\n    image1 = io.imread(path_pos[i])\n    plt.subplot(1,6,i +1)\n    io.imshow(image1)\n# image negative\npath_neg = glob.glob(\"./pedestrians_neg/\"+\"*.jpg\")\n```\nDữ liệu của ta gồm có 924 image pos có chiều (128, 64, 3) và ta sẽ tạo (15x50) image neg có chiều (128, 64, 3).\n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./pedestian1.jpg').default} />\n</center>\n\n### 2. Trích chọn đặc trưng \nTa sẽ dùng hog để trích chọn đặc trưng\n\n```py\ndef hog_feature(image):\n    feature_hog = hog(image,orientations=9,pixels_per_cell=(8,8),\n    cells_per_block=(2,2),block_norm=\"L2\")\n    return feature_hog\n    \n#feature extraction for image pos    \nX_pos = []\ny_pos = []\nfor path in path_pos :\n    im = io.imread(path,as_grey=True)\n    im_feature = hog_feature(im)\n    X_pos.append(im_feature)\n    y_pos.append(1)\n    \n#feature extraction for image neg\nX_neg = []\ny_neg = []\nw = 64\nh = 128\nfor path in path_neg :\n    im = io.imread(path,as_grey=True)\n    for j in range(15):\n        x = np.random.randint(0,im.shape[1]-w)\n        y = np.random.randint(0,im.shape[0]-h)\n        im_crop = im[y:y+h,x:x+w]\n        im_feature = hog_feature(im_crop)\n        X_neg.append(im_feature)\n        y_neg.append(-1)\n        \n```\nĐầu tiên ta định nghĩa 1 function tính hog gồm các tham số `orientations=9,pixels_per_cell=(8,8),cells_per_block=(2,2),block_norm=\"L2\"`\nSau đó tính hog trên pos và neg sample\nCuối cùng ta stack pos và neg lại để chuẩn bị training\n```py\nX_pos = np.array(X_pos)\nX_neg = np.array(X_neg)\nX_train = np.concatenate((X_pos,X_neg))\ny_pos = np.array(y_pos)\ny_neg = np.array(y_neg)\ny_train = np.concatenate((y_pos,y_neg))\n```\nDữ liệu trining gồm có `X_traing` có shape (1674, 3780) gồm 1674 image và 3780 feature, `y_training` có shape là (1674,) gồm 2 giá trị 1 là pedestrian và -1 là non-pedestrian\n### 3. Build model\nChúng ta sẽ training model bằng thuật toán svm có trong thư viện sklearn.\n```py\nfrom sklearn.svm import LinearSVC\nfrom sklearn.metrics import classification_report\nmodel = LinearSVC(C=0.01)\nmodel.fit(X_train,y_train)\ny_predict = model.predict(X_train)\nprint(classification_report(y_train,y_predict))\n```\nKết quả như sau :\n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./confustion_matrix.jpg').default} />\n</center>\n\n### 4. Đánh giá và cải thiện model\nAmazing! kết quả accuracy = 100% . Quá cao phải ko. Nhưng đừng mừng vội vì data của chúng ta rất nhỏ và ta dùng toàn bộ data vào training mà ko chia ra data testing nên rất có thể bị overfiting. Khi đó model đưa vào hoạt động sẽ predict không tốt. Để tránh điều này\nta có thể thay đổi threshold  ( vì khi predict trên image lớn sẽ có rất nhiều non-pedestrian hơn là pedestrian).Ở trong sklearn mặc định `model.prediction` là 0.5 nên ta không thể nào thay đổi được nó. Ta chỉ có thể thay đổi qua `decision_function`\n\n```py\nfrom sklearn.metrics import precision_recall_curve\nfrom sklearn.model_selection import cross_val_predict\ny_scores = cross_val_predict(model, X_train, y_train, cv=3,\n                             method=\"decision_function\")[:,1]\nprecisions, recalls, thresholds = precision_recall_curve(y_train, y_scores)\n\ndef plot_precision_recall_vs_threshold(precisions, recalls, thresholds):\n    plt.plot(thresholds, precisions[:-1], \"b--\", label=\"Precision\")\n    plt.plot(thresholds, recalls[:-1], \"g-\", label=\"Recall\")\n    plt.xlabel(\"Threshold\")\n    plt.legend(loc=\"center left\")\n    plt.ylim([0, 1])\n\nplot_precision_recall_vs_threshold(precisions, recalls, thresholds)\n```\nTa thấy khi threshold = 0 recall = 1 , khi recall = 0.8 thì threshold tăng lên 0.7\n## Giai đoạn 2  Detecter\nBây giờ ta sẽ detecter pedestrian trên ảnh lớn.\n### 1. Xây dựng sliding window\n```py\ndef sliding_window(image,window_size,step_size):\n    for y in range(0,image.shape[0]-window_size[1],step_size[1]):\n        for x in range(0,image.shape[1]-window_size[0],step_size[0]):\n            roi = image[y:y+window_size[1],x:x+window_size[0]]\n            yield (x,y,roi)\n```\nFunction `sliding_window` có 3 para : 1 là `image` (là 1 ảnh xám), hai là `window_size` có chiều (mxn) là kích thước window trên image, cuối cùng là `step_size` có chiều (w,h) là stride theo ox,oy trên image.Giá trị trả về là vị trí (x,y) tương ứng là (top-left) và roi là slide window tương ứng.\n### 2. Xây dựng NMS(non-maxinum-suppression)\nTa chỉ giữ lại 1 window trên 1 object mà thôi nên ta sẽ dùng NMS để loại bỏ các window còn lại, giữ lại window tối ưu nhất.Đầu tiên ta cần tính area overlap giữa 2 window.\n```py\ndef overlaping_area(detection_1,detection_2):\n    #detection_1,detection_2 format [x_left_top,y_left_top,score,width,height]\n    x_1 = detection_1[0]\n    y_1 = detection_1[1]\n    x_w_1 = detection_1[0] + detection_1[3]\n    y_h_1 = detection_1[1] + detection_1[4]\n    \n    x_2 = detection_2[0]\n    y_2 = detection_2[1]\n    x_w_2 = detection_2[0] + detection_2[3]\n    y_h_2 = detection_2[1] + detection_2[4]\n    #tính overlap theo ox,oy .Nếu ko giao nhau trả về 0\n    overlap_x = max(0,min(x_w_1,x_w_2) - max(x_1,x_2))\n    overlap_y = max(0,min(y_h_1,y_h_2) - max(y_1,y_2))\n    #tính area overlap\n    overlap_area = overlap_x*overlap_y\n    #tính total area hợp của 2 detection\n    total_area = detection_1[3]*detection_1[4] + detection_2[3]*detection_2[4] - overlap_area\n    \n    return overlap_area/float(total_area)\n```\nĐây là bài toán tìm intersection giữa 2 rectangle bạn có thể search google xem cái giải quyết. Hàm overlaping_area sẽ trả về tỉ lệ overlap trên tổng area giữa 2 rectangle.\nTiếp theo chúng ta xây dựng làm NMS .\n```py\ndef nms(detections,threshold =0.4):\n    # decections format [x_left_top,y_left_top,score,width,height]\n    # nếu area overlap lớn hơn threshold thì sẽ remove detection nào có score nhỏ hơn\n    if len(detections)==0:\n        return []\n    #sort detection theo score\n    detections = sorted(detections,key = lambda detections : detections[2],reverse = True)\n    #create new detection\n    new_detections = []\n    new_detections.append(detections[0])\n    del detections[0]\n    for index,detection in enumerate(detections):\n        for new_detection in new_detections:\n            if overlaping_area(detection,new_detection)> threshold : #compare areaoverlap với threshold\n                del detections[index]\n                break\n        else :\n            new_detections.append(detection)\n            del detections[index]\n    return new_detections\n```\nÝ tưởng là chúng ta sẽ sort các detection theo score( decision_function) theo thứ tự giảm dần. Sau đó so sánh các detection với nhau, nếu area overlap hơn threshold thì ta sẽ giữ lại detection nào có score lớn hơn.\n### 3. Detecter\nĐến đây ta sẽ stack các function đã tạo lại với nhau thành một khối để detection trên ảnh lớn.\n\n```py\nimage = cv2.imread(\"pedestrian.jpg\")\nimage_test = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)\n\nwindow_size = (64,128)\nstep_size = (10,10)\ndetections = []\ndownscale=1.5\nscale = 0\nfor image_scale in pyramid_gaussian(image_test,downscale=2):\n    scale += 1\n    if image_scale.shape[0] < window_size[1] or image_scale.shape[1] < window_size[0]:\n        break\n    for (x,y,roi) in sliding_window(image_scale,window_size,step_size):\n        feature = hog_feature(roi)\n        predict = model.predict(feature.reshape((-1,3780)))\n        score = model.decision_function(feature.reshape((-1,3780)))\n        if (predict == 1) and (score>0.5):\n            detections.append([x,y,np.round(score,4),window_size[0],window_size[1]])\ndetections = nms(detections,0.5)\nfor (x,y,_,w,h) in detections :\n    cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),3)\ncv2.imshow(\"roi\",image)\ncv2.waitKey()\ncv2.destroyAllWindows()\n```\nGiải thích code 1 tí:\n  * Vì window size cố định mà object mỗi image sẽ có kích thước khác nhau nên ta sẽ dùng 1 function tạo image pyramid, trong bài ta sẽ sử dụng pyramid_gaussian với downscale = 2 , có nghĩa sau mỗi lần chạy image sẽ giảm xuống 1 nữa\n  * Để giảm bớt nhiễu ta sẽ sử dụng score > 0.25\n  * Ở đây có một nhược điểm là khi image downscale thì bounding box của ta sẽ không đổi làm cho object không được bao toàn bộ bởi bounding box mình định sẽ tăng kích thước bounding box bằng cách nhân cho nó 1 tỷ lệ bằng (downscale^scale) nhưng kết quả là bouding box quá to. Hiện giờ mình chưa tìm ra cách xử lý. Có thể xem minh họa ở hình dưới.\n\n<center>\n   <img width=\"600\" height=\"300\" src={require('./final1.jpg').default} />\n</center>\n<center>\n   <img width=\"600\" height=\"300\" src={require('./final2.jpg').default} />\n</center>  \n\n## Kết luận :\nThuật toán build model nhanh tuy nhiên có một nhược điểm là predict trên camera rất delay bởi vì ta sử dụng window search nên predict rất nhiều image dẫn đến tốn thời gian rất nhiều. Ngày nay người ta đã giải quyết được vấn đề này bằng cách sử dụng selective search có nghĩa là ko search windown toàn image nữa mà search có chọn lọc, những region proposal mà có nhiều khẳn năng có object nhất điển hình là thuật toán R-CNN.\n\nTham Khảo : \n* http://hanzratech.in/\n* https://pyimagesearch.com\n* https://learnopencv.com"
+        },
+        {
+          "id": "Tìm-hiểu-về-Word2Vec",
+          "metadata": {
+            "permalink": "/blog/Tìm-hiểu-về-Word2Vec",
+            "editUrl": "https://github.com/ThorPham/blog/2018-4-8-Tìm-hiểu-về-Word2Vec/index.md",
+            "source": "@site/blog/2018-4-8-Tìm-hiểu-về-Word2Vec/index.md",
+            "title": "Tìm hiểu về Word2Vec",
+            "description": "*Như chúng ta đã biết máy tính được cấu tạo từ những con số, do đó nó chỉ có thể đọc được dữ liệu số mà thôi. Trong natural language processing",
+            "date": "2018-04-08T00:00:00.000Z",
+            "formattedDate": "April 8, 2018",
+            "tags": [
+              {
+                "label": "NLP",
+                "permalink": "/blog/tags/nlp"
+              },
+              {
+                "label": "python",
+                "permalink": "/blog/tags/python"
+              },
+              {
+                "label": "Word2Vec",
+                "permalink": "/blog/tags/word-2-vec"
+              }
+            ],
+            "readingTime": 6.89,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Thorpham",
+                "title": "Deep learning enthusiast",
+                "url": "https://github.com/ThorPham",
+                "imageURL": "https://github.com/ThorPham.png",
+                "key": "thorpham"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Tìm-hiểu-về-Word2Vec",
+              "title": "Tìm hiểu về Word2Vec",
+              "authors": "thorpham",
+              "tags": [
+                "NLP",
+                "python",
+                "Word2Vec"
+              ]
+            },
+            "prevItem": {
+              "title": "Nhận diện pedestrian với window search",
+              "permalink": "/blog/Nhận-diện-pedestrian-với-window-search"
+            }
+          },
+          "content": "*Như chúng ta đã biết máy tính được cấu tạo từ những con số, do đó nó chỉ có thể đọc được dữ liệu số mà thôi. Trong natural language processing\nthì để xử lý dữ liệu text chúng ta cũng phải chuyển dữ liệu từ text sang numeric, tức là đưa nó vào một không gian mới người ta thường\ngọi là embbding. Trước đây người ta mã hóa theo kiểu one hot encoding tức là tạo  một vocabualary cho dữ liệu và mã hóa các word trong document\nthành những vectoc, nếu word đó có trong document thì mã hóa là 1 còn không có sẽ là 0. Kết quả tạo ra một sparse matrix, tức là matrix hầu hết \nlà 0.Các mã hóa này có nhiều nhược điểm đó là thứ nhất là số chiều của nó rất lớn (NxM, N là số document còn M là số vocabulary), thứ 2 các word\nkhông có quan hệ với nhau. Điều đó dẫn đến người ta nghĩ ra một model mới có tên là **Word embbding**, ở đó các word sẽ có quan hệ với nhau về semantic\ntức là ví dụ như paris-tokyo,man-women,boy-girl những cặp từ này sẽ có khoảng cách gần nhau hơn trong Word embbding space. Ví dụ điển hình mà ta thây\nđó là phương trình king - queen = man - women . Cái ưu điểm thứ 2 là số chiều của nó sẽ giảm chỉ còn NxD.*\n<!--truncate-->\nWord embbding có 2 model nổi tiếng là word2vec và Glove.\nWord2vec được tạo ra năm 2013 bởi một kỹ sư ở google có tên là **Tomas Mikolov**. Nó là một model unsupervised learning,được training từ large corpus . Chiều của Word2vec nhỏ hơn nhiều so với one-hot-encoding, với số chiều là NxD với N là Number of document và D là số chiều word embedding . Word2vec có 2 model là skip-gram và Cbow :\n* Skip-gram model là model predict word surrounding khi cho một từ cho trước, ví dụ như text = \"I love you so much\". Khi dùng 1 window search có size 3 ta thu được  : {(i,you),love},{(love,so),you},{(you,much),so}. Nhiệm vụ của nó là khi cho 1 từ center ví dụ là love thì phải predict các từ xung quang là i, you.\n* Cbow là viết tắt của continous bag of word . Model này ngược với model skip-gram tức là cho những từ surrounding predict word current.\n* Trong thực tế người ta chỉ chọn một trong  2 model để training, Cbow thì training nhanh hơn nhưng độ chính xác không cao bằng skip-gram và ngược lại\nGlove cũng được tạo ra năm 2013 bởi một nhóm nghiên cứu ở stanford. Nó dựa trên word-count base model. Nó dùng kỹ thuật matrix factorization để đưa matrix ban đầu về các matrix nhỏ hơn tương tự như model ở recommend system. Mình chưa nghiên cứu model này có gì nó nói lại sau qua các bài viết khác.\n\nCấu trúc bài:\n  * Math of Word2vec \n  * Build model from scratch.\n## Math of Word2vec\nTrong bài này ta chỉ tìm hiểu model Skip-gram model. Cbow là model ngược lại. Skip-gram model có cấu trúc như hình vẽ dưới đây.\n\n<center>\n   <img width=\"600\" height=\"200\" src={require('./word2vec1.jpg').default} />\n</center>\n\n* Input là one-hot-vector mỗi word sẽ có dạng ${x_{1},x_{2},..x_{v}}$ trong đó V là số vocabulary, là một vector trong đó mỗi word sẽ có\ngiá trị 1 tương đương với index trong vocabulary và còn lại sẽ là 0.\n* Weight matrix giữa input và hidden layer là matrix W(có dimention VxN) có active function là linear, weight giữa hidden và out put là $W^{'}$ (có dimention là NxV) active function của out put là soft max.\n* Mỗi row của W là vector N chiều đại diện cho $v_{w}$ là mỗi word trong input layer. Mỗi row của W là $v_{w}^{T}$ . Lưu ý là input là 1 one hot vector (sẽ có dạng 000100) chỉ có 1 phần tử bằng 1 nên.\n\n$$\nh = W^{T}x = v_{w}^{T}\n$$\n\n* Từ hidden layer đến out put là matrix $W^{'} = {w_{i,j}^{'}}$ . Ta tính score $u_{i}$ cho mỗi word trong vocabulary.\n\n$$\nu_{j} = v_{w_{j}}^{'}h\n$$ \n\n* Trong đó $v_{w_{j}}$ là vector colum j trong $W^{'}$. Tiếp đó ta sử dụng soft max funtion.\n\n$$ \nP(w_{j}|w_{I}) = y_{i} = \\frac{exp(u_{j})}{\\sum_{j^{'}=1}^{V}exp(u_{j^{'}})} = = \\frac{exp(v^{'T}_{w_{j}}v_{w_{I}})}{\\sum_{j^{'}=1}^{V}exp(v^{'T}_{w_{j^{'}}}v_{w_{I}})}\n$$\n\n* Trong đó $v_{w}$ và $v_{w^{'}}$ là 2 vector đại diện cho word w đên từ matrix W và $W^{'}$ .\n* Người ta dùng maximum likehood với gradient descent để giải quyết bài toán này nhưng vì vocabulary lớn nên tính toán mẫu số nó tính trên toàn bộ vocabulary nên chi phí tính toán lớn nên người ta dùng 2 phương pháp giải quyết là Hierarchical Softmax hoặc Negative Sampling chi tiết trong paper \"word2vec Parameter Learning Explained\" của Xin Rong\n## Build model from scratch.\n* Model bằng math chắc chi tiết đến mấy cũng không bằng một ví dụ thực tế. Nói thật toán mình rất kém nên mình hay tìm đọc các ví dụ trực quan rồi suy ngược lại công thức toán học.\n* Chúng ta sẽ xây dựng model skip-gram đơn giản như sau : Giả sử ta có đoạn text : \"He is the king . The king is royal . She is the royal  queen\" các bước sẽ là :\n  * Làm sạch dữ liệu , lower và bỏ dấu chấm\n  * Xây dựng vocabulary và 2 cái dictionary , 1 cái để tìm index theo word cái còn lại thì ngược lại\n  * Tiếp theo xây dựng dữ liệu training, dùng 1 window search để stride trên text, dữ liệu sẽ có dạng  (he,is),(he,the)..\n  * Mã hóa dữ liệu về numeric dựa vào 2 cái dictionary vừa tạo\n  * Traing model\n  * Tìm matrix word embbding vào vẽ đồ thị minh họa.\n* Đầu tiên chúng ta làm sạch dữ liệu và xây dựng vocabulary . {'queen', 'he', 'royal', 'is', 'king', 'the', 'she'}\n* Tiếp theo là 2 dictionary \n  * word theo index là {'queen': 0, 'he': 1, 'royal': 2, 'is': 3, 'king': 4, 'the': 5, 'she': 6}\n  * Index theo word thì ngược lại : {0: 'queen', 1: 'he', 2: 'royal', 3: 'is', 4: 'king', 5: 'the', 6: 'she'}\n  * Tiếp theo xây dựng data training sẽ có dạng :(he,is),(he,the)... trong đó cái đầu sẽ là input, cái sau sẽ là out put\n  * mã hóa nó về numeric : sẽ có dạng sau :input : [ 0.,  0.,  0.,  1.,  0.,  0.,  0.] , ouput : [ 1.,  0.,  0.,  0.,  0.,  0.,  0.]\n  lưu ý size vocabulary là 7\n  * Ta sẽ training model : Vì vocabualary này nhỏ nên ta dùng gradient descent training loss softmax minimum luôn.\n```python\nimport numpy as np\nimport tensorflow as tf\n\ncorpus_raw =\"He is the king . The king is royal . She is the royal  queen\"\n#Convert to lower case\ncorpus_raw = corpus_raw.lower()\n\nwords = []\nfor word in corpus_raw.split():\n    if word != \".\": #we need remove \".\"\n        words.append(word)\nwords = set(words) #We create dictionary so remove duplicate word\n\nword2int = {}\nint2word = {}\nvocab_size = len(words)\nfor i,word in enumerate(words):\n    word2int[word] = i\n    int2word[i] = word\n#Raw sentence as list \nraw_sentence = corpus_raw.split(\".\")\nsentences = []\nfor sentence in raw_sentence:\n    sentences.append(sentence.split())\n#Generate training data\ndata = []\nWindow_size = 2\nfor sentence in sentences :\n    for word_index,word in enumerate(sentence):\n        for nb_word in sentence[max(word_index - Window_size,0): min(word_index+ Window_size,len(sentence)) +1 ]:\n            if nb_word != word :\n                data.append([word,nb_word]) \n #function to convert numbers to one hot vectors\ndef to_one_hot(data_point_index, vocab_size):\n    temp = np.zeros(vocab_size)\n    temp[data_point_index] = 1\n    \nx_train = [] #input word\ny_train = [] #output word\nfor data_word in data:\n    x_train.append(to_one_hot(word2int[ data_word[0] ], vocab_size))\n    y_train.append(to_one_hot(word2int[ data_word[1] ], vocab_size))\n  \n\nx_train = np.asarray(x_train)\ny_train = np.asarray(y_train)\n    return temp  \n    \n#placeholder\nX = tf.placeholder(tf.float32,[None,7])\nY = tf.placeholder(tf.float32,[None,7])\n#variable hiden 1\nW1 = tf.Variable(tf.random_normal([7,5]))\nb1 = tf.Variable(tf.constant(0.1,shape =[5]))\nhiden_1 = tf.matmul(X,W1) + b1\n#variable hiden 2\nW2 = tf.Variable(tf.random_normal([5,7]))\nb2 = tf.Variable(tf.constant(0.1,shape = [7]))\nhiden_2 = tf.matmul(hiden_1,W2) + b2\n#loss function\ncross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels = Y,logits=hiden_2))\n#optimizer\noptimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01).minimize(cross_entropy)\n#initializer\ninit = tf.global_variables_initializer()\nsess = tf.Session()\nsess.run(init)\nfor i in range(1000):\n    sess.run(optimizer,feed_dict={X:x_train,Y:y_train})\npredict = tf.equal(tf.arg_max(hiden_2,1),tf.arg_max(Y,1))\naccuracy = tf.reduce_mean(tf.cast(predict,tf.float32))\n```"
         }
       ],
       "blogListPaginated": [
         {
           "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
+            "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+            "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet",
+            "Object-detection-từ-R-CNN-đến-Faster-R-CNN",
+            "Sentiment-Analysis-sử-dụng-Tf-Idf",
+            "Nhận-dạng-chữ-số-viết-tay",
+            "Tìm-hiểu-về-thư-viện-keras-trong-deep-learning",
+            "Feature-extraction-trong-computer-vision",
+            "Drowsiness-detection",
+            "Tìm-hiểu-eigenFace-trong-face-recognite",
+            "Tìm-hiểu-regression-trong-object-detection"
           ],
           "metadata": {
             "permalink": "/blog",
             "page": 1,
             "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 4,
+            "totalPages": 2,
+            "totalCount": 12,
             "previousPage": null,
+            "nextPage": "/blog/page/2",
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        },
+        {
+          "items": [
+            "Nhận-diện-pedestrian-với-window-search",
+            "Tìm-hiểu-về-Word2Vec"
+          ],
+          "metadata": {
+            "permalink": "/blog/page/2",
+            "page": 2,
+            "postsPerPage": 10,
+            "totalPages": 2,
+            "totalCount": 12,
+            "previousPage": "/blog",
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
@@ -548,19 +991,106 @@
         }
       ],
       "blogTags": {
-        "/blog/tags/facebook": {
-          "name": "facebook",
+        "/blog/tags/nlp": {
+          "name": "NLP",
           "items": [
-            "welcome"
+            "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+            "Sentiment-Analysis-sử-dụng-Tf-Idf",
+            "Tìm-hiểu-về-Word2Vec"
           ],
-          "permalink": "/blog/tags/facebook",
+          "permalink": "/blog/tags/nlp",
           "pages": [
             {
               "items": [
-                "welcome"
+                "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+                "Sentiment-Analysis-sử-dụng-Tf-Idf",
+                "Tìm-hiểu-về-Word2Vec"
               ],
               "metadata": {
-                "permalink": "/blog/tags/facebook",
+                "permalink": "/blog/tags/nlp",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 3,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/cnn": {
+          "name": "CNN",
+          "items": [
+            "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+            "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet",
+            "Object-detection-từ-R-CNN-đến-Faster-R-CNN"
+          ],
+          "permalink": "/blog/tags/cnn",
+          "pages": [
+            {
+              "items": [
+                "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+                "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet",
+                "Object-detection-từ-R-CNN-đến-Faster-R-CNN"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/cnn",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 3,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/computer-vision": {
+          "name": "Computer vision",
+          "items": [
+            "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+            "Feature-extraction-trong-computer-vision",
+            "Nhận-diện-pedestrian-với-window-search"
+          ],
+          "permalink": "/blog/tags/computer-vision",
+          "pages": [
+            {
+              "items": [
+                "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
+                "Feature-extraction-trong-computer-vision",
+                "Nhận-diện-pedestrian-với-window-search"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/computer-vision",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 3,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/graph": {
+          "name": "graph",
+          "items": [
+            "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin"
+          ],
+          "permalink": "/blog/tags/graph",
+          "pages": [
+            {
+              "items": [
+                "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/graph",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -573,21 +1103,46 @@
             }
           ]
         },
-        "/blog/tags/hello": {
-          "name": "hello",
+        "/blog/tags/deep-learning": {
+          "name": "Deep learning",
           "items": [
-            "welcome",
-            "long-blog-post"
+            "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet"
           ],
-          "permalink": "/blog/tags/hello",
+          "permalink": "/blog/tags/deep-learning",
           "pages": [
             {
               "items": [
-                "welcome",
-                "long-blog-post"
+                "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet"
               ],
               "metadata": {
-                "permalink": "/blog/tags/hello",
+                "permalink": "/blog/tags/deep-learning",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/object-detection": {
+          "name": "Object detection",
+          "items": [
+            "Object-detection-từ-R-CNN-đến-Faster-R-CNN",
+            "Tìm-hiểu-regression-trong-object-detection"
+          ],
+          "permalink": "/blog/tags/object-detection",
+          "pages": [
+            {
+              "items": [
+                "Object-detection-từ-R-CNN-đến-Faster-R-CNN",
+                "Tìm-hiểu-regression-trong-object-detection"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/object-detection",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -600,29 +1155,35 @@
             }
           ]
         },
-        "/blog/tags/docusaurus": {
-          "name": "docusaurus",
+        "/blog/tags/python": {
+          "name": "python",
           "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
+            "Sentiment-Analysis-sử-dụng-Tf-Idf",
+            "Tìm-hiểu-về-thư-viện-keras-trong-deep-learning",
+            "Drowsiness-detection",
+            "Tìm-hiểu-eigenFace-trong-face-recognite",
+            "Tìm-hiểu-regression-trong-object-detection",
+            "Nhận-diện-pedestrian-với-window-search",
+            "Tìm-hiểu-về-Word2Vec"
           ],
-          "permalink": "/blog/tags/docusaurus",
+          "permalink": "/blog/tags/python",
           "pages": [
             {
               "items": [
-                "welcome",
-                "mdx-blog-post",
-                "long-blog-post",
-                "first-blog-post"
+                "Sentiment-Analysis-sử-dụng-Tf-Idf",
+                "Tìm-hiểu-về-thư-viện-keras-trong-deep-learning",
+                "Drowsiness-detection",
+                "Tìm-hiểu-eigenFace-trong-face-recognite",
+                "Tìm-hiểu-regression-trong-object-detection",
+                "Nhận-diện-pedestrian-với-window-search",
+                "Tìm-hiểu-về-Word2Vec"
               ],
               "metadata": {
-                "permalink": "/blog/tags/docusaurus",
+                "permalink": "/blog/tags/python",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 4,
+                "totalCount": 7,
                 "previousPage": null,
                 "nextPage": null,
                 "blogDescription": "Blog",
@@ -631,19 +1192,175 @@
             }
           ]
         },
-        "/blog/tags/hola": {
-          "name": "hola",
+        "/blog/tags/sklearn": {
+          "name": "sklearn",
           "items": [
-            "first-blog-post"
+            "Sentiment-Analysis-sử-dụng-Tf-Idf",
+            "Nhận-dạng-chữ-số-viết-tay"
           ],
-          "permalink": "/blog/tags/hola",
+          "permalink": "/blog/tags/sklearn",
           "pages": [
             {
               "items": [
-                "first-blog-post"
+                "Sentiment-Analysis-sử-dụng-Tf-Idf",
+                "Nhận-dạng-chữ-số-viết-tay"
               ],
               "metadata": {
-                "permalink": "/blog/tags/hola",
+                "permalink": "/blog/tags/sklearn",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/opencv": {
+          "name": "opencv",
+          "items": [
+            "Nhận-dạng-chữ-số-viết-tay",
+            "Drowsiness-detection",
+            "Nhận-diện-pedestrian-với-window-search"
+          ],
+          "permalink": "/blog/tags/opencv",
+          "pages": [
+            {
+              "items": [
+                "Nhận-dạng-chữ-số-viết-tay",
+                "Drowsiness-detection",
+                "Nhận-diện-pedestrian-với-window-search"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/opencv",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 3,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/keras": {
+          "name": "Keras",
+          "items": [
+            "Tìm-hiểu-về-thư-viện-keras-trong-deep-learning"
+          ],
+          "permalink": "/blog/tags/keras",
+          "pages": [
+            {
+              "items": [
+                "Tìm-hiểu-về-thư-viện-keras-trong-deep-learning"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/keras",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/feature-extraction": {
+          "name": "Feature extraction",
+          "items": [
+            "Feature-extraction-trong-computer-vision"
+          ],
+          "permalink": "/blog/tags/feature-extraction",
+          "pages": [
+            {
+              "items": [
+                "Feature-extraction-trong-computer-vision"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/feature-extraction",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/dlib": {
+          "name": "Dlib",
+          "items": [
+            "Drowsiness-detection"
+          ],
+          "permalink": "/blog/tags/dlib",
+          "pages": [
+            {
+              "items": [
+                "Drowsiness-detection"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/dlib",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/face-recognition": {
+          "name": "Face recognition",
+          "items": [
+            "Tìm-hiểu-eigenFace-trong-face-recognite"
+          ],
+          "permalink": "/blog/tags/face-recognition",
+          "pages": [
+            {
+              "items": [
+                "Tìm-hiểu-eigenFace-trong-face-recognite"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/face-recognition",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "previousPage": null,
+                "nextPage": null,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/word-2-vec": {
+          "name": "Word2Vec",
+          "items": [
+            "Tìm-hiểu-về-Word2Vec"
+          ],
+          "permalink": "/blog/tags/word-2-vec",
+          "pages": [
+            {
+              "items": [
+                "Tìm-hiểu-về-Word2Vec"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/word-2-vec",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -662,6 +1379,11 @@
   },
   "docusaurus-plugin-content-pages": {
     "default": [
+      {
+        "type": "jsx",
+        "permalink": "/archive",
+        "source": "@site/src/pages/archive.js"
+      },
       {
         "type": "jsx",
         "permalink": "/",
@@ -684,11 +1406,6 @@
         "title": "My Markdown page",
         "description": "This is a Markdown page",
         "frontMatter": {}
-      },
-      {
-        "type": "jsx",
-        "permalink": "/my-page",
-        "source": "@site/src/pages/my-page.js"
       }
     ]
   },

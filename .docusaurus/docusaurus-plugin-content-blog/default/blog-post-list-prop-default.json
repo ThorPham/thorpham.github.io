@@ -2,20 +2,24 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/blog/welcome"
+      "title": "Hướng tiếp cận Graph convolution network cho bài toán rút trích thông tin từ hóa đơn",
+      "permalink": "/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin"
     },
     {
-      "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post"
+      "title": "Quá trình phát triển của CNN từ LeNet đến DenseNet.",
+      "permalink": "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet"
     },
     {
-      "title": "This is the summary of a very long blog post,This is the summary of a very long blog post,",
-      "permalink": "/blog/long-blog-post"
+      "title": "Object detection từ R-CNN đến Faster R-CNN",
+      "permalink": "/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN"
     },
     {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post"
+      "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
+      "permalink": "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf"
+    },
+    {
+      "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
+      "permalink": "/blog/Nhận-dạng-chữ-số-viết-tay"
     }
   ]
 }

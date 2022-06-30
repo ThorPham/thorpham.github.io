@@ -20,26 +20,28 @@
   font-style: normal
 }
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #8e44ad;
+  --ifm-color-primary-dark: #803d9c;
+  --ifm-color-primary-darker: #793a93;
+  --ifm-color-primary-darkest: #633079;
+  --ifm-color-primary-light: #9a4fba;
+  --ifm-color-primary-lighter: #9f58bd;
+  --ifm-color-primary-lightest: #ae72c7;
+  --ifm-background-color:#f7fff7;
   --ifm-code-font-size: 95%;
   --ifm-font-family-base: "GT Walsheim Pro";
+  --ifm-font-size-base : 1.2rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #8e44ad;
+  --ifm-color-primary-dark: #803d9c;
+  --ifm-color-primary-darker: #793a93;
+  --ifm-color-primary-darkest: #633079;
+  --ifm-color-primary-light: #9a4fba;
+  --ifm-color-primary-lighter: #9f58bd;
+  --ifm-color-primary-lightest: #ae72c7;
   --ifm-font-family-base: "GT Walsheim Pro";
 }
 
@@ -53,3 +55,23 @@
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+
+@media screen and (min-width: 1440px) {
+  :root {
+    --ifm-container-width-xl : 98vw;
+  }
+  article header h1 {
+    font-size: 1.5rem !important;
+  }
+  article  h1 {
+    font-size: 1.5rem !important;
+  }
+  article header h2 a {
+    font-size: 2rem !important;
+  }
+  .hero .hero__title {
+    font-size: 2.5rem;
+  }
+}
+

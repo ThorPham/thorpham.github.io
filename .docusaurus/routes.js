@@ -4,8 +4,13 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/archive',
+    component: ComponentCreator('/archive','031'),
+    exact: true
+  },
+  {
     path: '/blog',
-    component: ComponentCreator('/blog','520'),
+    component: ComponentCreator('/blog','e74'),
     exact: true
   },
   {
@@ -14,18 +19,48 @@ export default [
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post','6c7'),
+    path: '/blog/Drowsiness-detection',
+    component: ComponentCreator('/blog/Drowsiness-detection','5ef'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post','f06'),
+    path: '/blog/Feature-extraction-trong-computer-vision',
+    component: ComponentCreator('/blog/Feature-extraction-trong-computer-vision','c7c'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post','bee'),
+    path: '/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin',
+    component: ComponentCreator('/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin','a2c'),
+    exact: true
+  },
+  {
+    path: '/blog/Nhận-dạng-chữ-số-viết-tay',
+    component: ComponentCreator('/blog/Nhận-dạng-chữ-số-viết-tay','b73'),
+    exact: true
+  },
+  {
+    path: '/blog/Nhận-diện-pedestrian-với-window-search',
+    component: ComponentCreator('/blog/Nhận-diện-pedestrian-với-window-search','7a9'),
+    exact: true
+  },
+  {
+    path: '/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN',
+    component: ComponentCreator('/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN','3a2'),
+    exact: true
+  },
+  {
+    path: '/blog/page/2',
+    component: ComponentCreator('/blog/page/2','5b0'),
+    exact: true
+  },
+  {
+    path: '/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet',
+    component: ComponentCreator('/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet','d53'),
+    exact: true
+  },
+  {
+    path: '/blog/Sentiment-Analysis-sử-dụng-Tf-Idf',
+    component: ComponentCreator('/blog/Sentiment-Analysis-sử-dụng-Tf-Idf','7ee'),
     exact: true
   },
   {
@@ -34,28 +69,93 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus','a87'),
+    path: '/blog/tags/cnn',
+    component: ComponentCreator('/blog/tags/cnn','8b5'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook','d62'),
+    path: '/blog/tags/computer-vision',
+    component: ComponentCreator('/blog/tags/computer-vision','def'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello','d09'),
+    path: '/blog/tags/deep-learning',
+    component: ComponentCreator('/blog/tags/deep-learning','fe5'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola','192'),
+    path: '/blog/tags/dlib',
+    component: ComponentCreator('/blog/tags/dlib','f08'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome','bfa'),
+    path: '/blog/tags/face-recognition',
+    component: ComponentCreator('/blog/tags/face-recognition','26a'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/feature-extraction',
+    component: ComponentCreator('/blog/tags/feature-extraction','426'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/graph',
+    component: ComponentCreator('/blog/tags/graph','3d4'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/keras',
+    component: ComponentCreator('/blog/tags/keras','861'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/nlp',
+    component: ComponentCreator('/blog/tags/nlp','bbf'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/object-detection',
+    component: ComponentCreator('/blog/tags/object-detection','cee'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/opencv',
+    component: ComponentCreator('/blog/tags/opencv','c66'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/python',
+    component: ComponentCreator('/blog/tags/python','3dd'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/sklearn',
+    component: ComponentCreator('/blog/tags/sklearn','984'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/word-2-vec',
+    component: ComponentCreator('/blog/tags/word-2-vec','a36'),
+    exact: true
+  },
+  {
+    path: '/blog/Tìm-hiểu-eigenFace-trong-face-recognite',
+    component: ComponentCreator('/blog/Tìm-hiểu-eigenFace-trong-face-recognite','0c4'),
+    exact: true
+  },
+  {
+    path: '/blog/Tìm-hiểu-regression-trong-object-detection',
+    component: ComponentCreator('/blog/Tìm-hiểu-regression-trong-object-detection','b4b'),
+    exact: true
+  },
+  {
+    path: '/blog/Tìm-hiểu-về-thư-viện-keras-trong-deep-learning',
+    component: ComponentCreator('/blog/Tìm-hiểu-về-thư-viện-keras-trong-deep-learning','fbc'),
+    exact: true
+  },
+  {
+    path: '/blog/Tìm-hiểu-về-Word2Vec',
+    component: ComponentCreator('/blog/Tìm-hiểu-về-Word2Vec','48d'),
     exact: true
   },
   {
@@ -66,11 +166,6 @@ export default [
   {
     path: '/my-markdown-page',
     component: ComponentCreator('/my-markdown-page','81e'),
-    exact: true
-  },
-  {
-    path: '/my-page',
-    component: ComponentCreator('/my-page','051'),
     exact: true
   },
   {

@@ -1,5 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -12,12 +14,20 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/emoticon_big.png',
   organizationName: 'thorpham', // Usually your GitHub org/user name.
   projectName: 'thorpham.github.io', // Usually your repo name.
   trailingSlash: false,
   deploymentBranch : "master",
-
+  stylesheets: [
+    {
+      href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css",
+      type: "text/css",
+      integrity:
+        "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X",
+      crossorigin: "anonymous",
+    },
+  ],
   presets: [
     [
       'classic',
@@ -26,19 +36,27 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/ThorPham',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ThorPham',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+      
+
     ],
+    
   ],
 
   themeConfig:
@@ -48,7 +66,7 @@ const config = {
         title: 'Thorpham',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/emoticon_big.png',
         },
         items: [
           {
@@ -58,13 +76,16 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          { to: 'Archive', label: 'Archive', position: 'right' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ThorPham',
             label: 'GitHub',
             position: 'right',
           },
+         
         ],
       },
+     
       footer: {
         style: 'dark',
         // links: [

@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/Tìm-hiểu-regression-trong-object-detection",
+  "editUrl": "https://github.com/ThorPham/blog/2018-4-18-Tìm-hiểu-regression-trong-object-detection/index.md",
+  "source": "@site/blog/2018-4-18-Tìm-hiểu-regression-trong-object-detection/index.md",
+  "title": "Tìm hiểu regression trong object detection",
+  "description": "*Lần đầu tiên mình đọc về thuật toán YOLO(you look only one) là trên khóa \"Convolution neural network\" của thầy Andrew Ng trên coursera.",
+  "date": "2018-04-18T00:00:00.000Z",
+  "formattedDate": "April 18, 2018",
+  "tags": [
+    {
+      "label": "python",
+      "permalink": "/blog/tags/python"
+    },
+    {
+      "label": "Object detection",
+      "permalink": "/blog/tags/object-detection"
+    }
+  ],
+  "readingTime": 5.125,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Thorpham",
+      "title": "Deep learning enthusiast",
+      "url": "https://github.com/ThorPham",
+      "imageURL": "https://github.com/ThorPham.png",
+      "key": "thorpham"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Tìm-hiểu-regression-trong-object-detection",
+    "title": "Tìm hiểu regression trong object detection",
+    "authors": "thorpham",
+    "tags": [
+      "python",
+      "Object detection"
+    ]
+  },
+  "prevItem": {
+    "title": "Tìm hiểu eigenFace trong face recognite",
+    "permalink": "/blog/Tìm-hiểu-eigenFace-trong-face-recognite"
+  },
+  "nextItem": {
+    "title": "Nhận diện pedestrian với window search",
+    "permalink": "/blog/Nhận-diện-pedestrian-với-window-search"
+  }
+}

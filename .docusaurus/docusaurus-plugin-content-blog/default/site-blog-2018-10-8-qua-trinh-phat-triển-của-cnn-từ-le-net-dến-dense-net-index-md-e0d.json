@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet",
+  "editUrl": "https://github.com/ThorPham/blog/2018-10-8-Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet/index.md",
+  "source": "@site/blog/2018-10-8-Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet/index.md",
+  "title": "Quá trình phát triển của CNN từ LeNet đến DenseNet.",
+  "description": "Convolutional neural network là một mạng neural được ứng dụng rất nhiều trong deep learning trong computer vision cho classifier và localizer . Từ mạng CNN cơ bản người ta có thể tạo ra rất nhiều architect khác nhau, từ những mạng neural cơ bản 1 đến 2 layer đến 100 layer. Đã bao giờ bạn tự hỏi nên sử dụng bao nhiêu layer, nên kết hợp conv với maxpooling thế nào? conv-maxpooling hay conv-conv-maxplooling ? hay nên sử dụng kernel 3x3 hay 5x5 thậm chí 7x7 điểm khác biệt là gì ? Làm gì khi model bị vanishing/exploding gradient, hay tại sao thi thêm nhiều layer hơn thì theo lý thuyết accuarcy phải cao hơn so với shallow model, nhưng thực tế lại không phải accuarcy không tăng thậm chí là giảm đó có phải nguyên nhân do overfitting .Trong bài viết này ta sẽ tìm hiểu các architure nổi tiếng để xem cấu trúc của nó như thế nào, các ý tưởng về CNN mới nhất hiện nay  từ đó ta có thể trả lời được mấy câu hỏi trên",
+  "date": "2018-10-08T00:00:00.000Z",
+  "formattedDate": "October 8, 2018",
+  "tags": [
+    {
+      "label": "Deep learning",
+      "permalink": "/blog/tags/deep-learning"
+    },
+    {
+      "label": "CNN",
+      "permalink": "/blog/tags/cnn"
+    }
+  ],
+  "readingTime": 15.165,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Thorpham",
+      "title": "Deep learning enthusiast",
+      "url": "https://github.com/ThorPham",
+      "imageURL": "https://github.com/ThorPham.png",
+      "key": "thorpham"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet",
+    "title": "Quá trình phát triển của CNN từ LeNet đến DenseNet.",
+    "authors": "thorpham",
+    "tags": [
+      "Deep learning",
+      "CNN"
+    ]
+  },
+  "prevItem": {
+    "title": "Hướng tiếp cận Graph convolution network cho bài toán rút trích thông tin từ hóa đơn",
+    "permalink": "/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin"
+  },
+  "nextItem": {
+    "title": "Object detection từ R-CNN đến Faster R-CNN",
+    "permalink": "/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN"
+  }
+}

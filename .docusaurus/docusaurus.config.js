@@ -10,22 +10,42 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.svg",
+  "favicon": "img/emoticon_big.png",
   "organizationName": "thorpham",
   "projectName": "thorpham.github.io",
   "trailingSlash": false,
   "deploymentBranch": "master",
+  "stylesheets": [
+    {
+      "href": "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css",
+      "type": "text/css",
+      "integrity": "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X",
+      "crossorigin": "anonymous"
+    }
+  ],
   "presets": [
     [
       "classic",
       {
         "docs": {
           "sidebarPath": "/home/thorpham/Desktop/learn/thorpham.github.io/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/ThorPham",
+          "remarkPlugins": [
+            null
+          ],
+          "rehypePlugins": [
+            null
+          ]
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/ThorPham",
+          "remarkPlugins": [
+            null
+          ],
+          "rehypePlugins": [
+            null
+          ]
         },
         "theme": {
           "customCss": "/home/thorpham/Desktop/learn/thorpham.github.io/src/css/custom.css"
@@ -38,7 +58,7 @@ export default {
       "title": "Thorpham",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/emoticon_big.png"
       },
       "items": [
         {
@@ -53,7 +73,12 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "to": "Archive",
+          "label": "Archive",
+          "position": "right"
+        },
+        {
+          "href": "https://github.com/ThorPham",
           "label": "GitHub",
           "position": "right"
         }

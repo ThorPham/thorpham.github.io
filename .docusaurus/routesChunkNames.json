@@ -1,19 +1,41 @@
 {
-  "/blog-520": {
+  "/archive-031": {
+    "component": "743515ba",
+    "config": "5e9f5e1a"
+  },
+  "/blog-e74": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
+        "content": "2b5f5a09"
       },
       {
-        "content": "f4f34a3a"
+        "content": "55585d15"
       },
       {
-        "content": "8717b14a"
+        "content": "5a60d765"
       },
       {
-        "content": "925b3f96"
+        "content": "bc32098f"
+      },
+      {
+        "content": "134c78a0"
+      },
+      {
+        "content": "802eda25"
+      },
+      {
+        "content": "e25eb979"
+      },
+      {
+        "content": "790b08a6"
+      },
+      {
+        "content": "82345fd2"
+      },
+      {
+        "content": "3c62d7fb"
       }
     ],
     "metadata": "b2b675dd"
@@ -22,86 +44,285 @@
     "component": "9e4087bc",
     "archive": "b2f554cd"
   },
-  "/blog/first-blog-post-6c7": {
+  "/blog/Drowsiness-detection-5ef": {
     "component": "ccc49370",
     "sidebar": "814f3328",
-    "content": "e273c56f"
+    "content": "c12c5b3e"
   },
-  "/blog/long-blog-post-f06": {
+  "/blog/Feature-extraction-trong-computer-vision-c7c": {
     "component": "ccc49370",
     "sidebar": "814f3328",
-    "content": "73664a40"
+    "content": "6297a07d"
   },
-  "/blog/mdx-blog-post-bee": {
+  "/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin-a2c": {
     "component": "ccc49370",
     "sidebar": "814f3328",
-    "content": "59362658"
+    "content": "3a9690c1"
+  },
+  "/blog/Nhận-dạng-chữ-số-viết-tay-b73": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "6661ce28"
+  },
+  "/blog/Nhận-diện-pedestrian-với-window-search-7a9": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "0efb3c04"
+  },
+  "/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN-3a2": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "26496a21"
+  },
+  "/blog/page/2-5b0": {
+    "component": "a6aa9e1f",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "00fb87ca"
+      },
+      {
+        "content": "ff5508ad"
+      }
+    ],
+    "metadata": "8eb4e46b"
+  },
+  "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet-d53": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "e0d7e28c"
+  },
+  "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf-7ee": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "39705aea"
   },
   "/blog/tags-e13": {
     "component": "01a85c17",
     "sidebar": "814f3328",
     "tags": "a7023ddc"
   },
-  "/blog/tags/docusaurus-a87": {
+  "/blog/tags/cnn-8b5": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
+        "content": "2b5f5a09"
       },
       {
-        "content": "f4f34a3a"
+        "content": "55585d15"
       },
       {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
+        "content": "5a60d765"
       }
     ],
-    "metadata": "a80da1cf",
-    "listMetadata": "608ae6a4"
+    "metadata": "37cb6839",
+    "listMetadata": "38534a76"
   },
-  "/blog/tags/facebook-d62": {
+  "/blog/tags/computer-vision-def": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
-      }
-    ],
-    "metadata": "031793e1",
-    "listMetadata": "096bfee4"
-  },
-  "/blog/tags/hello-d09": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
+        "content": "2b5f5a09"
       },
       {
-        "content": "8717b14a"
+        "content": "e25eb979"
+      },
+      {
+        "content": "00fb87ca"
       }
     ],
-    "metadata": "30a24c52",
-    "listMetadata": "66406991"
+    "metadata": "dd061ebd",
+    "listMetadata": "295773b6"
   },
-  "/blog/tags/hola-192": {
+  "/blog/tags/deep-learning-fe5": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "925b3f96"
+        "content": "55585d15"
       }
     ],
-    "metadata": "e16015ca",
-    "listMetadata": "4c9e35b1"
+    "metadata": "45700526",
+    "listMetadata": "97977ee3"
   },
-  "/blog/welcome-bfa": {
+  "/blog/tags/dlib-f08": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "790b08a6"
+      }
+    ],
+    "metadata": "53bc8cf0",
+    "listMetadata": "c9c7f9a5"
+  },
+  "/blog/tags/face-recognition-26a": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "82345fd2"
+      }
+    ],
+    "metadata": "7ec3c4dc",
+    "listMetadata": "2d337ce0"
+  },
+  "/blog/tags/feature-extraction-426": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "e25eb979"
+      }
+    ],
+    "metadata": "500fc9a6",
+    "listMetadata": "1bf3fbee"
+  },
+  "/blog/tags/graph-3d4": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "2b5f5a09"
+      }
+    ],
+    "metadata": "8c241076",
+    "listMetadata": "fac0f815"
+  },
+  "/blog/tags/keras-861": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "802eda25"
+      }
+    ],
+    "metadata": "9a3ac2a4",
+    "listMetadata": "93c6849c"
+  },
+  "/blog/tags/nlp-bbf": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "2b5f5a09"
+      },
+      {
+        "content": "bc32098f"
+      },
+      {
+        "content": "ff5508ad"
+      }
+    ],
+    "metadata": "fb1f3d53",
+    "listMetadata": "59fc48d3"
+  },
+  "/blog/tags/object-detection-cee": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "5a60d765"
+      },
+      {
+        "content": "3c62d7fb"
+      }
+    ],
+    "metadata": "89594076",
+    "listMetadata": "e4602884"
+  },
+  "/blog/tags/opencv-c66": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "134c78a0"
+      },
+      {
+        "content": "790b08a6"
+      },
+      {
+        "content": "00fb87ca"
+      }
+    ],
+    "metadata": "2796da64",
+    "listMetadata": "42bbdbe1"
+  },
+  "/blog/tags/python-3dd": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bc32098f"
+      },
+      {
+        "content": "802eda25"
+      },
+      {
+        "content": "790b08a6"
+      },
+      {
+        "content": "82345fd2"
+      },
+      {
+        "content": "3c62d7fb"
+      },
+      {
+        "content": "00fb87ca"
+      },
+      {
+        "content": "ff5508ad"
+      }
+    ],
+    "metadata": "232c92ba",
+    "listMetadata": "f8de77c0"
+  },
+  "/blog/tags/sklearn-984": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "bc32098f"
+      },
+      {
+        "content": "134c78a0"
+      }
+    ],
+    "metadata": "4f221e6d",
+    "listMetadata": "61bd1e02"
+  },
+  "/blog/tags/word-2-vec-a36": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "ff5508ad"
+      }
+    ],
+    "metadata": "65ca8785",
+    "listMetadata": "757b2659"
+  },
+  "/blog/Tìm-hiểu-eigenFace-trong-face-recognite-0c4": {
     "component": "ccc49370",
     "sidebar": "814f3328",
-    "content": "d9f32620"
+    "content": "2566b280"
+  },
+  "/blog/Tìm-hiểu-regression-trong-object-detection-b4b": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "e95362af"
+  },
+  "/blog/Tìm-hiểu-về-thư-viện-keras-trong-deep-learning-fbc": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "a86d6ec1"
+  },
+  "/blog/Tìm-hiểu-về-Word2Vec-48d": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "490bee68"
   },
   "/markdown-page-be1": {
     "component": "1f391b9e",
@@ -110,10 +331,6 @@
   "/my-markdown-page-81e": {
     "component": "1f391b9e",
     "content": "03181aef"
-  },
-  "/my-page-051": {
-    "component": "4088aa1a",
-    "config": "5e9f5e1a"
   },
   "/docs-87d": {
     "component": "1be78505",
