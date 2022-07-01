@@ -2,7 +2,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 const math = require('remark-math');
 const katex = require('rehype-katex');
-
+require('dotenv').config();
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -137,6 +137,10 @@ const config = {
         // additionalLanguages: ['python']
       },
     }),
+    customFields: {
+      // Put your custom environment here
+      gitUser: process.env.GIT_USER,
+    },
 };
-
+// console.log("------------",process.env.GIT_USER)
 module.exports = config;

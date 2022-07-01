@@ -300,6 +300,9 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "customFields": {
+    "gitUser": "thorpham"
+  },
   "baseUrlIssueBanner": true,
   "i18n": {
     "defaultLocale": "en",
@@ -312,7 +315,6 @@ export default {
   "staticDirectories": [
     "static"
   ],
-  "customFields": {},
   "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
