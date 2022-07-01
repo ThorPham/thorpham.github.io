@@ -53,7 +53,7 @@ const FeatureList = [
 
   {
     title: "Capstone Project",
-    organization: "GUVI Geek Networks, IITM Research Park Geek Networks, IITM Research Park",
+    organization: "GUVI Geek Networks, IITM Research Park Geek Networks",
     url: "https://www.guvi.in/verify-certificate?id=2j86528w6Gg519c396&course=dl_capstone_project",
   },
   {
