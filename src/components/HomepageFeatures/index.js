@@ -8,8 +8,14 @@ const FeatureList = [
     img: require('@site/static/img/ocr.jpeg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       Detect and recognition for vietnamese and english language
+      <ul style={{listStyle:"none",textAlign:"left",width:"60%",margin:"auto"}}>
+        <li> FrontEnd : Reactjs, pure Css</li>
+        <li>Backend : Pytorch, FastAPI</li>
+        <li>Database : FireBase</li>
+        <li>Web Demo : </li>
+        <li>Video Demo :</li> 
+      </ul>
       </>
     ),
   },

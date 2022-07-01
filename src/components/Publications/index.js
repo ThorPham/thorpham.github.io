@@ -36,7 +36,7 @@ const PublicationList = [
       "Key Information Extraction from Mobile-Captured Vietnamese Receipt Images using Graph Neural Networks Approach (2022)",
     description: (
       <span>
-        <strong style={{background:"rgba(50, 255, 126,0.6)"}}>Dung Van Pham</strong>, Le Quan Nguyen,Nhat Truong Pham, Bao Hung Nguyen, Duc Ngoc Minh Dang, Sy Dzung Nguyen
+        <strong style={{background:"rgba(50, 255, 126,0.6)"}}>Dung Van Pham</strong>, Le Quan Nguyen, Nhat Truong Pham, Bao Hung Nguyen, Duc Ngoc Minh Dang, Sy Dzung Nguyen
       </span>
     ),
     link : require('@site/static/file/GTSD_2022_paper_106_final.pdf').default
@@ -57,10 +57,10 @@ function Feature({ title, description ,link}) {
   return (
     <div >
       <li className="text--left padding-horiz--md ">
-        <h3 style={{marginBottom:"0"}}>
+        <h4 style={{marginBottom:"0"}}>
         {title}
-        <Link style={{background:"rgba(246, 229, 141,1.0)", color:"rgba(34, 47, 62,1.0)"}} to={link} target="_blank" download><span>[Link]</span></Link>
-        </h3>
+        {/* <Link style={{background:"rgba(246, 229, 141,1.0)", color:"rgba(34, 47, 62,1.0)"}} to={link} target="_blank" download><span>[Link]</span></Link> */}
+        </h4>
         
         <p className={styles.publication}>{description}</p>
       </li>
