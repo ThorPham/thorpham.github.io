@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7241],{2075:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/object-detection","name":"Object detection","count":2,"permalink":"/blog/tags/object-detection"}')}}]);
