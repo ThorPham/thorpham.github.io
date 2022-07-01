@@ -35,6 +35,26 @@ function HomepageHeader() {
             or utility which allowed user to have virtual desktops on old
             Windows.
           </p>
+          <h3>Tool and framework</h3>
+          <ul>
+            <li>Programming Language : Python, JavaScript</li>
+            <li>Web development : Reactjs, Flask, FastAPI</li>
+            <li>Database : Mongo, Firebase</li>
+            <li>Devops : Git, Docker, Bash script Shell</li>
+            <li>Deep learning Framework : Pytorch, Tensorflow</li>
+            <li>Image processing : Numpy, OpenCV, Pillow</li>
+            <li>Machine Learning : Scikit-learn</li>
+          </ul>
+
+          <h3>Interest Fields</h3>
+          <ul>
+            <li>Mathematics : Graph Theory, Graph Algorithm, Linear Algebra, Calculus, Optimization</li>
+            <li>Computer Vision : Image Processing, Object Detection, Image Segmentation, OCR</li>
+            <li>Image Processing : Traditional Image Processing Algorithm</li>
+            <li>Computer science : Data Structure and Algorithm, Computer Graphics, Computer Architecture</li>
+            <li>Natural language processing : Sequence to sequence, Word embbeding, Transfomer</li>
+            <li>Statistic : Bayesian statistics, Graphical Models.</li>
+          </ul>
         </div>
       </div>
     </header>

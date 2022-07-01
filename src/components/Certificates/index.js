@@ -189,6 +189,7 @@ function Feature({ organization, title, url }) {
           <li
             style={{
               fontWeight: "bold",
+              borderBottom:"3px solid rgba(46, 213, 115,0.5)"
             }}
           >
             {title}
