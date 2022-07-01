@@ -33,11 +33,21 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'ALPR',
+    img: require('@site/static/img/alpr.jpg').default,
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
 ];
 
 function Feature({img, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--6')}>
       <div className="text--center">
         <img src={img} className={styles.featureSvg} role="img" alt="#" />
       </div>
@@ -53,6 +63,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+      <h1 style={{background:"#eb4d4b",display:"inline-block"}}>Personal Projects</h1>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
