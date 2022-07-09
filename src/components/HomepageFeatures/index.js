@@ -55,8 +55,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'ALPR',
-    img: require('@site/static/img/alpr.jpg').default,
+    title: 'Invoice OCR',
+    img: require('@site/static/img/digitalization.jpg').default,
     description: (
       <>
         <ul style={{listStyle:"square", textAlign:"left"}}>

@@ -7,6 +7,7 @@ import styles from "./index.module.css";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Publications from "@site/src/components/Publications";
 import Certificates from "@site/src/components/Certificates";
+import Awards from "@site/src/components/Awards";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -73,7 +74,9 @@ export default function Home() {
         <Publications />
         <HomepageFeatures />
         <Certificates/>
+        <Awards />
       </main>
+   
     </Layout>
   );
 }
