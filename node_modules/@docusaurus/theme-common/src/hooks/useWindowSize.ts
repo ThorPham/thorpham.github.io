@@ -12,59 +12,64 @@ import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 const windowSizes = {
   desktop: 'desktop',
   mobile: 'mobile',
-
-  // This "ssr" value is very important to handle hydration FOUC / layout shifts
-  // You have to handle server-rendering explicitly on the call-site
-  // On the server, you may need to render BOTH the mobile/desktop elements (and
-  // hide one of them with mediaquery)
-  // We don't return "undefined" on purpose, to make it more explicit
   ssr: 'ssr',
 } as const;
 
 type WindowSize = keyof typeof windowSizes;
 
-const DesktopThresholdWidth = 996;
+// Note: this value is also hardcoded in Infima
+// Both JS and CSS must have the same value
+// Updating this JS value alone is not enough
+// See https://github.com/facebook/docusaurus/issues/9603
+const DesktopBreakpoint = 996;
 
-function getWindowSize() {
+function getWindowSize(desktopBreakpoint: number): WindowSize {
   if (!ExecutionEnvironment.canUseDOM) {
-    return windowSizes.ssr;
+    throw new Error(
+      'getWindowSize() should only be called after React hydration',
+    );
   }
-  return window.innerWidth > DesktopThresholdWidth
+
+  return window.innerWidth > desktopBreakpoint
     ? windowSizes.desktop
     : windowSizes.mobile;
 }
 
-// Simulate the SSR window size in dev, so that potential hydration FOUC/layout
-// shift problems can be seen in dev too!
-const DevSimulateSSR = process.env.NODE_ENV === 'development' && true;
-
-// This hook returns an enum value on purpose!
-// We don't want it to return the actual width value, for resize perf reasons
-// We only want to re-render once a breakpoint is crossed
-export default function useWindowSize(): WindowSize {
-  const [windowSize, setWindowSize] = useState<WindowSize>(() => {
-    if (DevSimulateSSR) {
-      return 'ssr';
-    }
-    return getWindowSize();
-  });
+/**
+ * Gets the current window size as an enum value. We don't want it to return the
+ * actual width value, so that it only re-renders once a breakpoint is crossed.
+ *
+ * It may return `"ssr"`, which is very important to handle hydration FOUC or
+ * layout shifts. You have to handle it explicitly upfront. On the server, you
+ * may need to render BOTH the mobile/desktop elements (and hide one of them
+ * with mediaquery). We don't return `undefined` on purpose, to make it more
+ * explicit.
+ */
+export function useWindowSize({
+  desktopBreakpoint = DesktopBreakpoint,
+}: {
+  desktopBreakpoint?: number;
+} = {}): WindowSize {
+  const [windowSize, setWindowSize] = useState<WindowSize>(
+    () =>
+      // super important to return a constant value to avoid hydration mismatch
+      // see https://github.com/facebook/docusaurus/issues/9379
+      'ssr',
+  );
 
   useEffect(() => {
     function updateWindowSize() {
-      setWindowSize(getWindowSize());
+      setWindowSize(getWindowSize(desktopBreakpoint));
     }
 
-    const timeout = DevSimulateSSR
-      ? window.setTimeout(updateWindowSize, 1000)
-      : undefined;
+    updateWindowSize();
 
     window.addEventListener('resize', updateWindowSize);
 
     return () => {
       window.removeEventListener('resize', updateWindowSize);
-      clearTimeout(timeout);
     };
-  }, []);
+  }, [desktopBreakpoint]);
 
   return windowSize;
 }

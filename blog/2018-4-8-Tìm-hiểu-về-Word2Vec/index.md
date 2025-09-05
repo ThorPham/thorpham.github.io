@@ -3,6 +3,7 @@ slug : Tìm-hiểu-về-Word2Vec
 title : Tìm hiểu về Word2Vec
 authors : thorpham
 tags : [NLP, python,Word2Vec]
+hide_table_of_contents : true
 ---
 *Như chúng ta đã biết máy tính được cấu tạo từ những con số, do đó nó chỉ có thể đọc được dữ liệu số mà thôi. Trong natural language processing
 thì để xử lý dữ liệu text chúng ta cũng phải chuyển dữ liệu từ text sang numeric, tức là đưa nó vào một không gian mới người ta thường
@@ -15,7 +16,7 @@ tức là ví dụ như paris-tokyo,man-women,boy-girl những cặp từ này s
 <!--truncate-->
 Word embbding có 2 model nổi tiếng là word2vec và Glove.
 Word2vec được tạo ra năm 2013 bởi một kỹ sư ở google có tên là **Tomas Mikolov**. Nó là một model unsupervised learning,được training từ large corpus . Chiều của Word2vec nhỏ hơn nhiều so với one-hot-encoding, với số chiều là NxD với N là Number of document và D là số chiều word embedding . Word2vec có 2 model là skip-gram và Cbow :
-* Skip-gram model là model predict word surrounding khi cho một từ cho trước, ví dụ như text = "I love you so much". Khi dùng 1 window search có size 3 ta thu được  : {(i,you),love},{(love,so),you},{(you,much),so}. Nhiệm vụ của nó là khi cho 1 từ center ví dụ là love thì phải predict các từ xung quang là i, you.
+* Skip-gram model là model predict word surrounding khi cho một từ cho trước, ví dụ như text = "I love you so much". Khi dùng 1 window search có size 3 ta thu được  : `{(i,you),love},{(love,so),you},{(you,much),so}`. Nhiệm vụ của nó là khi cho 1 từ center ví dụ là love thì phải predict các từ xung quang là i, you.
 * Cbow là viết tắt của continous bag of word . Model này ngược với model skip-gram tức là cho những từ surrounding predict word current.
 * Trong thực tế người ta chỉ chọn một trong  2 model để training, Cbow thì training nhanh hơn nhưng độ chính xác không cao bằng skip-gram và ngược lại
 Glove cũng được tạo ra năm 2013 bởi một nhóm nghiên cứu ở stanford. Nó dựa trên word-count base model. Nó dùng kỹ thuật matrix factorization để đưa matrix ban đầu về các matrix nhỏ hơn tương tự như model ở recommend system. Mình chưa nghiên cứu model này có gì nó nói lại sau qua các bài viết khác.
@@ -27,31 +28,32 @@ Cấu trúc bài:
 Trong bài này ta chỉ tìm hiểu model Skip-gram model. Cbow là model ngược lại. Skip-gram model có cấu trúc như hình vẽ dưới đây.
 
 <center>
-   <img width="600" height="200" src={require('./word2vec1.jpg').default} />
+   <!-- <img width="600" height="200" src='./word2vec1.jpg' /> -->
+   <img width="600" height="300" src={require('./word2vec1.jpg').default} />
 </center>
 
-* Input là one-hot-vector mỗi word sẽ có dạng ${x_{1},x_{2},..x_{v}}$ trong đó V là số vocabulary, là một vector trong đó mỗi word sẽ có
+* Input là one-hot-vector mỗi word sẽ có dạng `${x_{1},x_{2},..x_{v}}$` trong đó V là số vocabulary, là một vector trong đó mỗi word sẽ có
 giá trị 1 tương đương với index trong vocabulary và còn lại sẽ là 0.
-* Weight matrix giữa input và hidden layer là matrix W(có dimention VxN) có active function là linear, weight giữa hidden và out put là $W^{'}$ (có dimention là NxV) active function của out put là soft max.
-* Mỗi row của W là vector N chiều đại diện cho $v_{w}$ là mỗi word trong input layer. Mỗi row của W là $v_{w}^{T}$ . Lưu ý là input là 1 one hot vector (sẽ có dạng 000100) chỉ có 1 phần tử bằng 1 nên.
+* Weight matrix giữa input và hidden layer là matrix W(có dimention VxN) có active function là linear, weight giữa hidden và out put là `$W^{'}$` (có dimention là NxV) active function của out put là soft max.
+* Mỗi row của W là vector N chiều đại diện cho `$v_{w}$` là mỗi word trong input layer. Mỗi row của W là `$v_{w}^{T}$` . Lưu ý là input là 1 one hot vector (sẽ có dạng 000100) chỉ có 1 phần tử bằng 1 nên.
 
 $$
 h = W^{T}x = v_{w}^{T}
 $$
 
-* Từ hidden layer đến out put là matrix $W^{'} = {w_{i,j}^{'}}$ . Ta tính score $u_{i}$ cho mỗi word trong vocabulary.
+* Từ hidden layer đến out put là matrix `$W^{'} = {w_{i,j}^{'}}$` . Ta tính score `$u_{i}$` cho mỗi word trong vocabulary.
 
 $$
 u_{j} = v_{w_{j}}^{'}h
 $$ 
 
-* Trong đó $v_{w_{j}}$ là vector colum j trong $W^{'}$. Tiếp đó ta sử dụng soft max funtion.
+* Trong đó `$v_{w_{j}}$` là vector colum j trong `$W^{'}$`. Tiếp đó ta sử dụng soft max funtion.
 
 $$ 
 P(w_{j}|w_{I}) = y_{i} = \frac{exp(u_{j})}{\sum_{j^{'}=1}^{V}exp(u_{j^{'}})} = = \frac{exp(v^{'T}_{w_{j}}v_{w_{I}})}{\sum_{j^{'}=1}^{V}exp(v^{'T}_{w_{j^{'}}}v_{w_{I}})}
 $$
 
-* Trong đó $v_{w}$ và $v_{w^{'}}$ là 2 vector đại diện cho word w đên từ matrix W và $W^{'}$ .
+* Trong đó `$v_{w}$` và `$v_{w^{'}}$` là 2 vector đại diện cho word w đên từ matrix W và `$W^{'}$` .
 * Người ta dùng maximum likehood với gradient descent để giải quyết bài toán này nhưng vì vocabulary lớn nên tính toán mẫu số nó tính trên toàn bộ vocabulary nên chi phí tính toán lớn nên người ta dùng 2 phương pháp giải quyết là Hierarchical Softmax hoặc Negative Sampling chi tiết trong paper "word2vec Parameter Learning Explained" của Xin Rong
 ## Build model from scratch.
 * Model bằng math chắc chi tiết đến mấy cũng không bằng một ví dụ thực tế. Nói thật toán mình rất kém nên mình hay tìm đọc các ví dụ trực quan rồi suy ngược lại công thức toán học.
@@ -62,10 +64,10 @@ $$
   * Mã hóa dữ liệu về numeric dựa vào 2 cái dictionary vừa tạo
   * Traing model
   * Tìm matrix word embbding vào vẽ đồ thị minh họa.
-* Đầu tiên chúng ta làm sạch dữ liệu và xây dựng vocabulary . {'queen', 'he', 'royal', 'is', 'king', 'the', 'she'}
+* Đầu tiên chúng ta làm sạch dữ liệu và xây dựng vocabulary . `{'queen', 'he', 'royal', 'is', 'king', 'the', 'she'}`
 * Tiếp theo là 2 dictionary 
-  * word theo index là {'queen': 0, 'he': 1, 'royal': 2, 'is': 3, 'king': 4, 'the': 5, 'she': 6}
-  * Index theo word thì ngược lại : {0: 'queen', 1: 'he', 2: 'royal', 3: 'is', 4: 'king', 5: 'the', 6: 'she'}
+  * word theo index là `{'queen': 0, 'he': 1, 'royal': 2, 'is': 3, 'king': 4, 'the': 5, 'she': 6}`
+  * Index theo word thì ngược lại : `{0: 'queen', 1: 'he', 2: 'royal', 3: 'is', 4: 'king', 5: 'the', 6: 'she'}`
   * Tiếp theo xây dựng data training sẽ có dạng :(he,is),(he,the)... trong đó cái đầu sẽ là input, cái sau sẽ là out put
   * mã hóa nó về numeric : sẽ có dạng sau :input : [ 0.,  0.,  0.,  1.,  0.,  0.,  0.] , ouput : [ 1.,  0.,  0.,  0.,  0.,  0.,  0.]
   lưu ý size vocabulary là 7

@@ -3,6 +3,7 @@ slug : Drowsiness-detection
 title : Drowsiness detection với Dlib và OpenCV
 authors : thorpham
 tags : [opencv, python,Dlib]
+hide_table_of_contents : true
 ---
 *Bài trước chúng ta đã tìm hiểu về facial landmark. Trong bài này chúng ta sẽ ứng dụng facial landmark vào Drowsiness detection. Drowness detection
 dùng để xác định trạng thái ngủ gật hay không dựa vào facial landmark của eye. Thường được cái tài xế xử dụng khi điều khiển phương tiện giao
@@ -25,7 +26,7 @@ $$
 Trong đó $p_{i}$ là lankmark point của eye, ký hiệu $||$ là khoảng cách euclide.
   
 <p align="center">
-  <img width="600" height="300" src={require('./drowness1.jpg').default}/>
+  <img width="600" height="300" src={require('./drowness1.jpg').default} />
 </p>
 
 Đồ thị EAR,trong đó p1,p2,p3,p4,p5,p6 là landmark point của eye(lưu ý ta sẽ ký hiệu bắt đầu bằng 0 thay vì bằng 1 trong model).Biểu đồ bên dưới là đồ thị của EAR . Khi mà eye ta thấy là EAR sẽ nằm dưới threshold 0.15 và bình thường của nó sẽ lớn hơn 0.25. 

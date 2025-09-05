@@ -5,30 +5,33 @@
   "title": "Drowsiness detection với Dlib và OpenCV",
   "description": "*Bài trước chúng ta đã tìm hiểu về facial landmark. Trong bài này chúng ta sẽ ứng dụng facial landmark vào Drowsiness detection. Drowness detection",
   "date": "2018-04-21T00:00:00.000Z",
-  "formattedDate": "April 21, 2018",
   "tags": [
     {
+      "inline": true,
       "label": "opencv",
       "permalink": "/blog/tags/opencv"
     },
     {
+      "inline": true,
       "label": "python",
       "permalink": "/blog/tags/python"
     },
     {
+      "inline": true,
       "label": "Dlib",
       "permalink": "/blog/tags/dlib"
     }
   ],
-  "readingTime": 3.83,
-  "truncated": true,
+  "readingTime": 4.24,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Thorpham",
       "title": "Deep learning enthusiast",
       "url": "https://github.com/ThorPham",
       "imageURL": "https://github.com/ThorPham.png",
-      "key": "thorpham"
+      "key": "thorpham",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -39,8 +42,10 @@
       "opencv",
       "python",
       "Dlib"
-    ]
+    ],
+    "hide_table_of_contents": true
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Feature extraction trong computer vision",
     "permalink": "/blog/Feature-extraction-trong-computer-vision"

@@ -1,5 +1,4 @@
 {
-  "unversionedId": "tutorial-basics/congratulations",
   "id": "tutorial-basics/congratulations",
   "title": "Congratulations!",
   "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
@@ -7,6 +6,8 @@
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/congratulations",
   "permalink": "/docs/tutorial-basics/congratulations",
+  "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/congratulations.md",
   "tags": [],
   "version": "current",

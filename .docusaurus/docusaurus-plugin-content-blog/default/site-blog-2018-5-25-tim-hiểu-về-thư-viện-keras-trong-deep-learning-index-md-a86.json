@@ -5,26 +5,28 @@
   "title": "Tìm hiểu về thư viện keras trong deep learning",
   "description": "Keras là một library được phát triển vào năm 2015 bởi François Chollet, là một kỹ sư nghiên cứu deep learning tại google. Nó là một open source cho neural network được viết bởi ngôn ngữ python. keras là một API bậc cao có thể sử dụng chung với các thư viện deep learning nổi tiếng như tensorflow(được phát triển bởi gg), CNTK(được phát triển bởi microsoft),theano(người phát triển chính Yoshua Bengio). keras có một số ưu điểm như :",
   "date": "2018-05-25T00:00:00.000Z",
-  "formattedDate": "May 25, 2018",
   "tags": [
     {
+      "inline": true,
       "label": "python",
       "permalink": "/blog/tags/python"
     },
     {
+      "inline": true,
       "label": "Keras",
       "permalink": "/blog/tags/keras"
     }
   ],
-  "readingTime": 9.31,
-  "truncated": true,
+  "readingTime": 9.21,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Thorpham",
       "title": "Deep learning enthusiast",
       "url": "https://github.com/ThorPham",
       "imageURL": "https://github.com/ThorPham.png",
-      "key": "thorpham"
+      "key": "thorpham",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -34,8 +36,10 @@
     "tags": [
       "python",
       "Keras"
-    ]
+    ],
+    "hide_table_of_contents": true
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
     "permalink": "/blog/Nhận-dạng-chữ-số-viết-tay"

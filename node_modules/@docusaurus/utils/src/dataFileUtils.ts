@@ -6,61 +6,83 @@
  */
 
 import fs from 'fs-extra';
-import Yaml from 'js-yaml';
 import path from 'path';
+import logger from '@docusaurus/logger';
+import Yaml from 'js-yaml';
 import {findAsyncSequential} from './index';
 import type {ContentPaths} from './markdownLinks';
-import logger from '@docusaurus/logger';
 
 type DataFileParams = {
+  /** Path to the potential data file, relative to `contentPaths` */
   filePath: string;
+  /**
+   * Includes the base path and localized path, both of which are eligible for
+   * sourcing data files. Both paths should be absolute.
+   */
   contentPaths: ContentPaths;
 };
 
+/**
+ * Looks for a data file in the potential content paths; loads a localized data
+ * file in priority.
+ *
+ * @returns An absolute path to the data file, or `undefined` if there isn't one.
+ */
 export async function getDataFilePath({
   filePath,
   contentPaths,
 }: DataFileParams): Promise<string | undefined> {
-  // Loads a localized data file in priority
   const contentPath = await findFolderContainingFile(
     getContentPathList(contentPaths),
     filePath,
   );
   if (contentPath) {
-    return path.join(contentPath, filePath);
+    return path.resolve(contentPath, filePath);
   }
   return undefined;
 }
 
 /**
- * Looks up for a data file in the content paths, returns the normalized object.
- * Throws when validation fails; returns undefined when file not found
+ * Looks up for a data file in the content paths
+ * Favors the localized content path over the base content path
+ * Currently supports Yaml and JSON data files
+ * It is the caller responsibility to validate and normalize the resulting data
+ *
+ * @returns `undefined` when file not found
+ * @throws Throws when data file can't be parsed
  */
-export async function getDataFileData<T>(
-  params: DataFileParams & {fileType: string},
-  validate: (content: unknown) => T,
-): Promise<T | undefined> {
+export async function readDataFile(params: DataFileParams): Promise<unknown> {
   const filePath = await getDataFilePath(params);
   if (!filePath) {
     return undefined;
   }
   try {
     const contentString = await fs.readFile(filePath, {encoding: 'utf8'});
-    const unsafeContent = Yaml.load(contentString);
-    return validate(unsafeContent);
+    return Yaml.load(contentString);
   } catch (err) {
-    // TODO replace later by error cause, see https://v8.dev/features/error-cause
-    logger.error`The ${params.fileType} file at path=${filePath} looks invalid.`;
-    throw err;
+    const msg = logger.interpolate`The file at path=${path.relative(
+      process.cwd(),
+      filePath,
+    )} looks invalid (not Yaml nor JSON).`;
+    throw new Error(msg, {cause: err as Error});
   }
 }
 
-// Order matters: we look in priority in localized folder
+/**
+ * Takes the `contentPaths` data structure and returns an ordered path list
+ * indicating their priorities. For all data, we look in the localized folder
+ * in priority.
+ */
 export function getContentPathList(contentPaths: ContentPaths): string[] {
   return [contentPaths.contentPathLocalized, contentPaths.contentPath];
 }
 
-// return the first folder path in which the file exists in
+/**
+ * @param folderPaths a list of absolute paths.
+ * @param relativeFilePath file path relative to each `folderPaths`.
+ * @returns the first folder path in which the file exists, or `undefined` if
+ * none is found.
+ */
 export async function findFolderContainingFile(
   folderPaths: string[],
   relativeFilePath: string,
@@ -70,6 +92,16 @@ export async function findFolderContainingFile(
   );
 }
 
+/**
+ * Fail-fast alternative to `findFolderContainingFile`.
+ *
+ * @param folderPaths a list of absolute paths.
+ * @param relativeFilePath file path relative to each `folderPaths`.
+ * @returns the first folder path in which the file exists.
+ * @throws Throws if no file can be found. You should use this method only when
+ * you actually know the file exists (e.g. when the `relativeFilePath` is read
+ * with a glob and you are just trying to localize it)
+ */
 export async function getFolderContainingFile(
   folderPaths: string[],
   relativeFilePath: string,
@@ -78,12 +110,10 @@ export async function getFolderContainingFile(
     folderPaths,
     relativeFilePath,
   );
-  // should never happen, as the source was read from the FS anyway...
   if (!maybeFolderPath) {
     throw new Error(
-      `File "${relativeFilePath}" does not exist in any of these folders:\n- ${folderPaths.join(
-        '\n- ',
-      )}]`,
+      `File "${relativeFilePath}" does not exist in any of these folders:
+- ${folderPaths.join('\n- ')}`,
     );
   }
   return maybeFolderPath;

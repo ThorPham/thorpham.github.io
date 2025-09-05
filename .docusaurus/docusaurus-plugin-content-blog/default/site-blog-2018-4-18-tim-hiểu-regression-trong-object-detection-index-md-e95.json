@@ -5,26 +5,28 @@
   "title": "Tìm hiểu regression trong object detection",
   "description": "*Lần đầu tiên mình đọc về thuật toán YOLO(you look only one) là trên khóa \"Convolution neural network\" của thầy Andrew Ng trên coursera.",
   "date": "2018-04-18T00:00:00.000Z",
-  "formattedDate": "April 18, 2018",
   "tags": [
     {
+      "inline": true,
       "label": "python",
       "permalink": "/blog/tags/python"
     },
     {
+      "inline": true,
       "label": "Object detection",
       "permalink": "/blog/tags/object-detection"
     }
   ],
-  "readingTime": 5.125,
-  "truncated": true,
+  "readingTime": 5.77,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Thorpham",
       "title": "Deep learning enthusiast",
       "url": "https://github.com/ThorPham",
       "imageURL": "https://github.com/ThorPham.png",
-      "key": "thorpham"
+      "key": "thorpham",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -34,8 +36,10 @@
     "tags": [
       "python",
       "Object detection"
-    ]
+    ],
+    "hide_table_of_contents": true
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Tìm hiểu eigenFace trong face recognite",
     "permalink": "/blog/Tìm-hiểu-eigenFace-trong-face-recognite"

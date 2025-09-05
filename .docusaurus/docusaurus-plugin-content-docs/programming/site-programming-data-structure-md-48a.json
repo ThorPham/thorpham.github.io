@@ -1,0 +1,23 @@
+{
+  "id": "data-structure",
+  "title": "data-structure",
+  "description": "",
+  "source": "@site/programming/data-structure.md",
+  "sourceDirName": ".",
+  "slug": "/data-structure",
+  "permalink": "/programming/data-structure",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "progammingSidebar",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/programming/intro"
+  },
+  "next": {
+    "title": "computer-architecture",
+    "permalink": "/programming/computer-architecture"
+  }
+}

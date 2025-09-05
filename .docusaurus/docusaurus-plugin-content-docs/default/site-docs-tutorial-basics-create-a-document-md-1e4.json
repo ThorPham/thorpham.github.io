@@ -1,5 +1,4 @@
 {
-  "unversionedId": "tutorial-basics/create-a-document",
   "id": "tutorial-basics/create-a-document",
   "title": "Create a Document",
   "description": "Documents are groups of pages connected through:",
@@ -7,6 +6,8 @@
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-document",
   "permalink": "/docs/tutorial-basics/create-a-document",
+  "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/create-a-document.md",
   "tags": [],
   "version": "current",

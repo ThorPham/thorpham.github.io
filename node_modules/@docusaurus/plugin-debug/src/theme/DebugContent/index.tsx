@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
+import React, {type ReactNode} from 'react';
 
 import DebugLayout from '@theme/DebugLayout';
 import DebugJsonView from '@theme/DebugJsonView';
@@ -31,17 +31,15 @@ function PluginContent({
   pluginContent,
 }: {
   pluginName: string;
-  pluginContent: Record<string, unknown>;
+  pluginContent: {[pluginId: string]: unknown};
 }) {
   return (
     <section style={{marginBottom: 60}}>
       <h3>{pluginName}</h3>
       <div>
         {Object.entries(pluginContent)
-          // filter plugin instances with no content
-          .filter(
-            ([_pluginId, pluginInstanceContent]) => !!pluginInstanceContent,
-          )
+          // Filter plugin instances with no content
+          .filter(([, pluginInstanceContent]) => !!pluginInstanceContent)
           .map(([pluginId, pluginInstanceContent]) => (
             <PluginInstanceContent
               key={pluginId}
@@ -54,14 +52,14 @@ function PluginContent({
   );
 }
 
-export default function DebugContent({allContent}: Props): JSX.Element {
+export default function DebugContent({allContent}: Props): ReactNode {
   return (
     <DebugLayout>
       <h2>Plugin content</h2>
       <div>
         {Object.entries(allContent)
-          // filter plugins with no content
-          .filter(([_pluginName, pluginContent]) =>
+          // Filter plugins with no content
+          .filter(([, pluginContent]) =>
             Object.values(pluginContent).some(
               (instanceContent) => !!instanceContent,
             ),

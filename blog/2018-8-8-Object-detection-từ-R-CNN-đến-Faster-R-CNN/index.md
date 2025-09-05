@@ -1,7 +1,7 @@
 --- 
 slug : Object-detection-từ-R-CNN-đến-Faster-R-CNN
 title : Object detection từ R-CNN đến Faster R-CNN
-
+hide_table_of_contents : true
 authors : thorpham
 tags : [Object detection,CNN]
 ---
@@ -15,7 +15,7 @@ Với tộc độ phát triển như hiện nay , dữ liệu của chúng ta ng
 Trong bài này chúng ta sẽ tìm hiểu về các họ nhà CNN cho object detection.
 
 <center>
-   <img width="600" height="300" src={require('./35474711_223243181605917_1003697740695207936_n.png').default} />
+   <img width="600" height="300"  src={require('./35474711_223243181605917_1003697740695207936_n.png').default}  />
 </center>
 
 ## 1. R-CNN
@@ -33,7 +33,7 @@ Nhược điểm của phương pháp này là training rất lâu vì 2k image 
 ## 2. SPP net
 
 <center>
-   <img width="600" height="300" src={require('./35346991_223247254938843_4269602627899097088_n.png').default} />
+   <img width="600" height="300"  src={require('./35346991_223247254938843_4269602627899097088_n.png').default}  />
 </center>
 
 Thay vì feed forword 2k image qua CNN thì người ta feed forwork qua CNN một lần để lấy feature map (feature map = feature + location). Sau đó dùng selective search để tìm region proposal, rồi project trên feature map để lấy feature tương ứng. Có một vấn đề ở đây là các feature map của region proposal có size khác nhau nên khi đưa qua CNN sẽ có length output khác nhau. Vì vậy người ta sử dụng Spatial paramy pooling layer để  fix size feature.(spp layer hoạt động  cũng tương tự bag of word trong image processing nó sẽ chia feature theo Spatial pyramid và áp dụng max pooling theo từng spatial giúp các feature có size khác nhau thành same size). Phần sau còn lại tương tự như R-CNN

@@ -2,6 +2,7 @@
 slug: Nhận-dạng-chữ-số-viết-tay
 title: Nhận dạng chữ số viết tay với sklearn và opencv
 authors: thorpham
+hide_table_of_contents : true
 tags: [opencv, sklearn]
 ---
 

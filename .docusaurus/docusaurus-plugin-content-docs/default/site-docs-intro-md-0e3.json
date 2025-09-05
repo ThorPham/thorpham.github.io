@@ -1,5 +1,4 @@
 {
-  "unversionedId": "intro",
   "id": "intro",
   "title": "Tutorial Intro",
   "description": "Let's discover Docusaurus in less than 5 minutes.",
@@ -7,6 +6,8 @@
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/ThorPham/docs/intro.md",
   "tags": [],
   "version": "current",

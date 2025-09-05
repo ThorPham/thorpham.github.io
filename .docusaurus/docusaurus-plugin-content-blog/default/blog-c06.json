@@ -4,7 +4,6 @@
   "postsPerPage": 10,
   "totalPages": 2,
   "totalCount": 12,
-  "previousPage": null,
   "nextPage": "/blog/page/2",
   "blogDescription": "Blog",
   "blogTitle": "Blog"

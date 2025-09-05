@@ -6,7 +6,7 @@
  */
 
 import {useMemo} from 'react';
-import type {TOCItem} from '@docusaurus/types';
+import type {TOCItem} from '@docusaurus/mdx-loader';
 
 export type TOCTreeNode = {
   readonly value: string;
@@ -27,14 +27,14 @@ function treeifyTOC(flatTOC: readonly TOCItem[]): TOCTreeNode[] {
   // level <i>. We will modify these indices as we iterate through all headings.
   // e.g. if an ### H3 was last seen at index 2, then prevIndexForLevel[3] === 2
   // indices 0 and 1 will remain unused.
-  const prevIndexForLevel = Array(7).fill(-1);
+  const prevIndexForLevel = Array<number>(7).fill(-1);
 
   headings.forEach((curr, currIndex) => {
-    // take the last seen index for each ancestor level. the highest
-    // index will be the direct ancestor of the current heading.
+    // Take the last seen index for each ancestor level. the highest index will
+    // be the direct ancestor of the current heading.
     const ancestorLevelIndexes = prevIndexForLevel.slice(2, curr.level);
     curr.parentIndex = Math.max(...ancestorLevelIndexes);
-    // mark that curr.level was last seen at the current index
+    // Mark that curr.level was last seen at the current index.
     prevIndexForLevel[curr.level] = currIndex;
   });
 
@@ -44,7 +44,7 @@ function treeifyTOC(flatTOC: readonly TOCItem[]): TOCTreeNode[] {
   headings.forEach((heading) => {
     const {parentIndex, ...rest} = heading;
     if (parentIndex >= 0) {
-      headings[parentIndex].children.push(rest);
+      headings[parentIndex]!.children.push(rest);
     } else {
       rootNodes.push(rest);
     }
@@ -52,6 +52,10 @@ function treeifyTOC(flatTOC: readonly TOCItem[]): TOCTreeNode[] {
   return rootNodes;
 }
 
+/**
+ * Takes a flat TOC list (from the MDX loader) and treeifies it into what the
+ * TOC components expect. Memoized for performance.
+ */
 export function useTreeifiedTOC(toc: TOCItem[]): readonly TOCTreeNode[] {
   return useMemo(() => treeifyTOC(toc), [toc]);
 }
@@ -87,6 +91,18 @@ function filterTOC({
   });
 }
 
+/**
+ * Takes a flat TOC list (from the MDX loader) and treeifies it into what the
+ * TOC components expect, applying the `minHeadingLevel` and `maxHeadingLevel`.
+ * Memoized for performance.
+ *
+ * **Important**: this is not the same as `useTreeifiedTOC(toc.filter(...))`,
+ * because we have to filter the TOC after it has been treeified. This is mostly
+ * to ensure that weird TOC structures preserve their semantics. For example, an
+ * h3-h2-h4 sequence should not be treeified as an "h3 > h4" hierarchy with
+ * min=3, max=4, but should rather be "[h3, h4]" (since the h2 heading has split
+ * the two headings and they are not parent-children)
+ */
 export function useFilteredAndTreeifiedTOC({
   toc,
   minHeadingLevel,
@@ -97,12 +113,7 @@ export function useFilteredAndTreeifiedTOC({
   maxHeadingLevel: number;
 }): readonly TOCTreeNode[] {
   return useMemo(
-    () =>
-      // Note: we have to filter the TOC after it has been treeified. This is
-      // mostly to ensure that weird TOC structures preserve their semantics.
-      // For example, an h3-h2-h4 sequence should not be treeified as an h3 > h4
-      // hierarchy with min=3, max=4, but should rather be [h3, h4]
-      filterTOC({toc: treeifyTOC(toc), minHeadingLevel, maxHeadingLevel}),
+    () => filterTOC({toc: treeifyTOC(toc), minHeadingLevel, maxHeadingLevel}),
     [toc, minHeadingLevel, maxHeadingLevel],
   );
 }

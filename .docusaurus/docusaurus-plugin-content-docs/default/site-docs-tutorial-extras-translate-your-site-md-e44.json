@@ -1,5 +1,4 @@
 {
-  "unversionedId": "tutorial-extras/translate-your-site",
   "id": "tutorial-extras/translate-your-site",
   "title": "Translate your site",
   "description": "Let's translate docs/intro.md to French.",
@@ -7,6 +6,8 @@
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/translate-your-site",
   "permalink": "/docs/tutorial-extras/translate-your-site",
+  "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/ThorPham/docs/tutorial-extras/translate-your-site.md",
   "tags": [],
   "version": "current",

@@ -6,29 +6,33 @@
  */
 
 import _ from 'lodash';
-import {normalizeUrl} from '@docusaurus/utils';
-import type {Sidebars} from './sidebars/types';
-import {createSidebarsUtils} from './sidebars/utils';
+import {getMainDocId} from './docs';
+import type {FullVersion} from './types';
 import type {
   CategoryGeneratedIndexMetadata,
   DocMetadata,
-  LoadedVersion,
-} from './types';
+} from '@docusaurus/plugin-content-docs';
 import type {
   GlobalVersion,
   GlobalSidebar,
   GlobalDoc,
 } from '@docusaurus/plugin-content-docs/client';
+import type {Sidebars} from './sidebars/types';
 
-export function toGlobalDataDoc(doc: DocMetadata): GlobalDoc {
+function toGlobalDataDoc(doc: DocMetadata): GlobalDoc {
   return {
-    id: doc.unversionedId,
+    id: doc.id,
     path: doc.permalink,
+
+    // optimize global data size: do not add unlisted: false/undefined
+    ...(doc.unlisted && {unlisted: doc.unlisted}),
+
+    // TODO optimize size? remove attribute when no sidebar (breaking change?)
     sidebar: doc.sidebar,
   };
 }
 
-export function toGlobalDataGeneratedIndex(
+function toGlobalDataGeneratedIndex(
   doc: CategoryGeneratedIndexMetadata,
 ): GlobalDoc {
   return {
@@ -38,13 +42,12 @@ export function toGlobalDataGeneratedIndex(
   };
 }
 
-export function toGlobalSidebars(
+function toGlobalSidebars(
   sidebars: Sidebars,
-  version: LoadedVersion,
-): Record<string, GlobalSidebar> {
-  const {getFirstLink} = createSidebarsUtils(sidebars);
+  version: FullVersion,
+): {[sidebarId: string]: GlobalSidebar} {
   return _.mapValues(sidebars, (sidebar, sidebarId) => {
-    const firstLink = getFirstLink(sidebarId);
+    const firstLink = version.sidebarsUtils.getFirstLink(sidebarId);
     if (!firstLink) {
       return {};
     }
@@ -52,27 +55,25 @@ export function toGlobalSidebars(
       link: {
         path:
           firstLink.type === 'generated-index'
-            ? normalizeUrl([version.versionPath, firstLink.slug])
-            : version.docs.find(
-                (doc) =>
-                  doc.id === firstLink.id || doc.unversionedId === firstLink.id,
-              )!.permalink,
+            ? firstLink.permalink
+            : version.docs.find((doc) => doc.id === firstLink.id)!.permalink,
         label: firstLink.label,
       },
     };
   });
 }
 
-export function toGlobalDataVersion(version: LoadedVersion): GlobalVersion {
+export function toGlobalDataVersion(version: FullVersion): GlobalVersion {
   return {
     name: version.versionName,
-    label: version.versionLabel,
+    label: version.label,
     isLast: version.isLast,
-    path: version.versionPath,
-    mainDocId: version.mainDocId,
+    path: version.path,
+    mainDocId: getMainDocId(version),
     docs: version.docs
       .map(toGlobalDataDoc)
       .concat(version.categoryGeneratedIndices.map(toGlobalDataGeneratedIndex)),
+    draftIds: version.drafts.map((doc) => doc.id),
     sidebars: toGlobalSidebars(version.sidebars, version),
   };
 }

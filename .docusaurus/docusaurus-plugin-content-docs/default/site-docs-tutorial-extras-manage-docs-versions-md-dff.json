@@ -1,5 +1,4 @@
 {
-  "unversionedId": "tutorial-extras/manage-docs-versions",
   "id": "tutorial-extras/manage-docs-versions",
   "title": "Manage Docs Versions",
   "description": "Docusaurus can manage multiple versions of your docs.",
@@ -7,6 +6,8 @@
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/manage-docs-versions",
   "permalink": "/docs/tutorial-extras/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/ThorPham/docs/tutorial-extras/manage-docs-versions.md",
   "tags": [],
   "version": "current",

@@ -5,37 +5,41 @@
   "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
   "description": "Có rất nhiều thuật toán để nhận diện chữ số viết tay (hand writen digit) như neural network,CNN với độ chính xác rất cao lên tới 99%. Nhưng cũng không nên phủ nhận các thuật toán áp dụng theo kiểu truyền thống tuy vẫn có nhiều ưu điểm là đơn giản và chi phí tính toán thâp.Trong bài viết này chúng ta cùng tìm hiểu Hog(histogram of oriented gradient) và svm( support vector machine) để nhận dạng chữ số viết tay trên bộ dữ liệu MNIST.",
   "date": "2018-06-04T00:00:00.000Z",
-  "formattedDate": "June 4, 2018",
   "tags": [
     {
+      "inline": true,
       "label": "opencv",
       "permalink": "/blog/tags/opencv"
     },
     {
+      "inline": true,
       "label": "sklearn",
       "permalink": "/blog/tags/sklearn"
     }
   ],
-  "readingTime": 3.135,
-  "truncated": true,
+  "readingTime": 3.62,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Thorpham",
       "title": "Deep learning enthusiast",
       "url": "https://github.com/ThorPham",
       "imageURL": "https://github.com/ThorPham.png",
-      "key": "thorpham"
+      "key": "thorpham",
+      "page": null
     }
   ],
   "frontMatter": {
     "slug": "Nhận-dạng-chữ-số-viết-tay",
     "title": "Nhận dạng chữ số viết tay với sklearn và opencv",
     "authors": "thorpham",
+    "hide_table_of_contents": true,
     "tags": [
       "opencv",
       "sklearn"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Sentiment Analysis sử dụng Tf-Idf áp dụng cho ngôn ngữ tiếng việt",
     "permalink": "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf"

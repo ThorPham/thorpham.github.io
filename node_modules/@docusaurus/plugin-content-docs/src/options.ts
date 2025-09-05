@@ -5,27 +5,24 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import type {PluginOptions} from '@docusaurus/plugin-content-docs';
+import logger from '@docusaurus/logger';
 import {
   Joi,
   RemarkPluginsSchema,
   RehypePluginsSchema,
+  RecmaPluginsSchema,
   AdmonitionsSchema,
+  RouteBasePathSchema,
   URISchema,
 } from '@docusaurus/utils-validation';
 import {GlobExcludeDefault} from '@docusaurus/utils';
-
-import type {
-  OptionValidationContext,
-  ValidationResult,
-} from '@docusaurus/types';
-import logger from '@docusaurus/logger';
-import admonitions from 'remark-admonitions';
 import {DefaultSidebarItemsGenerator} from './sidebars/generator';
 import {
   DefaultNumberPrefixParser,
   DisabledNumberPrefixParser,
 } from './numberPrefix';
+import type {OptionValidationContext} from '@docusaurus/types';
+import type {PluginOptions, Options} from '@docusaurus/plugin-content-docs';
 
 export const DEFAULT_OPTIONS: Omit<PluginOptions, 'id' | 'sidebarPath'> = {
   path: 'docs', // Path to data on filesystem, relative to site dir.
@@ -35,18 +32,21 @@ export const DEFAULT_OPTIONS: Omit<PluginOptions, 'id' | 'sidebarPath'> = {
   exclude: GlobExcludeDefault,
   sidebarItemsGenerator: DefaultSidebarItemsGenerator,
   numberPrefixParser: DefaultNumberPrefixParser,
-  docLayoutComponent: '@theme/DocPage',
+  docsRootComponent: '@theme/DocsRoot',
+  docVersionRootComponent: '@theme/DocVersionRoot',
+  docRootComponent: '@theme/DocRoot',
   docItemComponent: '@theme/DocItem',
   docTagDocListComponent: '@theme/DocTagDocListPage',
   docTagsListComponent: '@theme/DocTagsListPage',
   docCategoryGeneratedIndexComponent: '@theme/DocCategoryGeneratedIndexPage',
   remarkPlugins: [],
   rehypePlugins: [],
+  recmaPlugins: [],
   beforeDefaultRemarkPlugins: [],
   beforeDefaultRehypePlugins: [],
   showLastUpdateTime: false,
   showLastUpdateAuthor: false,
-  admonitions: {},
+  admonitions: true,
   includeCurrentVersion: true,
   disableVersioning: false,
   lastVersion: undefined,
@@ -56,6 +56,8 @@ export const DEFAULT_OPTIONS: Omit<PluginOptions, 'id' | 'sidebarPath'> = {
   sidebarCollapsible: true,
   sidebarCollapsed: true,
   breadcrumbs: true,
+  onInlineTags: 'warn',
+  tags: undefined,
 };
 
 const VersionOptionsSchema = Joi.object({
@@ -64,22 +66,21 @@ const VersionOptionsSchema = Joi.object({
   banner: Joi.string().equal('none', 'unreleased', 'unmaintained').optional(),
   badge: Joi.boolean().optional(),
   className: Joi.string().optional(),
+  noIndex: Joi.boolean().optional(),
 });
 
 const VersionsOptionsSchema = Joi.object()
   .pattern(Joi.string().required(), VersionOptionsSchema)
   .default(DEFAULT_OPTIONS.versions);
 
-export const OptionsSchema = Joi.object({
+const OptionsSchema = Joi.object<PluginOptions>({
   path: Joi.string().default(DEFAULT_OPTIONS.path),
   editUrl: Joi.alternatives().try(URISchema, Joi.function()),
   editCurrentVersion: Joi.boolean().default(DEFAULT_OPTIONS.editCurrentVersion),
   editLocalizedFiles: Joi.boolean().default(DEFAULT_OPTIONS.editLocalizedFiles),
-  routeBasePath: Joi.string()
-    // '' not allowed, see https://github.com/facebook/docusaurus/issues/3374
-    // .allow('') ""
-    .default(DEFAULT_OPTIONS.routeBasePath),
+  routeBasePath: RouteBasePathSchema.default(DEFAULT_OPTIONS.routeBasePath),
   tagsBasePath: Joi.string().default(DEFAULT_OPTIONS.tagsBasePath),
+  // @ts-expect-error: deprecated
   homePageId: Joi.any().forbidden().messages({
     'any.unknown':
       'The docs plugin option homePageId is not supported anymore. To make a doc the "home", please add "slug: /" in its front matter. See: https://docusaurus.io/docs/next/docs-introduction#home-page-docs',
@@ -101,13 +102,17 @@ export const OptionsSchema = Joi.object({
       Joi.function(),
       // Convert boolean values to functions
       Joi.alternatives().conditional(Joi.boolean(), {
-        then: Joi.custom((val) =>
+        then: Joi.custom((val: boolean) =>
           val ? DefaultNumberPrefixParser : DisabledNumberPrefixParser,
         ),
       }),
     )
     .default(() => DEFAULT_OPTIONS.numberPrefixParser),
-  docLayoutComponent: Joi.string().default(DEFAULT_OPTIONS.docLayoutComponent),
+  docsRootComponent: Joi.string().default(DEFAULT_OPTIONS.docsRootComponent),
+  docVersionRootComponent: Joi.string().default(
+    DEFAULT_OPTIONS.docVersionRootComponent,
+  ),
+  docRootComponent: Joi.string().default(DEFAULT_OPTIONS.docRootComponent),
   docItemComponent: Joi.string().default(DEFAULT_OPTIONS.docItemComponent),
   docTagsListComponent: Joi.string().default(
     DEFAULT_OPTIONS.docTagsListComponent,
@@ -120,15 +125,14 @@ export const OptionsSchema = Joi.object({
   ),
   remarkPlugins: RemarkPluginsSchema.default(DEFAULT_OPTIONS.remarkPlugins),
   rehypePlugins: RehypePluginsSchema.default(DEFAULT_OPTIONS.rehypePlugins),
+  recmaPlugins: RecmaPluginsSchema.default(DEFAULT_OPTIONS.recmaPlugins),
   beforeDefaultRemarkPlugins: RemarkPluginsSchema.default(
     DEFAULT_OPTIONS.beforeDefaultRemarkPlugins,
   ),
   beforeDefaultRehypePlugins: RehypePluginsSchema.default(
     DEFAULT_OPTIONS.beforeDefaultRehypePlugins,
   ),
-  admonitions: Joi.alternatives()
-    .try(AdmonitionsSchema, Joi.boolean().invalid(true))
-    .default(DEFAULT_OPTIONS.admonitions),
+  admonitions: AdmonitionsSchema.default(DEFAULT_OPTIONS.admonitions),
   showLastUpdateTime: Joi.bool().default(DEFAULT_OPTIONS.showLastUpdateTime),
   showLastUpdateAuthor: Joi.bool().default(
     DEFAULT_OPTIONS.showLastUpdateAuthor,
@@ -141,12 +145,19 @@ export const OptionsSchema = Joi.object({
   lastVersion: Joi.string().optional(),
   versions: VersionsOptionsSchema,
   breadcrumbs: Joi.bool().default(DEFAULT_OPTIONS.breadcrumbs),
+  onInlineTags: Joi.string()
+    .equal('ignore', 'log', 'warn', 'throw')
+    .default(DEFAULT_OPTIONS.onInlineTags),
+  tags: Joi.string()
+    .disallow('')
+    .allow(null, false)
+    .default(() => DEFAULT_OPTIONS.tags),
 });
 
 export function validateOptions({
   validate,
   options: userOptions,
-}: OptionValidationContext<PluginOptions>): ValidationResult<PluginOptions> {
+}: OptionValidationContext<Options, PluginOptions>): PluginOptions {
   let options = userOptions;
 
   if (options.sidebarCollapsible === false) {
@@ -169,12 +180,6 @@ export function validateOptions({
   }
 
   const normalizedOptions = validate(OptionsSchema, options);
-
-  if (normalizedOptions.admonitions) {
-    normalizedOptions.remarkPlugins = normalizedOptions.remarkPlugins.concat([
-      [admonitions, normalizedOptions.admonitions],
-    ]);
-  }
 
   return normalizedOptions;
 }

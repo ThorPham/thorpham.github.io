@@ -1,5 +1,4 @@
 {
-  "unversionedId": "tutorial-basics/deploy-your-site",
   "id": "tutorial-basics/deploy-your-site",
   "title": "Deploy your site",
   "description": "Docusaurus is a static-site-generator (also called Jamstack).",
@@ -7,6 +6,8 @@
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/deploy-your-site",
   "permalink": "/docs/tutorial-basics/deploy-your-site",
+  "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/deploy-your-site.md",
   "tags": [],
   "version": "current",

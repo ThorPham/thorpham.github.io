@@ -1,0 +1,19 @@
+{
+  "id": "computer-architecture",
+  "title": "computer-architecture",
+  "description": "",
+  "source": "@site/programming/computer-architecture.md",
+  "sourceDirName": ".",
+  "slug": "/computer-architecture",
+  "permalink": "/programming/computer-architecture",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "progammingSidebar",
+  "previous": {
+    "title": "data-structure",
+    "permalink": "/programming/data-structure"
+  }
+}

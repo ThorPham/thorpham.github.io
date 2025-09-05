@@ -47,6 +47,7 @@ const sidebarItemDocSchema = sidebarItemBaseSchema.append<SidebarItemDoc>({
   type: Joi.string().valid('doc', 'ref').required(),
   id: Joi.string().required(),
   label: Joi.string(),
+  translatable: Joi.boolean(),
 });
 
 const sidebarItemHtmlSchema = sidebarItemBaseSchema.append<SidebarItemHtml>({
@@ -58,9 +59,13 @@ const sidebarItemHtmlSchema = sidebarItemBaseSchema.append<SidebarItemHtml>({
 const sidebarItemLinkSchema = sidebarItemBaseSchema.append<SidebarItemLink>({
   type: 'link',
   href: URISchema.required(),
+  autoAddBaseUrl: Joi.boolean(),
   label: Joi.string()
     .required()
     .messages({'any.unknown': '"label" must be a string'}),
+  description: Joi.string().optional().messages({
+    'any.unknown': '"description" must be a string',
+  }),
 });
 
 const sidebarItemCategoryLinkSchema = Joi.object<SidebarItemCategoryLink>()
@@ -114,6 +119,9 @@ const sidebarItemCategorySchema =
     collapsible: Joi.boolean().messages({
       'any.unknown': '"collapsible" must be a boolean',
     }),
+    description: Joi.string().optional().messages({
+      'any.unknown': '"description" must be a string',
+    }),
   });
 
 const sidebarItemSchema = Joi.object<SidebarItemConfig>().when('.type', {
@@ -144,14 +152,14 @@ function validateSidebarItem(
   // manually
   Joi.assert(item, sidebarItemSchema);
 
-  if ((item as NormalizedSidebarItemCategory).type === 'category') {
+  if ((item as NormalizedSidebarItem).type === 'category') {
     (item as NormalizedSidebarItemCategory).items.forEach(validateSidebarItem);
   }
 }
 
-export function validateSidebars(
-  sidebars: Record<string, unknown>,
-): asserts sidebars is NormalizedSidebars {
+export function validateSidebars(sidebars: {
+  [sidebarId: string]: unknown;
+}): asserts sidebars is NormalizedSidebars {
   Object.values(sidebars as NormalizedSidebars).forEach((sidebar) => {
     sidebar.forEach(validateSidebarItem);
   });
@@ -159,15 +167,21 @@ export function validateSidebars(
 
 const categoryMetadataFileSchema = Joi.object<CategoryMetadataFile>({
   label: Joi.string(),
+  description: Joi.string(),
   position: Joi.number(),
   collapsed: Joi.boolean(),
   collapsible: Joi.boolean(),
   className: Joi.string(),
   link: sidebarItemCategoryLinkSchema,
+  customProps: Joi.object().unknown(),
 });
 
 export function validateCategoryMetadataFile(
   unsafeContent: unknown,
 ): CategoryMetadataFile {
-  return Joi.attempt(unsafeContent, categoryMetadataFileSchema);
+  const {error, value} = categoryMetadataFileSchema.validate(unsafeContent);
+  if (error) {
+    throw error;
+  }
+  return value;
 }

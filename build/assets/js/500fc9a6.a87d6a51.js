@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8348],{6730:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/feature-extraction","name":"Feature extraction","count":1,"permalink":"/blog/tags/feature-extraction"}')}}]);

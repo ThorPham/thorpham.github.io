@@ -3,9 +3,10 @@
 const math = require('remark-math');
 const katex = require('rehype-katex');
 require('dotenv').config();
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+// const lightCodeTheme = require('prism-react-renderer/themes/github');
+// const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github
+const darkCodeTheme = require('prism-react-renderer').themes.dracula
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ThorPham',
@@ -44,6 +45,7 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
+           blogSidebarCount: 0,
           editUrl:
             'https://github.com/ThorPham',
           remarkPlugins: [math],
@@ -58,7 +60,18 @@ const config = {
     ],
     
   ],
-
+ plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'cs',
+        path: 'cs',
+        routeBasePath: 'cs',
+        sidebarPath: './sidebars.cs.js',
+        // ... other options
+      },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -69,14 +82,20 @@ const config = {
           src: 'img/emoticon_big.png',
         },
         items: [
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/cs/intro',   // To highlight the navbar item, you must link to a document, not a top-level directory
             position: 'left',
-            label: 'Tutorial',
+            label: 'CS',
+            activeBaseRegex: `/cs/`,
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          { to: 'Archive', label: 'Archive', position: 'right' },
+          // { to: 'Archive', label: 'Archive', position: 'right' },
           {
             href: 'https://github.com/ThorPham',
             label: 'GitHub',
@@ -88,47 +107,7 @@ const config = {
      
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
+       
         copyright: `Copyright © ${new Date().getFullYear()} Thorpham`,
       },
       prism: {

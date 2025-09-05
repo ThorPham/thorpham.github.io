@@ -1,0 +1,26 @@
+{
+  "id": "C-Programming/create-a-page",
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/cs/C-Programming/create-a-page.md",
+  "sourceDirName": "C-Programming",
+  "slug": "/C-Programming/create-a-page",
+  "permalink": "/cs/C-Programming/create-a-page",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "csSidebar",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/cs/intro"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/cs/C-Programming/create-a-document"
+  }
+}

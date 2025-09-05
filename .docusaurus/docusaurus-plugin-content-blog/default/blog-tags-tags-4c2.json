@@ -1,100 +1,72 @@
-{
-  "NLP": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/nlp",
-    "name": "NLP",
-    "count": 3,
-    "permalink": "/blog/tags/nlp"
+[
+  {
+    "label": "NLP",
+    "permalink": "/blog/tags/nlp",
+    "count": 3
   },
-  "CNN": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/cnn",
-    "name": "CNN",
-    "count": 3,
-    "permalink": "/blog/tags/cnn"
+  {
+    "label": "CNN",
+    "permalink": "/blog/tags/cnn",
+    "count": 3
   },
-  "Computer vision": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/computer-vision",
-    "name": "Computer vision",
-    "count": 3,
-    "permalink": "/blog/tags/computer-vision"
+  {
+    "label": "Computer vision",
+    "permalink": "/blog/tags/computer-vision",
+    "count": 3
   },
-  "graph": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/graph",
-    "name": "graph",
-    "count": 1,
-    "permalink": "/blog/tags/graph"
+  {
+    "label": "graph",
+    "permalink": "/blog/tags/graph",
+    "count": 1
   },
-  "Deep learning": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/deep-learning",
-    "name": "Deep learning",
-    "count": 1,
-    "permalink": "/blog/tags/deep-learning"
+  {
+    "label": "Deep learning",
+    "permalink": "/blog/tags/deep-learning",
+    "count": 1
   },
-  "Object detection": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/object-detection",
-    "name": "Object detection",
-    "count": 2,
-    "permalink": "/blog/tags/object-detection"
+  {
+    "label": "Object detection",
+    "permalink": "/blog/tags/object-detection",
+    "count": 2
   },
-  "python": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/python",
-    "name": "python",
-    "count": 7,
-    "permalink": "/blog/tags/python"
+  {
+    "label": "python",
+    "permalink": "/blog/tags/python",
+    "count": 7
   },
-  "sklearn": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/sklearn",
-    "name": "sklearn",
-    "count": 2,
-    "permalink": "/blog/tags/sklearn"
+  {
+    "label": "sklearn",
+    "permalink": "/blog/tags/sklearn",
+    "count": 2
   },
-  "opencv": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/opencv",
-    "name": "opencv",
-    "count": 3,
-    "permalink": "/blog/tags/opencv"
+  {
+    "label": "opencv",
+    "permalink": "/blog/tags/opencv",
+    "count": 3
   },
-  "Keras": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/keras",
-    "name": "Keras",
-    "count": 1,
-    "permalink": "/blog/tags/keras"
+  {
+    "label": "Keras",
+    "permalink": "/blog/tags/keras",
+    "count": 1
   },
-  "Feature extraction": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/feature-extraction",
-    "name": "Feature extraction",
-    "count": 1,
-    "permalink": "/blog/tags/feature-extraction"
+  {
+    "label": "Feature extraction",
+    "permalink": "/blog/tags/feature-extraction",
+    "count": 1
   },
-  "Dlib": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/dlib",
-    "name": "Dlib",
-    "count": 1,
-    "permalink": "/blog/tags/dlib"
+  {
+    "label": "Dlib",
+    "permalink": "/blog/tags/dlib",
+    "count": 1
   },
-  "Face recognition": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/face-recognition",
-    "name": "Face recognition",
-    "count": 1,
-    "permalink": "/blog/tags/face-recognition"
+  {
+    "label": "Face recognition",
+    "permalink": "/blog/tags/face-recognition",
+    "count": 1
   },
-  "Word2Vec": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/word-2-vec",
-    "name": "Word2Vec",
-    "count": 1,
-    "permalink": "/blog/tags/word-2-vec"
+  {
+    "label": "Word2Vec",
+    "permalink": "/blog/tags/word-2-vec",
+    "count": 1
   }
-}
+]

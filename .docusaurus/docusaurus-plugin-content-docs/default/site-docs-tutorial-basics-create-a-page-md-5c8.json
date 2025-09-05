@@ -1,5 +1,4 @@
 {
-  "unversionedId": "tutorial-basics/create-a-page",
   "id": "tutorial-basics/create-a-page",
   "title": "Create a Page",
   "description": "Add Markdown or React files to src/pages to create a standalone page:",
@@ -7,6 +6,8 @@
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-page",
   "permalink": "/docs/tutorial-basics/create-a-page",
+  "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/create-a-page.md",
   "tags": [],
   "version": "current",

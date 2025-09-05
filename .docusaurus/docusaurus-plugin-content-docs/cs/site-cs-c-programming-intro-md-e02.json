@@ -1,0 +1,22 @@
+{
+  "id": "C-Programming/intro",
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/cs/C-Programming/intro.md",
+  "sourceDirName": "C-Programming",
+  "slug": "/C-Programming/intro",
+  "permalink": "/cs/C-Programming/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "csSidebar",
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/cs/C-Programming/create-a-blog-post"
+  }
+}

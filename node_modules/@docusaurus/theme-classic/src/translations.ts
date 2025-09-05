@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import _ from 'lodash';
+import {mergeTranslations} from '@docusaurus/utils';
 import type {TranslationFile, TranslationFileContent} from '@docusaurus/types';
 import type {
   ThemeConfig,
@@ -14,9 +16,6 @@ import type {
   MultiColumnFooter,
   SimpleFooter,
 } from '@docusaurus/theme-common';
-
-import _ from 'lodash';
-import {mergeTranslations} from '@docusaurus/utils';
 
 function getNavbarTranslationFile(navbar: Navbar): TranslationFileContent {
   // TODO handle properly all the navbar item types here!
@@ -46,15 +45,40 @@ function getNavbarTranslationFile(navbar: Navbar): TranslationFileContent {
     ? {title: {message: navbar.title, description: 'The title in the navbar'}}
     : {};
 
-  return mergeTranslations([titleTranslations, navbarItemsTranslations]);
+  const logoAlt: TranslationFileContent = navbar.logo?.alt
+    ? {
+        'logo.alt': {
+          message: navbar.logo.alt,
+          description: 'The alt text of navbar logo',
+        },
+      }
+    : {};
+
+  return mergeTranslations([
+    titleTranslations,
+    logoAlt,
+    navbarItemsTranslations,
+  ]);
 }
 function translateNavbar(
   navbar: Navbar,
-  navbarTranslations: TranslationFileContent,
+  navbarTranslations: TranslationFileContent | undefined,
 ): Navbar {
+  if (!navbarTranslations) {
+    return navbar;
+  }
+
+  const logo = navbar.logo
+    ? {
+        ...navbar.logo,
+        alt: navbarTranslations[`logo.alt`]?.message ?? navbar.logo?.alt,
+      }
+    : undefined;
+
   return {
     ...navbar,
     title: navbarTranslations.title?.message ?? navbar.title,
+    logo,
     //  TODO handle properly all the navbar item types here!
     items: navbar.items.map((item) => {
       const subItems = item.items?.map((subItem) => ({
@@ -76,7 +100,7 @@ function translateNavbar(
 function isMultiColumnFooterLinks(
   links: MultiColumnFooter['links'] | SimpleFooter['links'],
 ): links is MultiColumnFooter['links'] {
-  return links.length > 0 && 'title' in links[0];
+  return links.length > 0 && 'title' in links[0]!;
 }
 
 function getFooterTranslationFile(footer: Footer): TranslationFileContent {
@@ -117,12 +141,29 @@ function getFooterTranslationFile(footer: Footer): TranslationFileContent {
       }
     : {};
 
-  return mergeTranslations([footerLinkTitles, footerLinkLabels, copyright]);
+  const logoAlt: TranslationFileContent = footer.logo?.alt
+    ? {
+        'logo.alt': {
+          message: footer.logo.alt,
+          description: 'The alt text of footer logo',
+        },
+      }
+    : {};
+
+  return mergeTranslations([
+    footerLinkTitles,
+    footerLinkLabels,
+    copyright,
+    logoAlt,
+  ]);
 }
 function translateFooter(
   footer: Footer,
-  footerTranslations: TranslationFileContent,
+  footerTranslations: TranslationFileContent | undefined,
 ): Footer {
+  if (!footerTranslations) {
+    return footer;
+  }
   const links = isMultiColumnFooterLinks(footer.links)
     ? footer.links.map((link) => ({
         ...link,
@@ -144,10 +185,18 @@ function translateFooter(
 
   const copyright = footerTranslations.copyright?.message ?? footer.copyright;
 
+  const logo = footer.logo
+    ? {
+        ...footer.logo,
+        alt: footerTranslations[`logo.alt`]?.message ?? footer.logo?.alt,
+      }
+    : undefined;
+
   return {
     ...footer,
     links,
     copyright,
+    logo,
   };
 }
 
@@ -178,7 +227,7 @@ export function translateThemeConfig({
   themeConfig: ThemeConfig;
   translationFiles: TranslationFile[];
 }): ThemeConfig {
-  const translationFilesMap: Record<string, TranslationFile> = _.keyBy(
+  const translationFilesMap: {[fileName: string]: TranslationFile} = _.keyBy(
     translationFiles,
     (f) => f.path,
   );
@@ -187,10 +236,10 @@ export function translateThemeConfig({
     ...themeConfig,
     navbar: translateNavbar(
       themeConfig.navbar,
-      translationFilesMap.navbar.content,
+      translationFilesMap.navbar?.content,
     ),
     footer: themeConfig.footer
-      ? translateFooter(themeConfig.footer, translationFilesMap.footer.content)
+      ? translateFooter(themeConfig.footer, translationFilesMap.footer?.content)
       : undefined,
   };
 }

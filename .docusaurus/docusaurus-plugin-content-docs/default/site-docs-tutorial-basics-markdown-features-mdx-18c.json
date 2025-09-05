@@ -1,5 +1,4 @@
 {
-  "unversionedId": "tutorial-basics/markdown-features",
   "id": "tutorial-basics/markdown-features",
   "title": "Markdown Features",
   "description": "Docusaurus supports Markdown and a few additional features.",
@@ -7,6 +6,8 @@
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/markdown-features",
   "permalink": "/docs/tutorial-basics/markdown-features",
+  "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/markdown-features.mdx",
   "tags": [],
   "version": "current",

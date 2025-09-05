@@ -4,5 +4,6 @@
   "source": "@site/src/pages/my-markdown-page.md",
   "title": "My Markdown page",
   "description": "This is a Markdown page",
-  "frontMatter": {}
+  "frontMatter": {},
+  "unlisted": false
 }

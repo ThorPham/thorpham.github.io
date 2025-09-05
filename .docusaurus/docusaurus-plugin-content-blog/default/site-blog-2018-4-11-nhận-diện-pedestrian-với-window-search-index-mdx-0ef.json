@@ -5,30 +5,33 @@
   "title": "Nhận diện pedestrian với window search",
   "description": "Object regconite bao gồm 2 phần việc đó là object classifier và  object detection. Hiểu một cách đơn giản đó là nếu chúng ta muốn máy tính nhận dạng được con mèo hay con chó thì trước tiên nó sẽ phải detecter đối tượng đó trên image và sau đó xem đối tượng đó là cái gì bằng cách classifier .Với sự phát triển của deep learning như hiện nay đã có rất nhiều thuật toán giúp ta giải quyết vấn đề này như R-CNN,Fast or Faster R-CNN,YOLO hay SSD với tốc độ xử lý nhanh và độ chính xác cao. Tuy vậy những cách truyền thống vẫn là sự lựa chon tốt khi mà chúng ta có ít dữ liệu và muốn build một model nào đó đơn giản hơn những cái phức tạp hơn như deep learning. Trong bài này chúng ta sẽ nhận diện pedestrian bằng phương pháp cổ điển trong computer vision và sau đó bạn có thể tự build một model custom nào đó theo ý của bạn .Thuật toán sử dụng trong bài là HOG + SVM + Window search.",
   "date": "2018-04-11T00:00:00.000Z",
-  "formattedDate": "April 11, 2018",
   "tags": [
     {
+      "inline": true,
       "label": "opencv",
       "permalink": "/blog/tags/opencv"
     },
     {
+      "inline": true,
       "label": "python",
       "permalink": "/blog/tags/python"
     },
     {
+      "inline": true,
       "label": "computer vision",
       "permalink": "/blog/tags/computer-vision"
     }
   ],
-  "readingTime": 7.53,
-  "truncated": true,
+  "readingTime": 8.24,
+  "hasTruncateMarker": true,
   "authors": [
     {
       "name": "Thorpham",
       "title": "Deep learning enthusiast",
       "url": "https://github.com/ThorPham",
       "imageURL": "https://github.com/ThorPham.png",
-      "key": "thorpham"
+      "key": "thorpham",
+      "page": null
     }
   ],
   "frontMatter": {
@@ -41,6 +44,7 @@
       "computer vision"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Tìm hiểu regression trong object detection",
     "permalink": "/blog/Tìm-hiểu-regression-trong-object-detection"

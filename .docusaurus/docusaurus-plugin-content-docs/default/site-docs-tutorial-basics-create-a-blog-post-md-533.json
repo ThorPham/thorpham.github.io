@@ -1,5 +1,4 @@
 {
-  "unversionedId": "tutorial-basics/create-a-blog-post",
   "id": "tutorial-basics/create-a-blog-post",
   "title": "Create a Blog Post",
   "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
@@ -7,6 +6,8 @@
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-blog-post",
   "permalink": "/docs/tutorial-basics/create-a-blog-post",
+  "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/create-a-blog-post.md",
   "tags": [],
   "version": "current",

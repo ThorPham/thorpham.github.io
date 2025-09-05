@@ -3,6 +3,7 @@ slug : Feature-extraction-trong-computer-vision
 title : Feature extraction trong computer vision
 authors : thorpham
 tags : [Feature extraction, computer vision]
+hide_table_of_contents : true
 ---
 *Như chúng ta đã biết Feature engineering là quá trình chúng ta thực hiện trích xuất và trích chọn các đặc trưng(thuộc tính) quan trọng từ dữ liệu thô để sử dụng làm đại diện cho các mẫu dữ liệu huấn luyện.Vì vậy trong một tập dataset không phải dữ liệu nào cũng quan trọng, không phải đặc trưng nào cũng dễ nhận biết. Chính vì thế đối với mỗi loại dữ liệu sẽ có những đặc trưng riêng , trong bài viết này ta cùng tìm hiểu 2 đặc trưng quan trọng trong CV truyền thống*
 <!--truncate-->
@@ -18,14 +19,17 @@ lấy bán kính 8 pixel lân cận thì lbp sẽ có dạng 11001111, là một
 
 <!-- ![LBP](./lbp.jpg) -->
  <center>
-   <img width="600" height="300" src={require('./lbp.jpg').default} />
+   <!-- <img width="600" height="300" src='./lbp.jpg' /> -->
+    <img width="600" height="300" src={require('./lbp.jpg').default} />
 </center>
 
 * Cách tính này có hạn chế đó là chỉ giới hạn 3x3 pixel không đủ để mô tả các cấu trúc large scale nên người ta mở rộng khái niệm LBP bằng cách định nghĩa thêm 2 tham số là (P,R) trong đó P là số pixel lân cận xem xét  và R là bán kính ta quét từ pixel trung tâm. Như hình bên dưới.
 
 <!-- ![LBP2](./lbp2.jpg) -->
  <center>
-   <img width="600" height="300" src={require('./lbp2.jpg').default} />
+   <!-- <img width="600" height="300" src='./lbp2.jpg' /> -->
+    <img width="600" height="300" src={require('./lbp2.jpg').default} />
+   
 </center>
 * Công thức LBP như sau :
 
@@ -61,6 +65,7 @@ plt.imshow(lbp,cmap="gray")
 
 % ![lbp3](./lbp3.jpg)
  <center>
+   <!-- <img width="600" height="300" src='./lbp3.jpg' /> -->
    <img width="600" height="300" src={require('./lbp3.jpg').default} />
 </center>
 
@@ -70,6 +75,7 @@ Histogram Oriented of Gradient (Hog) là một feature descriptor thường đư
 image processing thì khái niệm đạo hàm rất quan trọng. Nó là cơ sở của rất nhiều thuật toán như edge,coner detection. Dựa vào đặc điểm này người ta mới xây dựng nó làm feature trên cơ sở derivative. Đạo hàm của image là một matrix theo ox và oy nó có 2 đặc trưng là độ lớn(magnitude) và hướng(direction). Để làm feature trên image thì không thể để 2 đại lượng này rời rạc được nên người ta mới nghĩ ra phương pháp chuẩn hóa nó (quantization) đó là đưa nó về dạng histogram của magnitude theo direction.Bây giờ ta tìm hiểu các bước tính toán ra hog.
 
  <center>
+   <!-- <img width="600" height="300" src='./hog.jpg' /> -->
    <img width="600" height="300" src={require('./hog.jpg').default} />
 </center>
 

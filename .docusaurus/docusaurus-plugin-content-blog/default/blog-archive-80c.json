@@ -29,7 +29,7 @@
           }
         ],
         "readingTime": 9.01,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -78,7 +78,7 @@
           }
         ],
         "readingTime": 15.165,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -129,7 +129,7 @@
           }
         ],
         "readingTime": 6.795,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -184,7 +184,7 @@
           }
         ],
         "readingTime": 8.215,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -236,7 +236,7 @@
           }
         ],
         "readingTime": 3.135,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -287,7 +287,7 @@
           }
         ],
         "readingTime": 9.31,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -338,7 +338,7 @@
           }
         ],
         "readingTime": 3.705,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -393,7 +393,7 @@
           }
         ],
         "readingTime": 3.83,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -445,7 +445,7 @@
           }
         ],
         "readingTime": 5.665,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -496,7 +496,7 @@
           }
         ],
         "readingTime": 5.125,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -551,7 +551,7 @@
           }
         ],
         "readingTime": 7.53,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",
@@ -607,7 +607,7 @@
           }
         ],
         "readingTime": 6.89,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Thorpham",

@@ -1,10 +1,16 @@
 {
-  "/archive-031": {
-    "component": "743515ba",
+  "/archive-e8f": {
+    "__comp": "743515ba",
+    "__context": {
+      "plugin": "a7456010"
+    },
     "config": "5e9f5e1a"
   },
-  "/blog-e74": {
-    "component": "a6aa9e1f",
+  "/blog-be8": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
@@ -38,72 +44,143 @@
         "content": "3c62d7fb"
       }
     ],
-    "metadata": "b2b675dd"
+    "__props": "c15d9823"
   },
-  "/blog/archive-f4c": {
-    "component": "9e4087bc",
-    "archive": "b2f554cd"
+  "/blog/archive-182": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "f81c1134"
   },
-  "/blog/Drowsiness-detection-5ef": {
-    "component": "ccc49370",
+  "/blog/authors-0b7": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "ef8b811a"
+  },
+  "/blog/Drowsiness-detection-909": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "c12c5b3e"
   },
-  "/blog/Feature-extraction-trong-computer-vision-c7c": {
-    "component": "ccc49370",
+  "/blog/Feature-extraction-trong-computer-vision-9be": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "6297a07d"
   },
-  "/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin-a2c": {
-    "component": "ccc49370",
+  "/blog/Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin-1d9": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "3a9690c1"
   },
-  "/blog/Nhận-dạng-chữ-số-viết-tay-b73": {
-    "component": "ccc49370",
+  "/blog/Nhận-dạng-chữ-số-viết-tay-184": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "6661ce28"
   },
-  "/blog/Nhận-diện-pedestrian-với-window-search-7a9": {
-    "component": "ccc49370",
+  "/blog/Nhận-diện-pedestrian-với-window-search-6d6": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
-    "content": "0efb3c04"
+    "content": "38c39a32"
   },
-  "/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN-3a2": {
-    "component": "ccc49370",
+  "/blog/Object-detection-từ-R-CNN-đến-Faster-R-CNN-51a": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "26496a21"
   },
-  "/blog/page/2-5b0": {
-    "component": "a6aa9e1f",
+  "/blog/page/2-38c": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "00fb87ca"
+        "content": "b97636ff"
       },
       {
         "content": "ff5508ad"
       }
     ],
-    "metadata": "8eb4e46b"
+    "__props": "8ea09047"
   },
-  "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet-d53": {
-    "component": "ccc49370",
+  "/blog/Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet-3e6": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "e0d7e28c"
   },
-  "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf-7ee": {
-    "component": "ccc49370",
+  "/blog/Sentiment-Analysis-sử-dụng-Tf-Idf-029": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "39705aea"
   },
-  "/blog/tags-e13": {
-    "component": "01a85c17",
+  "/blog/tags-287": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
-    "tags": "a7023ddc"
+    "__props": "3a2db09e"
   },
-  "/blog/tags/cnn-8b5": {
-    "component": "6875c492",
+  "/blog/tags/cnn-4a6": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
@@ -116,11 +193,13 @@
         "content": "5a60d765"
       }
     ],
-    "metadata": "37cb6839",
-    "listMetadata": "38534a76"
+    "__props": "f0c16d04"
   },
-  "/blog/tags/computer-vision-def": {
-    "component": "6875c492",
+  "/blog/tags/computer-vision-03d": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
@@ -130,80 +209,94 @@
         "content": "e25eb979"
       },
       {
-        "content": "00fb87ca"
+        "content": "b97636ff"
       }
     ],
-    "metadata": "dd061ebd",
-    "listMetadata": "295773b6"
+    "__props": "a413db09"
   },
-  "/blog/tags/deep-learning-fe5": {
-    "component": "6875c492",
+  "/blog/tags/deep-learning-895": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
         "content": "55585d15"
       }
     ],
-    "metadata": "45700526",
-    "listMetadata": "97977ee3"
+    "__props": "54cbdb4d"
   },
-  "/blog/tags/dlib-f08": {
-    "component": "6875c492",
+  "/blog/tags/dlib-366": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
         "content": "790b08a6"
       }
     ],
-    "metadata": "53bc8cf0",
-    "listMetadata": "c9c7f9a5"
+    "__props": "fdc0a0d5"
   },
-  "/blog/tags/face-recognition-26a": {
-    "component": "6875c492",
+  "/blog/tags/face-recognition-3f1": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
         "content": "82345fd2"
       }
     ],
-    "metadata": "7ec3c4dc",
-    "listMetadata": "2d337ce0"
+    "__props": "13a367af"
   },
-  "/blog/tags/feature-extraction-426": {
-    "component": "6875c492",
+  "/blog/tags/feature-extraction-b93": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
         "content": "e25eb979"
       }
     ],
-    "metadata": "500fc9a6",
-    "listMetadata": "1bf3fbee"
+    "__props": "a8f0ee75"
   },
-  "/blog/tags/graph-3d4": {
-    "component": "6875c492",
+  "/blog/tags/graph-f22": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
         "content": "2b5f5a09"
       }
     ],
-    "metadata": "8c241076",
-    "listMetadata": "fac0f815"
+    "__props": "1d883b8c"
   },
-  "/blog/tags/keras-861": {
-    "component": "6875c492",
+  "/blog/tags/keras-78b": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
         "content": "802eda25"
       }
     ],
-    "metadata": "9a3ac2a4",
-    "listMetadata": "93c6849c"
+    "__props": "f06d37f9"
   },
-  "/blog/tags/nlp-bbf": {
-    "component": "6875c492",
+  "/blog/tags/nlp-a41": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
@@ -216,11 +309,13 @@
         "content": "ff5508ad"
       }
     ],
-    "metadata": "fb1f3d53",
-    "listMetadata": "59fc48d3"
+    "__props": "b353f2b9"
   },
-  "/blog/tags/object-detection-cee": {
-    "component": "6875c492",
+  "/blog/tags/object-detection-3c6": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
@@ -230,11 +325,13 @@
         "content": "3c62d7fb"
       }
     ],
-    "metadata": "89594076",
-    "listMetadata": "e4602884"
+    "__props": "e45b5bf7"
   },
-  "/blog/tags/opencv-c66": {
-    "component": "6875c492",
+  "/blog/tags/opencv-360": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
@@ -244,14 +341,16 @@
         "content": "790b08a6"
       },
       {
-        "content": "00fb87ca"
+        "content": "b97636ff"
       }
     ],
-    "metadata": "2796da64",
-    "listMetadata": "42bbdbe1"
+    "__props": "e78cbc36"
   },
-  "/blog/tags/python-3dd": {
-    "component": "6875c492",
+  "/blog/tags/python-57f": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
@@ -270,17 +369,19 @@
         "content": "3c62d7fb"
       },
       {
-        "content": "00fb87ca"
+        "content": "b97636ff"
       },
       {
         "content": "ff5508ad"
       }
     ],
-    "metadata": "232c92ba",
-    "listMetadata": "f8de77c0"
+    "__props": "ae3304ee"
   },
-  "/blog/tags/sklearn-984": {
-    "component": "6875c492",
+  "/blog/tags/sklearn-1e5": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
@@ -290,90 +391,162 @@
         "content": "134c78a0"
       }
     ],
-    "metadata": "4f221e6d",
-    "listMetadata": "61bd1e02"
+    "__props": "95844094"
   },
-  "/blog/tags/word-2-vec-a36": {
-    "component": "6875c492",
+  "/blog/tags/word-2-vec-6a9": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "items": [
       {
         "content": "ff5508ad"
       }
     ],
-    "metadata": "65ca8785",
-    "listMetadata": "757b2659"
+    "__props": "ee23233e"
   },
-  "/blog/Tìm-hiểu-eigenFace-trong-face-recognite-0c4": {
-    "component": "ccc49370",
+  "/blog/Tìm-hiểu-eigenFace-trong-face-recognite-38b": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "2566b280"
   },
-  "/blog/Tìm-hiểu-regression-trong-object-detection-b4b": {
-    "component": "ccc49370",
+  "/blog/Tìm-hiểu-regression-trong-object-detection-1c8": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "e95362af"
   },
-  "/blog/Tìm-hiểu-về-thư-viện-keras-trong-deep-learning-fbc": {
-    "component": "ccc49370",
+  "/blog/Tìm-hiểu-về-thư-viện-keras-trong-deep-learning-bd3": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "a86d6ec1"
   },
-  "/blog/Tìm-hiểu-về-Word2Vec-48d": {
-    "component": "ccc49370",
+  "/blog/Tìm-hiểu-về-Word2Vec-719": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
     "sidebar": "814f3328",
     "content": "490bee68"
   },
-  "/markdown-page-be1": {
-    "component": "1f391b9e",
+  "/markdown-page-3d7": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
     "content": "393be207"
   },
-  "/my-markdown-page-81e": {
-    "component": "1f391b9e",
+  "/my-markdown-page-438": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
     "content": "03181aef"
   },
-  "/docs-87d": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb"
+  "/cs-ce7": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "e131802e"
+    }
   },
-  "/docs/intro-aed": {
-    "component": "17896441",
+  "/cs-b16": {
+    "__comp": "a7bd4aaa",
+    "__props": "1d593603"
+  },
+  "/cs-1f4": {
+    "__comp": "a94703ab"
+  },
+  "/cs/basic-programming/create-a-blog-post-8e1": {
+    "__comp": "17896441",
+    "content": "776cec7a"
+  },
+  "/cs/basic-programming/Pointers-c80": {
+    "__comp": "17896441",
+    "content": "8ed24b61"
+  },
+  "/cs/basic-programming/Pointers/Pointers-Basic-bc6": {
+    "__comp": "17896441",
+    "content": "40079690"
+  },
+  "/cs/intro-5fb": {
+    "__comp": "17896441",
+    "content": "4ffb9ac3"
+  },
+  "/docs-113": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/docs-033": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
+  },
+  "/docs-3ae": {
+    "__comp": "a94703ab"
+  },
+  "/docs/intro-61d": {
+    "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/docs/tutorial-basics/congratulations-793": {
-    "component": "17896441",
+  "/docs/tutorial-basics/congratulations-458": {
+    "__comp": "17896441",
     "content": "822bd8ab"
   },
-  "/docs/tutorial-basics/create-a-blog-post-68e": {
-    "component": "17896441",
+  "/docs/tutorial-basics/create-a-blog-post-108": {
+    "__comp": "17896441",
     "content": "533a09ca"
   },
-  "/docs/tutorial-basics/create-a-document-c2d": {
-    "component": "17896441",
+  "/docs/tutorial-basics/create-a-document-8fc": {
+    "__comp": "17896441",
     "content": "1e4232ab"
   },
-  "/docs/tutorial-basics/create-a-page-f44": {
-    "component": "17896441",
+  "/docs/tutorial-basics/create-a-page-951": {
+    "__comp": "17896441",
     "content": "5c868d36"
   },
-  "/docs/tutorial-basics/deploy-your-site-e46": {
-    "component": "17896441",
+  "/docs/tutorial-basics/deploy-your-site-4f5": {
+    "__comp": "17896441",
     "content": "f55d3e7a"
   },
-  "/docs/tutorial-basics/markdown-features-4b7": {
-    "component": "17896441",
+  "/docs/tutorial-basics/markdown-features-b05": {
+    "__comp": "17896441",
     "content": "18c41134"
   },
-  "/docs/tutorial-extras/manage-docs-versions-fdd": {
-    "component": "17896441",
+  "/docs/tutorial-extras/manage-docs-versions-978": {
+    "__comp": "17896441",
     "content": "dff1c289"
   },
-  "/docs/tutorial-extras/translate-your-site-2d7": {
-    "component": "17896441",
+  "/docs/tutorial-extras/translate-your-site-f9a": {
+    "__comp": "17896441",
     "content": "e44a2883"
   },
-  "/-deb": {
-    "component": "c4f5d8e4",
+  "/-2e1": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
     "config": "5e9f5e1a"
   }
 }

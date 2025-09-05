@@ -26,15 +26,7 @@ function HomepageHeader() {
         <div className="introduce" style={{ marginTop: "2rem" }}>
           <h3> Hi! I am ThorPham,</h3>
           <p>
-            I started coding when I was 25. Writing basic macros in VBA led to
-            my neverending curiosity about software development. I went through
-            languages like Basic, C/C++ (and Assembly language), Java, PHP and
-            lastly JavaScript / Typescript. It is sad 😔 that I don't have
-            access to my old codes although the code would not be good. I built
-            my own Excel (with very limited funcitonality), program which was in
-            shape of a heart ❤️ , "virus" which deleted everything from desktop
-            or utility which allowed user to have virtual desktops on old
-            Windows.
+            I started coding when I was 25. My major is banking and finance but I am passionate about IT, I taught myself everything related to programming. I love computer vision, image processing .
           </p>
           <h3>Tool and framework</h3>
           <ul>

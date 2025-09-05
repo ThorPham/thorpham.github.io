@@ -3,6 +3,7 @@ slug : Tìm-hiểu-về-thư-viện-keras-trong-deep-learning
 title : Tìm hiểu về thư viện keras trong deep learning
 authors : thorpham
 tags : [python,Keras]
+hide_table_of_contents : true
 ---
 Keras là một library được phát triển vào năm 2015 bởi François Chollet, là một kỹ sư nghiên cứu deep learning tại google. Nó là một open source cho neural network được viết bởi ngôn ngữ python. keras là một API bậc cao có thể sử dụng chung với các thư viện deep learning nổi tiếng như tensorflow(được phát triển bởi gg), CNTK(được phát triển bởi microsoft),theano(người phát triển chính Yoshua Bengio). keras có một số ưu điểm như :
 * Dễ sử dụng,xây dựng model nhanh.
@@ -18,7 +19,7 @@ Trước khi cài đặt keras bạn phải cài đặt một trong số các th
 Cấu trúc của keras chúng ta có thể chia ra thành 3 phần chính :
 <!-- ![keras0](/assets/images/keras0.jpg) -->
  <center>
-   <img width="600" height="300" src={require('./keras0.jpg').default} />
+   <img width="600" height="300" src={require('./keras0.jpg').default}   />
 </center>
 
 ### Đầu tiền là các module dùng để xây dựng bộ xương cho model :

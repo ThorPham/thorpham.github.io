@@ -1,0 +1,26 @@
+{
+  "id": "basic-programming/Pointers/Giới-Thiệu",
+  "title": "Giới thiệu",
+  "description": "Pointers là một trong những khái niệm quan trọng trong lập trình ở trong các ngôn ngữ lập trình bậc thấp như C/C++ . Nắm vững về Pointers giúp chúng ta hiểu rõ hơn về ngôn ngữ lập trình. Trong phần chúng ta sẽ nói về các vấn đề liên quan đến pointers và cách sử dụng chúng.",
+  "source": "@site/cs/basic-programming/Pointers/Giới-Thiệu.md",
+  "sourceDirName": "basic-programming/Pointers",
+  "slug": "/basic-programming/Pointers/Giới-Thiệu",
+  "permalink": "/cs/basic-programming/Pointers/Giới-Thiệu",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "csSidebar",
+  "previous": {
+    "title": "Những khái niệm cần nắm về Pointers",
+    "permalink": "/cs/basic-programming/Pointers/"
+  },
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/cs/basic-programming/create-a-blog-post"
+  }
+}

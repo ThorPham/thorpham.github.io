@@ -3,6 +3,7 @@ slug : Tìm-hiểu-eigenFace-trong-face-recognite
 title : Tìm hiểu eigenFace trong face recognite
 authors : thorpham
 tags : [python,Face recognition]
+hide_table_of_contents : true
 ---
 *Có bao giờ bạn vào facebook rồi một ngày nọ có một thông báo hiện lên bạn được tag trong một bước ảnh nào đó. Đã bao giờ bạn nghĩ làm sao 
 facebook nhận diện ra mặt bạn, mình cũng không biết nữa vì tất cả thuật toán của nó là điều bí mật. Tuy vậy vẫn có nhiều phương pháp nhận 
@@ -20,13 +21,15 @@ tin quan trọng từ data,phát hiện và loại bỏ outlier và giảm chi�
 
 <!-- ![pca1](/assets/images/pca1.jpg) -->
 <center>
+   <!-- <img width="600" height="300" src='./pca1.jpg' /> -->
    <img width="600" height="300" src={require('./pca1.jpg').default} />
 </center>
 Có 2 phương pháp tiếp cận PCA là covarian matrix và SVD chúng ta chỉ tìm hiểu về covarian matrix trong bài này .
 Phương pháp Covarian matrix : Các bước thực hiện thuật toán như sau :
 
  <center>
-   <img width="600" height="300" src={require('./pca.jpg').default} />
+   <!-- <img width="600" height="300" src='./pca.jpg' /> -->
+      <img width="600" height="300" src={require('./pca.jpg').default} />
 </center>
 
 * X data có chiều MxN ( với N là số sample ,M là số feature).
@@ -46,18 +49,19 @@ $$
 
 * Tính toán EigenVector **V** và EigenValue $\lambda$ của Covarian $\sum$
 * Sort EigenValue tương ứng với EigenVector theo thứ tự $\lambda$ giảm dần .
-* Chọn những EigenVector tương ứng với EigenValue lớn nhất $ W = \{v_{1},v_{2},..v_{k}\} $ . EigenVector W sẽ làm đại diện để project X vào PCA space
-* Tất cả sample X sẽ được project vào không gian nhỏ hơn theo công thưc $Y = W^{T}\cdot D$
+* Chọn những EigenVector tương ứng với EigenValue lớn nhất $$ W = {v_{1},v_{2},..v_{k}\} $$ . EigenVector W sẽ làm đại diện để project X vào PCA space
+* Tất cả sample X sẽ được project vào không gian nhỏ hơn theo công thưc $$Y = W^{T}\cdot D$$
 
 Lưu ý về dimension cái biến :
 
  <center>
-   <img width="600" height="300" src={require('./dimension.jpg').default} />
+   <!-- <img width="600" height="300" src='./dimension.jpg' /> -->
+      <img width="600" height="300" src={require('./dimension.jpg').default} />
 </center>
 
 Xây dựng PCA space :
   * Để xây dựng không gian nhỏ hơn (từ M thành k), trong đó k là số eigen value mà ta chọn. Khi đó PCA space được định nghĩa là 
-  $ W = \{v_{1},v_{2},..,v_{k}\} . Ta viết lại biến Y là project của X qua W như sau :
+  $$ W = \{v_{1},v_{2},..,v_{k}\}$$ . Ta viết lại biến Y là project của X qua W như sau :
   $$
   Y = W_{T} \cdot D = \sum_{i=1}^{N}(x_{i} - \mu)
   $$

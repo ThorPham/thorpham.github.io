@@ -1,0 +1,22 @@
+{
+  "id": "C-Programming/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/cs/C-Programming/congratulations.md",
+  "sourceDirName": "C-Programming",
+  "slug": "/C-Programming/congratulations",
+  "permalink": "/cs/C-Programming/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "csSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/cs/C-Programming/deploy-your-site"
+  }
+}

@@ -5,16 +5,20 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import defaultTheme from 'prism-react-renderer/themes/palenight';
-import {useColorMode} from '../utils/colorModeUtils';
+import {useColorMode} from '../contexts/colorMode';
 import {useThemeConfig} from '../utils/useThemeConfig';
+import type {PrismTheme} from 'prism-react-renderer';
 
-export default function usePrismTheme(): typeof defaultTheme {
+/**
+ * Returns a color-mode-dependent Prism theme: whatever the user specified in
+ * the config. Falls back to `palenight`.
+ */
+export function usePrismTheme(): PrismTheme {
   const {prism} = useThemeConfig();
-  const {isDarkTheme} = useColorMode();
-  const lightModeTheme = prism.theme || defaultTheme;
+  const {colorMode} = useColorMode();
+  const lightModeTheme = prism.theme;
   const darkModeTheme = prism.darkTheme || lightModeTheme;
-  const prismTheme = isDarkTheme ? darkModeTheme : lightModeTheme;
+  const prismTheme = colorMode === 'dark' ? darkModeTheme : lightModeTheme;
 
   return prismTheme;
 }

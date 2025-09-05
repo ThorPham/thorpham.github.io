@@ -5,7 +5,15 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import type {DocMetadataBase, VersionMetadata} from '../types';
+import _ from 'lodash';
+import combinePromises from 'combine-promises';
+import {DefaultSidebarItemsGenerator} from './generator';
+import {validateSidebars} from './validation';
+import {isCategoryIndex} from '../docs';
+import type {
+  DocMetadataBase,
+  VersionMetadata,
+} from '@docusaurus/plugin-content-docs';
 import type {
   NormalizedSidebarItem,
   NormalizedSidebar,
@@ -19,18 +27,13 @@ import type {
   SidebarProcessorParams,
   CategoryMetadataFile,
 } from './types';
-import {DefaultSidebarItemsGenerator} from './generator';
-import {validateSidebars} from './validation';
-import _ from 'lodash';
-import combinePromises from 'combine-promises';
-import {isCategoryIndex} from '../docs';
 
 function toSidebarItemsGeneratorDoc(
   doc: DocMetadataBase,
 ): SidebarItemsGeneratorDoc {
   return _.pick(doc, [
     'id',
-    'unversionedId',
+    'title',
     'frontMatter',
     'source',
     'sourceDirName',
@@ -48,16 +51,10 @@ function toSidebarItemsGeneratorVersion(
 // post-processing checks
 async function processSidebar(
   unprocessedSidebar: NormalizedSidebar,
-  categoriesMetadata: Record<string, CategoryMetadataFile>,
+  categoriesMetadata: {[filePath: string]: CategoryMetadataFile},
   params: SidebarProcessorParams,
 ): Promise<ProcessedSidebar> {
-  const {
-    sidebarItemsGenerator,
-    numberPrefixParser,
-    docs,
-    version,
-    sidebarOptions,
-  } = params;
+  const {sidebarItemsGenerator, numberPrefixParser, docs, version} = params;
 
   // Just a minor lazy transformation optimization
   const getSidebarItemsGeneratorDocsAndVersion = _.memoize(() => ({
@@ -74,7 +71,6 @@ async function processSidebar(
       defaultSidebarItemsGenerator: DefaultSidebarItemsGenerator,
       isCategoryIndex,
       ...getSidebarItemsGeneratorDocsAndVersion(),
-      options: sidebarOptions,
       categoriesMetadata,
     });
     // Process again... weird but sidebar item generated might generate some
@@ -113,7 +109,7 @@ async function processSidebar(
 
 export async function processSidebars(
   unprocessedSidebars: NormalizedSidebars,
-  categoriesMetadata: Record<string, CategoryMetadataFile>,
+  categoriesMetadata: {[filePath: string]: CategoryMetadataFile},
   params: SidebarProcessorParams,
 ): Promise<ProcessedSidebars> {
   const processedSidebars = await combinePromises(

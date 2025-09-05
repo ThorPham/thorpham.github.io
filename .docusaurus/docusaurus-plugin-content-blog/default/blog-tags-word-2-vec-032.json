@@ -1,7 +1,6 @@
 {
+  "label": "Word2Vec",
+  "permalink": "/blog/tags/word-2-vec",
   "allTagsPath": "/blog/tags",
-  "slug": "/blog/tags/word-2-vec",
-  "name": "Word2Vec",
-  "count": 1,
-  "permalink": "/blog/tags/word-2-vec"
+  "count": 1
 }

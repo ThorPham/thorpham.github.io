@@ -4,19 +4,20 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/docs",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
           "tagsPath": "/docs/tags",
-          "versionEditUrl": "https://github.com/ThorPham/docs",
-          "versionEditUrlLocalized": "https://github.com/ThorPham/i18n/en/docusaurus-plugin-content-docs/current",
-          "versionBanner": null,
-          "versionBadge": false,
-          "versionClassName": "docs-version-current",
+          "editUrl": "https://github.com/ThorPham/docs",
+          "editUrlLocalized": "https://github.com/ThorPham/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/thorpham/Desktop/learn/thorpham.github.io/sidebars.js",
-          "contentPath": "/home/thorpham/Desktop/learn/thorpham.github.io/docs",
-          "contentPathLocalized": "/home/thorpham/Desktop/learn/thorpham.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/thorpham/Development/thorpham.github.io/sidebars.js",
+          "contentPath": "/Users/thorpham/Development/thorpham.github.io/docs",
+          "contentPathLocalized": "/Users/thorpham/Development/thorpham.github.io/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -27,6 +28,7 @@
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
+              "draft": false,
               "editUrl": "https://github.com/ThorPham/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -49,6 +51,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/congratulations",
               "permalink": "/docs/tutorial-basics/congratulations",
+              "draft": false,
               "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/congratulations.md",
               "tags": [],
               "version": "current",
@@ -75,6 +78,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
               "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "draft": false,
               "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
               "version": "current",
@@ -101,6 +105,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
               "permalink": "/docs/tutorial-basics/create-a-document",
+              "draft": false,
               "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/create-a-document.md",
               "tags": [],
               "version": "current",
@@ -127,6 +132,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
               "permalink": "/docs/tutorial-basics/create-a-page",
+              "draft": false,
               "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/create-a-page.md",
               "tags": [],
               "version": "current",
@@ -153,6 +159,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
               "permalink": "/docs/tutorial-basics/deploy-your-site",
+              "draft": false,
               "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
               "version": "current",
@@ -179,6 +186,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
               "permalink": "/docs/tutorial-basics/markdown-features",
+              "draft": false,
               "editUrl": "https://github.com/ThorPham/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
               "version": "current",
@@ -205,6 +213,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
               "permalink": "/docs/tutorial-extras/manage-docs-versions",
+              "draft": false,
               "editUrl": "https://github.com/ThorPham/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
               "version": "current",
@@ -231,6 +240,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
               "permalink": "/docs/tutorial-extras/translate-your-site",
+              "draft": false,
               "editUrl": "https://github.com/ThorPham/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
               "version": "current",
@@ -245,6 +255,7 @@
               }
             }
           ],
+          "drafts": [],
           "sidebars": {
             "tutorialSidebar": [
               {
@@ -300,9 +311,7 @@
                 ]
               }
             ]
-          },
-          "mainDocId": "intro",
-          "categoryGeneratedIndices": []
+          }
         }
       ]
     }
@@ -340,7 +349,7 @@
               }
             ],
             "readingTime": 9.01,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -389,7 +398,7 @@
               }
             ],
             "readingTime": 15.165,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -440,7 +449,7 @@
               }
             ],
             "readingTime": 6.795,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -495,7 +504,7 @@
               }
             ],
             "readingTime": 8.215,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -547,7 +556,7 @@
               }
             ],
             "readingTime": 3.135,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -598,7 +607,7 @@
               }
             ],
             "readingTime": 9.31,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -649,7 +658,7 @@
               }
             ],
             "readingTime": 3.705,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -704,7 +713,7 @@
               }
             ],
             "readingTime": 3.83,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -756,7 +765,7 @@
               }
             ],
             "readingTime": 5.665,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -807,7 +816,7 @@
               }
             ],
             "readingTime": 5.125,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -862,7 +871,7 @@
               }
             ],
             "readingTime": 7.53,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -918,7 +927,7 @@
               }
             ],
             "readingTime": 6.89,
-            "truncated": true,
+            "hasTruncateMarker": true,
             "authors": [
               {
                 "name": "Thorpham",
@@ -966,7 +975,6 @@
             "postsPerPage": 10,
             "totalPages": 2,
             "totalCount": 12,
-            "previousPage": null,
             "nextPage": "/blog/page/2",
             "blogDescription": "Blog",
             "blogTitle": "Blog"
@@ -984,7 +992,6 @@
             "totalPages": 2,
             "totalCount": 12,
             "previousPage": "/blog",
-            "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
@@ -992,7 +999,7 @@
       ],
       "blogTags": {
         "/blog/tags/nlp": {
-          "name": "NLP",
+          "label": "NLP",
           "items": [
             "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
             "Sentiment-Analysis-sử-dụng-Tf-Idf",
@@ -1012,8 +1019,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 3,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1021,7 +1026,7 @@
           ]
         },
         "/blog/tags/cnn": {
-          "name": "CNN",
+          "label": "CNN",
           "items": [
             "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
             "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet",
@@ -1041,8 +1046,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 3,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1050,7 +1053,7 @@
           ]
         },
         "/blog/tags/computer-vision": {
-          "name": "Computer vision",
+          "label": "Computer vision",
           "items": [
             "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin",
             "Feature-extraction-trong-computer-vision",
@@ -1070,8 +1073,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 3,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1079,7 +1080,7 @@
           ]
         },
         "/blog/tags/graph": {
-          "name": "graph",
+          "label": "graph",
           "items": [
             "Graph-convolution-network-cho-bài-toán-rút-trích-thông-tin"
           ],
@@ -1095,8 +1096,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1104,7 +1103,7 @@
           ]
         },
         "/blog/tags/deep-learning": {
-          "name": "Deep learning",
+          "label": "Deep learning",
           "items": [
             "Quá-trình-phát-triển-của-CNN-từ-LeNet-đến-DenseNet"
           ],
@@ -1120,8 +1119,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1129,7 +1126,7 @@
           ]
         },
         "/blog/tags/object-detection": {
-          "name": "Object detection",
+          "label": "Object detection",
           "items": [
             "Object-detection-từ-R-CNN-đến-Faster-R-CNN",
             "Tìm-hiểu-regression-trong-object-detection"
@@ -1147,8 +1144,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 2,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1156,7 +1151,7 @@
           ]
         },
         "/blog/tags/python": {
-          "name": "python",
+          "label": "python",
           "items": [
             "Sentiment-Analysis-sử-dụng-Tf-Idf",
             "Tìm-hiểu-về-thư-viện-keras-trong-deep-learning",
@@ -1184,8 +1179,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 7,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1193,7 +1186,7 @@
           ]
         },
         "/blog/tags/sklearn": {
-          "name": "sklearn",
+          "label": "sklearn",
           "items": [
             "Sentiment-Analysis-sử-dụng-Tf-Idf",
             "Nhận-dạng-chữ-số-viết-tay"
@@ -1211,8 +1204,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 2,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1220,7 +1211,7 @@
           ]
         },
         "/blog/tags/opencv": {
-          "name": "opencv",
+          "label": "opencv",
           "items": [
             "Nhận-dạng-chữ-số-viết-tay",
             "Drowsiness-detection",
@@ -1240,8 +1231,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 3,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1249,7 +1238,7 @@
           ]
         },
         "/blog/tags/keras": {
-          "name": "Keras",
+          "label": "Keras",
           "items": [
             "Tìm-hiểu-về-thư-viện-keras-trong-deep-learning"
           ],
@@ -1265,8 +1254,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1274,7 +1261,7 @@
           ]
         },
         "/blog/tags/feature-extraction": {
-          "name": "Feature extraction",
+          "label": "Feature extraction",
           "items": [
             "Feature-extraction-trong-computer-vision"
           ],
@@ -1290,8 +1277,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1299,7 +1284,7 @@
           ]
         },
         "/blog/tags/dlib": {
-          "name": "Dlib",
+          "label": "Dlib",
           "items": [
             "Drowsiness-detection"
           ],
@@ -1315,8 +1300,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1324,7 +1307,7 @@
           ]
         },
         "/blog/tags/face-recognition": {
-          "name": "Face recognition",
+          "label": "Face recognition",
           "items": [
             "Tìm-hiểu-eigenFace-trong-face-recognite"
           ],
@@ -1340,8 +1323,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1349,7 +1330,7 @@
           ]
         },
         "/blog/tags/word-2-vec": {
-          "name": "Word2Vec",
+          "label": "Word2Vec",
           "items": [
             "Tìm-hiểu-về-Word2Vec"
           ],
@@ -1365,8 +1346,6 @@
                 "postsPerPage": 10,
                 "totalPages": 1,
                 "totalCount": 1,
-                "previousPage": null,
-                "nextPage": null,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1409,10 +1388,8 @@
       }
     ]
   },
-  "docusaurus-plugin-debug": {
-    "default": null
-  },
-  "docusaurus-theme-classic": {
-    "default": null
-  }
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
 }
