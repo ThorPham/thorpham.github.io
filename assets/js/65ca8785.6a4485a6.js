@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7457],{7668:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/word-2-vec","name":"Word2Vec","count":1,"permalink":"/blog/tags/word-2-vec"}')}}]);
