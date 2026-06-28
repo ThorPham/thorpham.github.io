@@ -9,9 +9,8 @@ export default {
   "url": "https://thorpham.github.io",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
-  "onBrokenMarkdownLinks": "warn",
   "favicon": "img/emoticon_big.png",
-  "organizationName": "thorpham",
+  "organizationName": "ThorPham",
   "projectName": "thorpham.github.io",
   "trailingSlash": false,
   "deploymentBranch": "master",
@@ -28,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/thorpham/Development/thorpham.github.io/sidebars.js",
+          "sidebarPath": "/Users/phamdung/Desktop/Blog/thorpham.github.io/sidebars.js",
           "editUrl": "https://github.com/ThorPham",
           "remarkPlugins": [
             null
@@ -49,7 +48,7 @@ export default {
           ]
         },
         "theme": {
-          "customCss": "/Users/thorpham/Development/thorpham.github.io/src/css/custom.css"
+          "customCss": "/Users/phamdung/Desktop/Blog/thorpham.github.io/src/css/custom.css"
         }
       }
     ]
@@ -62,6 +61,24 @@ export default {
         "path": "cs",
         "routeBasePath": "cs",
         "sidebarPath": "./sidebars.cs.js"
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "data-structure",
+        "path": "data-structure",
+        "routeBasePath": "data-structure",
+        "sidebarPath": "./sidebars.data-structure.js"
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "design-pattern",
+        "path": "design-pattern",
+        "routeBasePath": "design-pattern",
+        "sidebarPath": "./sidebars.design-pattern.js"
       }
     ]
   ],
@@ -80,6 +97,18 @@ export default {
           "activeBaseRegex": "/cs/"
         },
         {
+          "to": "/data-structure/intro",
+          "position": "left",
+          "label": "Data Structure",
+          "activeBaseRegex": "/data-structure/"
+        },
+        {
+          "to": "/design-pattern/intro",
+          "position": "left",
+          "label": "Design Pattern",
+          "activeBaseRegex": "/design-pattern/"
+        },
+        {
           "to": "/blog",
           "label": "Blog",
           "position": "left"
@@ -94,7 +123,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2025 Thorpham",
+      "copyright": "Copyright © 2026 Thorpham",
       "links": []
     },
     "prism": {
@@ -336,12 +365,19 @@ export default {
     ],
     "localeConfigs": {}
   },
+  "storage": {
+    "type": "localStorage",
+    "namespace": false
+  },
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": false,
-      "useCssCascadeLayers": false
+      "useCssCascadeLayers": false,
+      "siteStorageNamespacing": false,
+      "fasterByDefault": false,
+      "mdx1CompatDisabledByDefault": false
     },
-    "experimental_faster": {
+    "faster": {
       "swcJsLoader": false,
       "swcJsMinimizer": false,
       "swcHtmlMinimizer": false,
@@ -349,12 +385,10 @@ export default {
       "mdxCrossCompilerCache": false,
       "rspackBundler": false,
       "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
+      "ssgWorkerThreads": false,
+      "gitEagerVcs": false
     },
-    "experimental_storage": {
-      "type": "localStorage",
-      "namespace": false
-    },
+    "experimental_vcs": {},
     "experimental_router": "browser"
   },
   "onBrokenAnchors": "warn",
@@ -371,6 +405,7 @@ export default {
   "markdown": {
     "format": "mdx",
     "mermaid": false,
+    "emoji": true,
     "mdx1Compat": {
       "comments": true,
       "admonitions": true,
@@ -378,6 +413,10 @@ export default {
     },
     "anchors": {
       "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
     }
   }
 };

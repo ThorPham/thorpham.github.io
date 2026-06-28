@@ -1,7 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-const math = require('remark-math');
-const katex = require('rehype-katex');
+// const math = require('remark-math');
+// const katex = require('rehype-katex');
+import { themes } from "prism-react-renderer";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 require('dotenv').config();
 // const lightCodeTheme = require('prism-react-renderer/themes/github');
 // const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -16,7 +19,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/emoticon_big.png',
-  organizationName: 'thorpham', // Usually your GitHub org/user name.
+  organizationName: 'ThorPham', // Usually your GitHub org/user name.
   projectName: 'thorpham.github.io', // Usually your repo name.
   trailingSlash: false,
   deploymentBranch : "master",
@@ -38,8 +41,10 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/ThorPham',
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
+          // remarkPlugins: [math],
+          // rehypePlugins: [katex],
+           remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
 
         },
         blog: {
@@ -48,8 +53,10 @@ const config = {
            blogSidebarCount: 0,
           editUrl:
             'https://github.com/ThorPham',
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
+          // remarkPlugins: [math],
+          // rehypePlugins: [katex],
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -68,7 +75,24 @@ const config = {
         path: 'cs',
         routeBasePath: 'cs',
         sidebarPath: './sidebars.cs.js',
-        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'data-structure',
+        path: 'data-structure',
+        routeBasePath: 'data-structure',
+        sidebarPath: './sidebars.data-structure.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'design-pattern',
+        path: 'design-pattern',
+        routeBasePath: 'design-pattern',
+        sidebarPath: './sidebars.design-pattern.js',
       },
     ],
   ],
@@ -89,10 +113,22 @@ const config = {
           //   label: 'Tutorial',
           // },
           {
-            to: '/cs/intro',   // To highlight the navbar item, you must link to a document, not a top-level directory
+            to: '/cs/intro',
             position: 'left',
             label: 'CS',
             activeBaseRegex: `/cs/`,
+          },
+          {
+            to: '/data-structure/intro',
+            position: 'left',
+            label: 'Data Structure',
+            activeBaseRegex: `/data-structure/`,
+          },
+          {
+            to: '/design-pattern/intro',
+            position: 'left',
+            label: 'Design Pattern',
+            activeBaseRegex: `/design-pattern/`,
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           // { to: 'Archive', label: 'Archive', position: 'right' },
@@ -111,8 +147,10 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Thorpham`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        // theme: lightCodeTheme,
+        // darkTheme: darkCodeTheme,
+         theme: themes.github,
+        darkTheme: themes.dracula,
         // additionalLanguages: ['python']
       },
     }),

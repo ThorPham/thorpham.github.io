@@ -6,7 +6,6 @@
 
 import fs from 'fs';
 import path from 'path';
-import url from 'url';
 import { getFileExtension, computeIntegrity, hasEntry } from './utils';
 
 // Webpack plugin name
@@ -15,6 +14,18 @@ const PLUGIN_NAME = 'ReactLoadableSSRAddon';
 const WEBPACK_VERSION = require('webpack/package.json').version;
 
 const WEBPACK_5 = WEBPACK_VERSION.startsWith('5.');
+
+// Replaces url.resolve() (deprecated)
+// See https://nodejs.org/api/url.html#urlresolvefrom-to
+function urlResolve(from, to) {
+  const resolvedUrl = new URL(to, new URL(from, 'resolve://'));
+  if (resolvedUrl.protocol === 'resolve:') {
+    // `from` is a relative URL.
+    const { pathname, search, hash } = resolvedUrl;
+    return pathname + search + hash;
+  }
+  return resolvedUrl.toString();
+}
 
 // Default plugin options
 const defaultOptions = {
@@ -304,7 +315,7 @@ class ReactLoadableSSRAddon {
           assets[id][ext].push({
             file,
             hash,
-            publicPath: url.resolve(this.options.publicPath || '', file),
+            publicPath: urlResolve(this.options.publicPath || '', file),
             integrity: currentAsset[this.options.integrityPropertyName],
           });
         }

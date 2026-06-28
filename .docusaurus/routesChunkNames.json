@@ -493,6 +493,40 @@
     "__comp": "17896441",
     "content": "4ffb9ac3"
   },
+  "/data-structure-66a": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "5d41f4b5"
+    }
+  },
+  "/data-structure-2ac": {
+    "__comp": "a7bd4aaa",
+    "__props": "9f194eca"
+  },
+  "/data-structure-b4c": {
+    "__comp": "a94703ab"
+  },
+  "/data-structure/intro-97e": {
+    "__comp": "17896441",
+    "content": "60a2b08d"
+  },
+  "/design-pattern-bb4": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "bf9bc2a8"
+    }
+  },
+  "/design-pattern-023": {
+    "__comp": "a7bd4aaa",
+    "__props": "42bdeb62"
+  },
+  "/design-pattern-0dd": {
+    "__comp": "a94703ab"
+  },
+  "/design-pattern/intro-cfd": {
+    "__comp": "17896441",
+    "content": "63b28162"
+  },
   "/docs-113": {
     "__comp": "5e95c892",
     "__context": {

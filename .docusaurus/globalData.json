@@ -112,6 +112,64 @@
         }
       ],
       "breadcrumbs": true
+    },
+    "data-structure": {
+      "path": "/data-structure",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/data-structure",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/data-structure/intro",
+              "sidebar": "dataStructureSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "dataStructureSidebar": {
+              "link": {
+                "path": "/data-structure/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "design-pattern": {
+      "path": "/design-pattern",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/design-pattern",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/design-pattern/intro",
+              "sidebar": "designPatternSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "designPatternSidebar": {
+              "link": {
+                "path": "/design-pattern/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
     }
   }
 }

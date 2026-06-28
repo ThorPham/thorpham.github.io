@@ -55,6 +55,10 @@ export const ThemeClassNames = {
     container: 'theme-announcement-bar',
   },
 
+  tabs: {
+    container: 'theme-tabs-container',
+  },
+
   layout: {
     navbar: {
       container: 'theme-layout-navbar',
@@ -96,6 +100,13 @@ export const ThemeClassNames = {
     docSidebarItemLinkLevel: (level: number) =>
       `theme-doc-sidebar-item-link-level-${level}` as const,
     // TODO add other stable classNames here
+    docCard: {
+      container: 'theme-doc-card-container',
+      heading: 'theme-doc-card-heading',
+      icon: 'theme-doc-card-icon',
+      title: 'theme-doc-card-title',
+      description: 'theme-doc-card-description',
+    },
   },
   blog: {
     // TODO add other stable classNames here

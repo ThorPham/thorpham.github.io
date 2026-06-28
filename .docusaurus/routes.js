@@ -215,6 +215,54 @@ export default [
     ]
   },
   {
+    path: '/data-structure',
+    component: ComponentCreator('/data-structure', '66a'),
+    routes: [
+      {
+        path: '/data-structure',
+        component: ComponentCreator('/data-structure', '2ac'),
+        routes: [
+          {
+            path: '/data-structure',
+            component: ComponentCreator('/data-structure', 'b4c'),
+            routes: [
+              {
+                path: '/data-structure/intro',
+                component: ComponentCreator('/data-structure/intro', '97e'),
+                exact: true,
+                sidebar: "dataStructureSidebar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    path: '/design-pattern',
+    component: ComponentCreator('/design-pattern', 'bb4'),
+    routes: [
+      {
+        path: '/design-pattern',
+        component: ComponentCreator('/design-pattern', '023'),
+        routes: [
+          {
+            path: '/design-pattern',
+            component: ComponentCreator('/design-pattern', '0dd'),
+            routes: [
+              {
+                path: '/design-pattern/intro',
+                component: ComponentCreator('/design-pattern/intro', 'cfd'),
+                exact: true,
+                sidebar: "designPatternSidebar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '113'),
     routes: [
